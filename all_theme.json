@@ -4,64 +4,64 @@
         "image": "https://www.lego.com/cdn/cs/set/assets/blt3ddfaa88013f7a8a/ThemeImage-202107-Architecture.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "Architecture",
         "theme_about": "LEGO® Architecture presents some of the iconic buildings of world architecture, all perfectly realized as LEGO models. From well-known buildings to more imaginative choices that still reflect architectural excellence, these will make a great addition to any desk, home or playroom.",
-        "shop_link": "shop_architecture.html",
-        "about_link": "about_architecture.html"
+        "shop_link": "shop_architect.html",
+        "about_link": "about_architect.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt468285064eec41b6/batman1989_logo_300w.png?format=png&height=35&dpr=1.5",
         "image": "https://www.lego.com/cdn/cs/set/assets/bltba047e83030b34ba/ThemeImage-202107-Batman.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "Batman™",
         "theme_about": "Night has fallen on Gotham City™ and builders everywhere are ready for Batman sets. They can battle against the bad guys with their favorite Dark Knight.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_batman.html",
+        "about_link": "about_batman.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/bltc56480b396f7f12a/boost_logo_pos_300w.png?format=png&height=35&dpr=1.5",
         "image": "https://www.lego.com/cdn/cs/set/assets/bltfaab26fbb2b1f308/ThemeImage-202107-Boost.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "BOOST",
         "theme_about": "LEGO® BOOST lets children create models with motors and sensors, and then bring their creations to life through simple, icon-based coding commands. The free LEGO BOOST tablet app includes easy step-by-step building instructions for creating and coding multifunctional models.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_boost.html",
+        "about_link": "about_boost.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt117f545a76e30723/brickheadz_logo_pos_300w.png?format=png&height=35&dpr=1.5",
         "image": "https://www.lego.com/cdn/cs/set/assets/blt25fc6a2a5bc83eb6/ThemeImage-202107-Brickheadz.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "BrickHeadz",
         "theme_about": "Collect, build and display these amazingly detailed, chunky super heroes, villains and more! Why not start assembling the full set today?",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_brickheadz.html",
+        "about_link": "about_brickheadz.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/bltdc40fda1f0d2f32c/brickSketches-logo-pos_300w.png?format=png&height=35&dpr=1.5",
         "image": "https://www.lego.com/cdn/cs/set/assets/blt447ce027db218566/ThemeImage-202107-BrickSketches.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "Brick Sketches™",
         "theme_about": "Bring iconic characters from films and comics to life in a 3-D illustration created with LEGO® bricks. Built on a 12 x 16 base, these collectible, fun-to-build Brick Sketches are perfect displayed on their own or hanging on a wall.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_bricksketches.html",
+        "about_link": "about_bricksketches.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt6e91a425cec33c6b/city_logo_pos_300w.png?format=png&height=35&dpr=1.5",
         "image": "https://www.lego.com/cdn/cs/set/assets/bltcb420a5ae55a58da/ThemeImage-202107-City.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "City",
         "theme_about": "LEGO® City is a realistic LEGO world for your child to explore. Iconic vehicles and buildings form the backdrop to this bustling city, with everyday heroes catching bad guys and putting out fires. This is a world full of humor and charm that will really stimulate their creative imaginations.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_city.html",
+        "about_link": "about_city.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/bltf466b935ec0e8c92/classic_logo_pos_100h.png?format=png&height=35&dpr=1.5",
         "image": "https://www.lego.com/cdn/cs/set/assets/bltd08fb3a2b6eaed18/ThemeImage-202107-Classic.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "Classic",
         "theme_about": "Develop children’s creativity with LEGO® Classic. Sets contain ideas to help them get started, while special pieces alongside classic LEGO bricks inspire even further. And because LEGO Classic spans so many different age groups, there’s fun for all the family and imagination for every generation.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_classic.html",
+        "about_link": "about_classic.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt53e5eeb1dac31640/creator3in1_logo_pos_100h.png?format=png&height=35&dpr=1.5",
         "image": "https://www.lego.com/cdn/cs/set/assets/blt41163975efb43dda/ThemeImage-202107-Creator3in1.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "Creator 3-in-1",
         "theme_about": "The LEGO® Creator series lets your child experiment with houses, cars, planes and creatures. Sets can be rebuilt three ways, so there’s no limit to the fun. With LEGO Creator 3-in-1 sets, your child also gets to choose between 3 exciting builds for even more build and play fun.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_3in1.html",
+        "about_link": "about_3in1.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt191709081a9206ae/creator_expert_logo_pos_100h.png?format=png&height=35&dpr=1.5",
@@ -76,8 +76,8 @@
         "image": "https://www.lego.com/cdn/cs/set/assets/bltdcc7ffaa8561bc22/ThemeImage-202107-DC.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "DC",
         "theme_about": "DC Universe™ lets your child play, invent and create with a colorful world of superheroes. With these play sets your child can build famous scenes and enjoy the role play between all the heroes and villains. Every option brings fun and lots of learning.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_dc.html",
+        "about_link": "about_dc.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt26c7cef86a1b134d/disney_logo_pos_300w.png?format=png&height=35&dpr=1.5",
@@ -100,8 +100,8 @@
         "image": "https://www.lego.com/cdn/cs/set/assets/blt5e5a75fb3346a62a/ThemeImage-202107-DOTS.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "DOTS",
         "theme_about": "LEGO® DOTS gives kids a canvas to be bold and never stop creating. They can design fun and funky bracelets that show their personality or create customized home décor items like pencil holders and picture frames, all using colorful designs and unique decorated tiles.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_dots.html",
+        "about_link": "about_dots.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt38afeb5d619591c8/duplo_logo_pos_300w.png?format=png&height=35&dpr=1.5",
@@ -116,8 +116,8 @@
         "image": "https://www.lego.com/cdn/cs/set/assets/blt5f11b3e837984c2d/ThemeImage-202107-Friends.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "Friends",
         "theme_about": "The LEGO® Friends world is one that your child will love. It combines the classic LEGO building experience with the opportunity to play out everyday life scenarios. LEGO Friends is about five best friends living in a colorful universe with cute animals and details which your child will love.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_friends.html",
+        "about_link": "about_friends.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/bltdfcb3eb54f02b421/frozen-2021-logo-300w.png?format=png&height=35&dpr=1.5",
@@ -132,8 +132,8 @@
         "image": "https://www.lego.com/cdn/cs/set/assets/blt05b0e1cbb7f5f3a8/ThemeImage-202107-HarryPotter.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "Harry Potter™",
         "theme_about": "",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_harry.html",
+        "about_link": "about_harry.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt7bba58dafa073077/ideas_logo_pos_300w.png?format=png&height=35&dpr=1.5",
@@ -148,8 +148,8 @@
         "image": "https://www.lego.com/cdn/cs/set/assets/blt251f15e8a0d57922/ThemeImage-202107-JurassicWorld.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "Jurassic World™",
         "theme_about": "There’s a dinosaur for every age with exciting LEGO® Jurassic World™ play sets.",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_jurassic.html",
+        "about_link": "about_jurassic.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt9e7167422ea02661/art-logo-neg_300w.png?format=png&height=35&dpr=1.5",
@@ -292,8 +292,8 @@
         "image": "https://www.lego.com/cdn/cs/set/assets/blta076d33a3d356551/ThemeImage-202107-StarWars.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
         "theme_name": "Star Wars™",
         "theme_about": "From a galaxy far, far away... come LEGO® Star Wars™ large-scale figures. Children can replay epic battles between the forces of good and evil, with Lightsabres, blasters and lots of other cool weapons. Their favourite Star Wars™ characters are robust and easy to build, so battles last longer!",
-        "shop_link": "",
-        "about_link": ""
+        "shop_link": "shop_starwars.html",
+        "about_link": "about_starwars.html"
     },
     {
         "logo": "https://www.lego.com/cdn/cs/set/assets/blt5263e797537376bc/Stranger-Things-logo.png?format=png&height=35&dpr=1.5",
