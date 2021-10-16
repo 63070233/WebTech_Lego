@@ -1,0 +1,57 @@
+.navt:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.navt {
+    color: white;
+}
+
+.btn_mag {
+    background-color: #4a4a4a;
+    color: white;
+    font-size: 22px;
+    height: 55px;
+}
+
+.btn_mag:hover {
+    filter: brightness(150%);
+    color: white;
+}
+
+.img_mag {
+    width: 400px;
+    object-fit: cover;
+}
+
+
+.btn_faq {
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    height: 55px;
+}
+
+.btn_faq:hover {
+    filter: brightness(50%);
+    color: black;
+}
+
+.img_it {
+    width: 240px;
+    border-radius: 50%;
+}
+
+.ah:hover {
+    filter:opacity(80%);
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+.ah {
+    color: black;
+}
+
+.row_content1 {
+    background-image: url("https://lc-imageresizer-live-s.legocdn.com/resize/topslider_llapp?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fapp-landingpage%2faugust20remake%2ftopslider_llapp.jpg%3fl.r%3d2137446904");
+}
