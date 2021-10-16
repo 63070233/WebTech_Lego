@@ -1,0 +1,339 @@
+[
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltb7608fce3c4e9282/architecture_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt3ddfaa88013f7a8a/ThemeImage-202107-Architecture.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Architecture",
+        "theme_about": "LEGO® Architecture presents some of the iconic buildings of world architecture, all perfectly realized as LEGO models. From well-known buildings to more imaginative choices that still reflect architectural excellence, these will make a great addition to any desk, home or playroom.",
+        "shop_link": "home.html",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt468285064eec41b6/batman1989_logo_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltba047e83030b34ba/ThemeImage-202107-Batman.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Batman™",
+        "theme_about": "Night has fallen on Gotham City™ and builders everywhere are ready for Batman sets. They can battle against the bad guys with their favorite Dark Knight.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltc56480b396f7f12a/boost_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltfaab26fbb2b1f308/ThemeImage-202107-Boost.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "BOOST",
+        "theme_about": "LEGO® BOOST lets children create models with motors and sensors, and then bring their creations to life through simple, icon-based coding commands. The free LEGO BOOST tablet app includes easy step-by-step building instructions for creating and coding multifunctional models.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt117f545a76e30723/brickheadz_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt25fc6a2a5bc83eb6/ThemeImage-202107-Brickheadz.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "BrickHeadz",
+        "theme_about": "Collect, build and display these amazingly detailed, chunky super heroes, villains and more! Why not start assembling the full set today?",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltdc40fda1f0d2f32c/brickSketches-logo-pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt447ce027db218566/ThemeImage-202107-BrickSketches.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Brick Sketches™",
+        "theme_about": "Bring iconic characters from films and comics to life in a 3-D illustration created with LEGO® bricks. Built on a 12 x 16 base, these collectible, fun-to-build Brick Sketches are perfect displayed on their own or hanging on a wall.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt6e91a425cec33c6b/city_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltcb420a5ae55a58da/ThemeImage-202107-City.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "City",
+        "theme_about": "LEGO® City is a realistic LEGO world for your child to explore. Iconic vehicles and buildings form the backdrop to this bustling city, with everyday heroes catching bad guys and putting out fires. This is a world full of humor and charm that will really stimulate their creative imaginations.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltf466b935ec0e8c92/classic_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltd08fb3a2b6eaed18/ThemeImage-202107-Classic.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Classic",
+        "theme_about": "Develop children’s creativity with LEGO® Classic. Sets contain ideas to help them get started, while special pieces alongside classic LEGO bricks inspire even further. And because LEGO Classic spans so many different age groups, there’s fun for all the family and imagination for every generation.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt53e5eeb1dac31640/creator3in1_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt41163975efb43dda/ThemeImage-202107-Creator3in1.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Creator 3-in-1",
+        "theme_about": "The LEGO® Creator series lets your child experiment with houses, cars, planes and creatures. Sets can be rebuilt three ways, so there’s no limit to the fun. With LEGO Creator 3-in-1 sets, your child also gets to choose between 3 exciting builds for even more build and play fun.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt191709081a9206ae/creator_expert_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt117795ee17b2e76e/ThemeImage-202107-CreatorExpert.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Creator Expert",
+        "theme_about": "Are you ready for the ultimate LEGO® building challenge? Our advanced LEGO Creator Expert series includes collectable Modular Houses, Cars, World Buildings, Fairgrounds and Seasonal Sets - and guarantee hours of building enjoyment with every set.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltbb8c4c51dc7d5c5b/DC_logo_yellow_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltdcc7ffaa8561bc22/ThemeImage-202107-DC.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "DC",
+        "theme_about": "DC Universe™ lets your child play, invent and create with a colorful world of superheroes. With these play sets your child can build famous scenes and enjoy the role play between all the heroes and villains. Every option brings fun and lots of learning.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt26c7cef86a1b134d/disney_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltfb7085baebd9e2ca/ThemeImage-202107-Disney.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Disney™",
+        "theme_about": "LEGO® | Disney favorites such as Disney's Moana or Elsa as well as princess characters like Cinderella, Ariel, and Rapunzel will come to life as your child recreates romance, adventure, and heroism. LEGO | Disney has all the elements such as castles, towers, a carriage, treasure chests, gateways, and more for your child to play out these classic stories and inspire them to build their own fairytales.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt3dac5157bc106e92/mickeyandfriends-logo-pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt70cd31f9b14f2d75/Theme-All-Page-Image-MickeyAndFriends.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Disney Mickey and Friends",
+        "theme_about": "Give youngsters age 4+ a magical start to building with age-appropriate sets that let them build with aspirational, iconic characters and real-life scenes that explore their many passions for vehicles, animals and real-life adventures.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltc883ecc873e628a9/DOTS-2021-D-logo-pos-300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt5e5a75fb3346a62a/ThemeImage-202107-DOTS.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "DOTS",
+        "theme_about": "LEGO® DOTS gives kids a canvas to be bold and never stop creating. They can design fun and funky bracelets that show their personality or create customized home décor items like pencil holders and picture frames, all using colorful designs and unique decorated tiles.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt38afeb5d619591c8/duplo_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt7dbbb31a09ef95b8/ThemeImage-202107-Duplo.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "DUPLO®",
+        "theme_about": "For 50 years, we have been introducing DUPLO® sets to little builders with big imaginations.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt4e0d0dd3446dbf25/friends_logo_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt5f11b3e837984c2d/ThemeImage-202107-Friends.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Friends",
+        "theme_about": "The LEGO® Friends world is one that your child will love. It combines the classic LEGO building experience with the opportunity to play out everyday life scenarios. LEGO Friends is about five best friends living in a colorful universe with cute animals and details which your child will love.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltdfcb3eb54f02b421/frozen-2021-logo-300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt1b87b7adc41d9805/ThemeImage-202107-Frozen.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Frozen",
+        "theme_about": "Prepare for the adventure! With LEGO® | Disney Frozen, you can recreate movie moments from Disney’s epic Frozen films and let imagination come to life! The Magic Is in Your Hands! The LEGO | Disney Frozen range of buildable toys features the lovable and inspiring characters from the Frozen movie, as well as details, features and functions that will spark kids’ imagination.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt67d237e086fea2c4/harryPotter_logo_gold_neg_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt05b0e1cbb7f5f3a8/ThemeImage-202107-HarryPotter.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Harry Potter™",
+        "theme_about": "",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt7bba58dafa073077/ideas_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt302324310a150fc0/ThemeImage-202107-Ideas.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Ideas",
+        "theme_about": "LEGO® Ideas products have been inspired and voted for by LEGO fans. They include original concepts such as the Research Institute, and Exo Suit, plus sets inspired by films, like Back To The Future’s DeLorean time machine or Ghostbusters™ Ecto-1.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt8350ad28bd46e464/jurassicWorld_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt251f15e8a0d57922/ThemeImage-202107-JurassicWorld.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Jurassic World™",
+        "theme_about": "There’s a dinosaur for every age with exciting LEGO® Jurassic World™ play sets.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt9e7167422ea02661/art-logo-neg_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt54c046a65568cacb/Theme-All-Page-Image-Art.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "LEGO® Art",
+        "theme_about": "LEGO® Art sets offer adult builders an escape from everyday life as they deliver a special LEGO building experience for anyone with an interest in art, music or movies. From influential artists, well-known musicians and famous movie characters, collectible LEGO Art sets make perfect wall-art display pieces in the home or office. Every set comes with an information booklet, plus a complimentary Soundtrack for deeper immersion while building and rebuilding.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt68f2ed272a239ba5/education_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blte5374a1fe72e1f26/ThemeImage-202107-Education.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "LEGO® Education",
+        "theme_about": "Traditionally developed for school settings, LEGO® Education solutions ignite students’ natural curiosity and help them develop essential 21st century skills.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt04756ed3977f74dc/Originals-Home-201910-Black-Logo.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt76236e500b1dfa0e/Theme-All-Page-Image-Originals.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "LEGO® Originals",
+        "theme_about": "The ultimate collectible for LEGO fans. LEGO® Originals offer a new way to build, show and tell your story.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt2dc55864221c88f5/SuperMario-logo-pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt3faeeb76c7594747/ThemeImage-202107-SuperMario.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "LEGO® Super Mario™",
+        "theme_about": "Bring your favorite characters to life with LEGO® Super Mario™. From Starter Courses to Expansion Sets, Power-Up Packs and Character Packs, build levels to make LEGO® Mario™ and LEGO® Luigi™ take on enemies and collect coins. Explore the LEGO Super Mario app for digital tools, play ideas and more.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt00cd302276575b75/marvel_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltefa692432c1ec316/ThemeImage-202107-Marvel.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Marvel",
+        "theme_about": "Build something extraordinary and become your favorite hero with Marvel playsets!",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt4dc3b511a7abb51e/mindstorms2020-logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt7326afcb08c33857/ThemeImage-202107-Mindstorms.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "MINDSTORMS®",
+        "theme_about": "Create and command robots that do what you want. Unleash the creative powers of LEGO® MINDSTORMS® EV3 to build robots that walk, talk, think and do anything you can imagine. Begin by building one of the five cool robot characters, and control it with your smart device or the included remote control.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt21086a3df838a824/minecraft_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt9f848eee7414ff79/ThemeImage-202107-Minecraft.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Minecraft®",
+        "theme_about": "Stimulate children’s creativity with LEGO® Minecraft®, based on the best-selling online game. Brick by brick, the amazing world of Minecraft® with its unique characters and landscapes is recreated here in LEGO bricks, so children can create their own exciting Minecraft® stories.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltf823148ef1b00145/minifigures_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt2fde7ef18940b40d/ThemeImage-202107-Minifigures.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Minifigures",
+        "theme_about": "LEGO® Minifigures are an ideal way to treat your child. Each mystery bag contains a minifigure and accessories, but they won’t know which one they’re getting until they open them up and find out. Your child will love meeting them and trading duplicate models with their friends. Which one will they get?",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt7e7fea3da6df2f79/minion_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt6809192cb1d44459/ThemeImage-202107-Minions.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Minions",
+        "theme_about": "Bring Gru’s lovable henchmen to life with new Minions playsets.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt85ba91c60bcfd5d8/monkieKid_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltc6d1c5fa506aa25a/ThemeImage-202107-MonkieKid.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Monkie Kid™",
+        "theme_about": "Deliver playful adventures with new Monkie Kid sets.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltb87ec277bae0da77/ninjago-logo-neg_2021-100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt4e4276de0e5a5adb/ThemeImage-202107-Ninjago2.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "NINJAGO®",
+        "theme_about": "LEGO® Ninjago™ is an exciting world of ninjas battling against the forces of evil. Your child will enjoy meeting their heroes and role-playing their exciting and varied adventures. In addition, they can play out the hit TV series and play against their friends in a battle to become the Master of Spinjitzu!",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "",
+        "image": "",
+        "theme_name": "Power Functions",
+        "theme_about": "Bring your LEGO® MINDSTORMS® robot to life or power a custom Technic creation with movable parts using Power Functions.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt501be36455761b04/power-functions--201606--gl--logo.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt1ae63777f122c5de/Product-Type-All-Page-Image-Power_Functions.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "",
+        "theme_about": "",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt9958ac38f87cc89b/poweredup_logo_horz_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt79a1ec8081601d47/ThemeImage-202107-PoweredUp.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Powered UP",
+        "theme_about": "Motorize LEGO® sets and increase their play value with Powered UP functions.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt037e8cb80daf39ee/serious_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltcbaa0ee659264809/ThemeImage-202107-SeriousPlay.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "SERIOUS PLAY®",
+        "theme_about": "LEGO® SERIOUS PLAY® is an innovative, experiential process designed to enhance innovation and business performance. Based on research which shows that this kind of hands-on, minds-on learning produces a deeper, more meaningful understanding of the world and its possibilities, LEGO SERIOUS PLAY® deepens the process of reflection and supports an effective dialogue – for everyone in the organisation.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltc455600a911c9172/speedChampions_logo_white_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt8a616e6ecde352bd/ThemeImage-202107-SpeedChampions.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Speed Champions",
+        "theme_about": "LEGO® Speed Champions puts children in the driving seat as they race cars by the likes of McLaren, Porsche and Ferrari. Prepare cars to race and swerve around other drivers to take the chequered flag! Help them live out racing dreams with these authentic and super-fast cars.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blta137475bed0da7b2/spiderman_marvel_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt7d72f30d528b600f/ThemeImage-202107-SpiderMan.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Spider-Man",
+        "theme_about": "Calling all web-slingers, we have Spider-Man sets for every age. Builders will love to use their spidey sense to fight crime with their favorite superhero.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltc55693f0b8cc3375/starWars_logo_pos_300w.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blta076d33a3d356551/ThemeImage-202107-StarWars.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Star Wars™",
+        "theme_about": "From a galaxy far, far away... come LEGO® Star Wars™ large-scale figures. Children can replay epic battles between the forces of good and evil, with Lightsabres, blasters and lots of other cool weapons. Their favourite Star Wars™ characters are robust and easy to build, so battles last longer!",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt5263e797537376bc/Stranger-Things-logo.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltb5b175d4804bea4c/Theme-All-Page-Image-Stranger-Things.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Stranger Things",
+        "theme_about": "Immerse yourself in the world of LEGO® Stranger Things. With this detailed set inspired by the hit Netflix original series, discover the popular characters and authentic details that you will recognize from the retro 1980s universe.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt76e937a89531c42c/technic_logo_pos_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt6c0f396bbbb2dd40/ThemeImage-202107-Technic.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Technic™",
+        "theme_about": "LEGO® Technic provides a real challenge for experienced LEGO builders. With LEGO Technic elements, your child can build advanced, real-life functions like gearboxes, working piston engines, steering systems and working crane arms. These exciting sets will take their imaginations to the next level.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt05cfdbee5e649a9e/trolls_logo.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt8d2f849e3b513e1c/Trolls-Themes-2x_new.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Trolls World Tour",
+        "theme_about": "Open up a world of music and adventure for Trolls fans with colorful and playful sets that bring characters from the DreamWorks films to life. With sets that inspire the imagination and offer kids endless possibilities for role-play, LEGO® Trolls World Tour sets are sure to delight and entertain Trolls fans of all ages.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/bltc2871af14f16dc2f/VIDIYO_100h.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/bltff268fae05fe6fad/VIDIYO-Theme-Image.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "VIDIYO™",
+        "theme_about": "Drop a beat! VIDIYO is an exciting digital play experience in collaboration with Universal Music Group that lets kids bring their original music video creations to life using the songs they like from the artists they love.",
+        "shop_link": "",
+        "about_link": ""
+    },
+    {
+        "logo": "https://www.lego.com/cdn/cs/set/assets/blt0890559ed3133603/xtra--2018--gl--logo.png?format=png&height=35&dpr=1.5",
+        "image": "https://www.lego.com/cdn/cs/set/assets/blt140be858bcd9f516/ThemeImage-202107-Xtra.jpg?fit=bounds&format=webply&quality=80&width=420&height=200&dpr=1.5",
+        "theme_name": "Xtra",
+        "theme_about": "Enhance any build with LEGO® accessories sets in categories like sports accessories, food accessories and more. Each Xtra pack contains extra LEGO pieces and themed elements perfect for play or display.",
+        "shop_link": "",
+        "about_link": ""
+    }
+
+]
