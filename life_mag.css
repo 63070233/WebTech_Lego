@@ -1,3 +1,5 @@
+/* -- navigator -- */
+
 .navt:hover {
     color: gray;
     text-decoration: none;
@@ -6,6 +8,33 @@
 .navt {
     color: white;
 }
+
+/* -- button -- */
+
+.btn_faq {
+    background-color: white;
+    color: #4a4a4a;
+    font-size: 22px;
+    height: 55px;
+    width: 210px;
+    opacity: 87%;
+}
+
+.btn_faq:hover {
+    opacity: 70%;
+    color: #4a4a4a;
+}
+
+
+
+/** -- magazine content -- **/
+
+.img_mag {
+    width: 400px;
+    object-fit: cover;
+}
+
+/* -- button -- */
 
 .btn_mag {
     background-color: #4a4a4a;
@@ -19,23 +48,7 @@
     color: white;
 }
 
-.img_mag {
-    width: 400px;
-    object-fit: cover;
-}
-
-
-.btn_faq {
-    background-color: white;
-    color: black;
-    font-size: 22px;
-    height: 55px;
-}
-
-.btn_faq:hover {
-    filter: brightness(50%);
-    color: black;
-}
+/* -- navigator 2 --*/
 
 .img_it {
     width: 240px;
@@ -52,6 +65,75 @@
     color: black;
 }
 
+
+
+/** -- app content --**/
+
 .row_content1 {
     background-image: url("https://lc-imageresizer-live-s.legocdn.com/resize/topslider_llapp?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fapp-landingpage%2faugust20remake%2ftopslider_llapp.jpg%3fl.r%3d2137446904");
 }
+
+.img_app {
+    height: 700px;
+    width: 100%;
+    margin-top: -27;
+    object-fit: cover;
+}
+
+/* -- carousel --*/
+
+.carousel .item {
+    height: 646px;
+}
+
+.item_text {
+    padding-top: 180;
+    margin-left: -250;
+    text-align: center;
+}
+
+
+/* -- carousel button -- */
+.btn_caro {
+    position: absolute;
+    left: 10px;
+    bottom: 305px;
+    padding: 13px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    background-color: #4a4a4a;
+}
+
+.btn_caro:hover {
+    color: #9d9d9d;
+}
+
+.caro_left {
+    left: 10px;
+    bottom: 305px;
+}
+
+.caro_right {
+    left: 1840px;
+    bottom: 305px;
+}
+
+/* -- indicator -- */
+
+.carousel-indicators {
+    bottom: 5;
+}
+
+ol.carousel-indicators li {
+    padding: 2.4px;
+    background-color: white;
+    opacity: 50%;
+    border-color: #4a4a4a;
+}
+
+ol.carousel-indicators li.active {
+    padding: 2.4px;
+    background: black;
+    opacity: 50%;
+  }
