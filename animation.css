@@ -1,0 +1,164 @@
+/** -- rebuild the world --*/
+
+body {
+    overflow-x: hidden;
+}
+
+/** -- Random Idea -- **/
+/* -- button animation --*/
+
+.btn-ani {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    width: 220px;
+    height: 70px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.btn-ani:hover {
+    background-color: white;
+    color: black;
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(-3deg);}
+    20% {transform: rotate(3deg);}
+    32% {transform: rotate(-3deg);}
+    44% {transform: rotate(3deg);}
+    56% {transform: rotate(-3deg);}
+    68% {transform: rotate(3deg);}
+    80% {transform: rotate(0deg);}
+  }
+
+
+/* -- Random Idea Box -- */
+
+/* -- Main Container left -- */
+
+.Idea_1 {
+    top: -250px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    animation-name: slide1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.Idea_2 {
+    top: -100px;
+    width: 500px;
+    position: relative;
+    animation-name: slide1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    left: -100%;
+}
+
+@keyframes slide1 {
+    0% {left: -100%;}
+    5% {left: 5%;}
+    40% {left: 5%;}
+    45% {left: -100%;}
+    100% {left: -100%;}
+}
+
+/* -- Inner -- */
+
+
+.text_box1 {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    left: -50px;
+    padding: 60px 0px 60px 25px;
+}
+
+.idea_img1 {
+    width: 800px;
+    object-fit: cover;
+    position: relative;
+    left: -450px
+}
+
+.text_box2 {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    left: -118px;
+    padding: 40px 90px 40px 20px;
+}
+
+
+/* -- Main Container right -- */
+
+.Idea_3 {
+    top: -250px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    animation-name: slide2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    right: -100%;
+}
+
+.Idea_4 {
+    top: -100px;
+    width: 500px;
+    position: relative;
+    animation-name: slide2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide2 {
+    0% {right: -100%;}
+    5% {right: 5%;}
+    40% {right: 5%;}
+    45% {right: -100%;}
+    100% {right: -100%;}
+}
+
+/* -- Inner -- */
+
+
+.idea_img2 {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    right: -140px
+    
+}
+
+.text_box3 {
+    width: 550px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    right: -100px;
+    padding: 40px 90px 40px 20px;
+}
+
+.text_box4 {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    right: -100px;
+    padding: 40px 80px 40px 20px;
+}
