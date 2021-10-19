@@ -29,10 +29,10 @@ const move = (e) => {
   if (slider.scrollLeft < 40) {
     document.getElementById("left").disabled = true;
   }
-  if (slider.scrollLeft != 800) {
+  if (slider.scrollLeft != 750) {
     document.getElementById("right").disabled = false;
   }
-  if (slider.scrollLeft > 800) {
+  if (slider.scrollLeft > 750) {
     document.getElementById("right").disabled = true;
   }
 }
@@ -58,5 +58,5 @@ function slideLeft() {
 function slideRight() {
     document.getElementById("right").disabled = true;
     document.getElementById("left").disabled = false;
-    slider.scrollLeft = 200;
+    slider.scrollLeft = 800;
 }

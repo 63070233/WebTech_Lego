@@ -1,3 +1,15 @@
+h3 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 /* -- navigator -- */
 
 .navt:hover {
@@ -25,8 +37,6 @@
     color: #4a4a4a;
 }
 
-
-
 /** -- magazine content -- **/
 
 .img_mag {
@@ -39,7 +49,7 @@
 .btn_mag {
     background-color: #4a4a4a;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     height: 55px;
 }
 
@@ -50,8 +60,13 @@
 
 /* -- navigator 2 --*/
 
+.it {
+    text-align: center;
+    width: 120%;
+}
+
 .img_it {
-    width: 240px;
+    width: 90%;
     border-radius: 50%;
 }
 
@@ -69,7 +84,7 @@
 
 .wrapper {
 
-    padding: 3% 4% 2% 1%;
+    padding: 0% 4% 0% 1%;
 	position: relative;
 	
 }
@@ -83,49 +98,42 @@
 .item {
 	display: inline-block;
 	user-select: none;
-	font-size: 20px;
     color: black;
 }
 
+.sl-in {
+    width: 100%;
+}
+
+
 .img_mag {
-    width: 440px;
+    width: 330px;
     height: 320px;
     object-fit: scale-down;
 }
 
-li {
-    padding-right: 25.5%;
-}
-
-@media screen and (min-width: 500px) {
-
-	.item {
-		width: 33%;	
-	}
-}
-
-@media screen and (min-width: 800px) {
-
-	.item {
-		width: 25%;	
-	}
+.i-text {
+    top: -30;
+    position: relative;
 }
 
 @media screen and (min-width: 1200px) {
 	
 
 	.item {
-		width: 20%;	
+		width: 360px;	
 	}
 }
 
+/** -- slider button -- **/
+
 .fl-left {
-    left: 60px;
+    left: 20px;
     top: 200px;
 }
 
 .fl-right {
-    right: 80px;
+    right: 65px;
     top: 200px;
 }
 
@@ -133,14 +141,12 @@ li {
     position: absolute;
     background: #4a4a4a;
     color: white;
-    font-size: 30px;
-    width: 50px;
-    height: 50px;
+    font-size: 10px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
 }
-
-/** -- slider button -- **/
 
 .fl-button:hover {
     background: #4a4a4a;
@@ -167,76 +173,3 @@ li {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
-  
-
-/** -- app content --**/
-
-.row_content1 {
-    background-image: url("https://lc-imageresizer-live-s.legocdn.com/resize/topslider_llapp?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fapp-landingpage%2faugust20remake%2ftopslider_llapp.jpg%3fl.r%3d2137446904");
-}
-
-.img_app {
-    height: 700px;
-    width: 100%;
-    margin-top: -27;
-    object-fit: cover;
-}
-
-/* -- carousel --*/
-
-.carousel .item {
-    height: 646px;
-}
-
-.item_text {
-    padding-top: 180;
-    margin-left: -250;
-    text-align: center;
-}
-
-
-/* -- carousel button -- */
-.btn_caro {
-    position: absolute;
-    left: 10px;
-    bottom: 305px;
-    padding: 13px;
-    border-radius: 50%;
-    font-size: 25px;
-    color: white;
-    background-color: #4a4a4a;
-}
-
-.btn_caro:hover {
-    color: #9d9d9d;
-}
-
-.caro_left {
-    left: 10px;
-    bottom: 305px;
-}
-
-.caro_right {
-    left: 1840px;
-    bottom: 305px;
-}
-
-/* -- indicator -- */
-
-.carousel-indicators {
-    bottom: 5;
-}
-
-ol.carousel-indicators li {
-    padding: 2.4px;
-    background-color: white;
-    opacity: 50%;
-    border-color: #4a4a4a;
-}
-
-ol.carousel-indicators li.active {
-    padding: 2.4px;
-    background: black;
-    opacity: 50%;
-  }
-
