@@ -110,7 +110,8 @@ body {
 .item_text {
     width: 393.2;
     text-align: center;
-    padding: 70px;
+    padding: 40px;
+    margin: 100px;
 }
 
 
