@@ -13,8 +13,7 @@
 
 
     <link rel="stylesheet" href="life_mag.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
 </head>
 
 <body>
@@ -71,43 +70,58 @@
         </div>
         <!-- slide album -->
         <div class="row"
-            style="color: #2ebbcf; font-size: 0px; background-color: #2ebbcf; padding-top: 60px; padding-bottom: 60px;">
+            style="color: #2ebbcf; font-size: 0px; background-color: #2ebbcf; padding-top: 60px; padding-bottom: 10px;">
             <div class="col" style="text-align: center;">
                 <h1 class="title" style="color: black;">Every page is a blast!</h1>
                 <p style="font-size: 20px; color: black;">There’s LEGO awesomeness packed into every page!</p>
-                <div class="container-fluid">
-                    <div class="carousel1" style="margin: 70px 70px 30px 70px;">
-                        <div class="col-2" style="color: black; font-size: 20px;">
-                            <img src="https://lc-imageresizer-live-s.legocdn.com/resize/activities_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2factivities_llmagazine.jpg%3fl.r%3d591717839"
-                                class="img_mag" alt="mag1">
-                            <p>Super-fun LEGO activities</p>
-                        </div>
-                        <div class="col-2" style="color: black; font-size: 20px;">
-                            <img src="https://lc-imageresizer-live-s.legocdn.com/resize/comic_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fcomic_llmagazine.jpg%3fl.r%3d-1738126484"
-                                class="img_mag" alt="mag2">
-                            <p>LEGO character comics</p>
-                        </div>
-                        <div class="col-2" style="color: black; font-size: 20px;">
-                            <img src="https://lc-imageresizer-live-s.legocdn.com/resize/poster_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fposter_llmagazine.jpg%3fl.r%3d-1655502463"
-                                class="img_mag" alt="mag3">
-                            <p>Amazing LEGO posters</p>
-                        </div>
-                        <div class="col-2" style="color: black; font-size: 20px;">
-                            <img src="https://lc-imageresizer-live-s.legocdn.com/resize/cool-creations_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fcool-creations_llmagazine.jpg%3fl.r%3d1358843950"
-                                class="img_mag" alt="mag4">
-                            <p>Kids’ cool creations</p>
-                        </div>
-                        <div class="col-2" style="color: black; font-size: 20px;">
-                            <img src="https://lc-imageresizer-live-s.legocdn.com/resize/buildinginstructions_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fbuildinginstructions_llmagazine.jpg%3fl.r%3d-1490341332"
-                                class="img_mag" alt="mag5">
-                            <p>Building Instructions</p>
-                        </div>
-                        <div class="col-2" style="color: black; font-size: 20px;">
-                            <img src="https://lc-imageresizer-live-s.legocdn.com/resize/sets_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fsets_llmagazine.jpg%3fl.r%3d1805384162"
-                                class="img_mag" alt="mag6">
-                            <p>LEGO sets</p>
-                        </div>
-                    </div>
+                <!-- slider -->
+                <div class="wrapper">
+                    <ul class="items">
+                        <li class="item">
+                            <div class="col sl-in">
+                                <img src="https://lc-imageresizer-live-s.legocdn.com/resize/activities_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2factivities_llmagazine.jpg%3fl.r%3d591717839"
+                                    class="img_mag" draggable="false" alt="mag1">
+                                <p style="padding-left: 120px;">Super-fun LEGO activities</p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="col sl-in">
+                                <img src="https://lc-imageresizer-live-s.legocdn.com/resize/comic_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fcomic_llmagazine.jpg%3fl.r%3d-1738126484"
+                                    class="img_mag" draggable="false" alt="mag2">
+                                <p style="padding-left: 130px;">LEGO character comics</p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="col sl-in">
+                                <img src="https://lc-imageresizer-live-s.legocdn.com/resize/poster_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fposter_llmagazine.jpg%3fl.r%3d-1655502463"
+                                    class="img_mag" draggable="false" alt="mag3">
+                                <p style="padding-left: 120px;">Amazing LEGO posters</p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="col sl-in">
+                                <img src="https://lc-imageresizer-live-s.legocdn.com/resize/cool-creations_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fcool-creations_llmagazine.jpg%3fl.r%3d1358843950"
+                                    class="img_mag" draggable="false" alt="mag4">
+                                <p style="padding-left: 140px;">Kids’ cool creations</p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="col sl-in">
+                                <img src="https://lc-imageresizer-live-s.legocdn.com/resize/buildinginstructions_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fbuildinginstructions_llmagazine.jpg%3fl.r%3d-1490341332"
+                                    class="img_mag" draggable="false" alt="mag5">
+                                <p style="padding-left: 135px;">Building Instructions</p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="col sl-in">
+                                <img src="https://lc-imageresizer-live-s.legocdn.com/resize/sets_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fsets_llmagazine.jpg%3fl.r%3d1805384162"
+                                    class="img_mag" draggable="false" alt="mag6">
+                                <p style="padding-left: 180px;">LEGO sets</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button disabled onclick="slideLeft()" id="left" class="btn fl-button fl-left"><i class="arrow left"></i></button>
+                    <button onclick="slideRight()" id="right" class="btn fl-button fl-right"><i class="arrow right"></i></button>
                 </div>
             </div>
         </div>
@@ -148,7 +162,7 @@
                 <p style="font-size: 20px; padding-bottom: 40px;">When will the next issue arrive? How can I enter my
                     child’s cool creations?
                     Visit our FAQ page for help on<br>how to do these things – and more!</p>
-                <button type="button" style="width: 180px;" class="btn btn_faq">Get answers</button>
+                <button type="button" class="btn btn_faq">Get answers</button>
             </div>
         </div>
         <!-- navigator 2 -->
@@ -177,50 +191,7 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.carousel1').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 4,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 3,
-                            infinite: true,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                    // You can unslick at a given breakpoint now by adding:
-                    // settings: "unslick"
-                    // instead of a settings object
-                ]
-            });
-        });
-    </script>
-
+    <script src="slider.js"></script>
 
 </body>
 
