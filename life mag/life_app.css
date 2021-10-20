@@ -1,0 +1,163 @@
+body {
+    overflow-x: hidden;
+}
+
+/* -- navigator -- */
+
+.navt:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.navt {
+    color: white;
+}
+
+/* -- button -- */
+
+.btn_faq {
+    background-color: white;
+    color: #4a4a4a;
+    font-size: 18px;
+    height: 44px;
+    width: 172.16px;
+    opacity: 87%;
+}
+
+.btn_lm {
+    background-color: white;
+    color: #4a4a4a;
+    font-size: 18px;
+    height: 44px;
+    width: 157.91px;
+    opacity: 87%;
+}
+
+.btn_faq:hover {
+    opacity: 70%;
+    color: #4a4a4a;
+}
+
+
+/* -- button -- */
+
+.btn_mag {
+    background-color: #4a4a4a;
+    color: white;
+    font-size: 18px;
+    height: 55px;
+}
+
+.btn_mag:hover {
+    filter: brightness(150%);
+    color: white;
+}
+
+/* -- navigator 2 --*/
+
+.it {
+    text-align: center;
+    width: 120%;
+}
+
+.img_it {
+    width: 90%;
+    border-radius: 50%;
+}
+
+.ah:hover {
+    filter:opacity(80%);
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+.ah {
+    color: black;
+}
+
+  
+
+/** -- app content --**/
+
+.row_content1 {
+    width: 1266.4px;
+    height: 504.3px;
+}
+
+.img_app1 {
+    width: 100%;
+    height: 504.3px;
+    position: absolute;
+    object-fit: cover;
+    top: 290;
+    left: 0;
+}
+
+.img_app {
+    height: 506.04px;
+    width: 899.61px;
+    object-fit: cover;
+    right: 0;
+    position: absolute;
+}
+
+/* -- carousel --*/
+
+.carousel .item {
+    height: 646px;
+}
+
+.item_text {
+    width: 393.2;
+    text-align: center;
+    padding: 40px;
+    margin: 100px;
+}
+
+
+/* -- carousel button -- */
+.btn_caro {
+    position: absolute;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    background-color: #4a4a4a;
+}
+
+.btn_caro:hover {
+    color: #9d9d9d;
+}
+
+.btn_caro:focus {
+    color: #9d9d9d;
+}
+
+.caro_left {
+    left: 10px;
+    bottom: 50%;
+}
+
+.caro_right {
+    right: 10px;
+    bottom: 50%;
+}
+
+/* -- indicator -- */
+
+.carousel-indicators {
+    bottom: 5;
+}
+
+ol.carousel-indicators li {
+    padding: 2.4px;
+    background-color: white;
+    opacity: 50%;
+    border-color: #4a4a4a;
+}
+
+ol.carousel-indicators li.active {
+    padding: 2.4px;
+    background: black;
+    opacity: 50%;
+  }
