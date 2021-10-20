@@ -1,0 +1,514 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebuild The World | LEGO.com | Official LEGO® Shop US </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+        }
+
+        nav {
+            background-color: #ffcf00;
+            height: 1.75cm;
+        }
+
+        .hover_underline:hover {
+            text-decoration: underline;
+        }
+
+        .img {
+            padding: 40px;
+        }
+
+        .boxshadow {
+            box-sizing: border-box;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        .textbox {
+            background-color: #fed501;
+            width: 304.38px;
+            height: 262.34px;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .container-fluid {
+            position: relative;
+        }
+
+        .text-block_right {
+            position: absolute;
+            top: 30%;
+            right: 8%;
+            left: 60%;
+            text-align: right;
+        }
+
+        .text-block_left {
+            position: absolute;
+            top: 35%;
+            left: 8%;
+            right: 60%;
+            text-align: left;
+        }
+        .text-block_center {
+            position: absolute;
+            top: 6%;
+            left: 33%;
+            text-align: center;
+        }
+
+        .button_black {
+            background-color: black;
+            color: white;
+        }
+
+        .img_4block {
+            width: 305px;
+            margin: 10px;
+        }
+
+        .info_4block {
+            text-align: center;
+            margin: 10px;
+        }
+        .btn_read{
+            color: black;
+        }
+
+        /** -- rebuild the world --*/
+
+body {
+    overflow-x: hidden;
+}
+
+/** -- Random Idea -- **/
+/* -- button animation --*/
+
+.btn-ani {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    width: 220px;
+    height: 70px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.btn-ani:hover {
+    background-color: white;
+    color: black;
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(-3deg);}
+    20% {transform: rotate(3deg);}
+    32% {transform: rotate(-3deg);}
+    44% {transform: rotate(3deg);}
+    56% {transform: rotate(-3deg);}
+    68% {transform: rotate(3deg);}
+    80% {transform: rotate(0deg);}
+  }
+
+
+/* -- Random Idea Box -- */
+
+/* -- Main Container left -- */
+
+.Idea_1 {
+    top: -250px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    animation-name: slide1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.Idea_2 {
+    top: -100px;
+    width: 500px;
+    position: relative;
+    animation-name: slide1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    left: -100%;
+}
+
+@keyframes slide1 {
+    0% {left: -100%;}
+    5% {left: 5%;}
+    40% {left: 5%;}
+    45% {left: -100%;}
+    100% {left: -100%;}
+}
+
+/* -- Inner -- */
+
+
+.text_box1 {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    left: -50px;
+    padding: 60px 0px 60px 25px;
+}
+
+.idea_img1 {
+    width: 800px;
+    object-fit: cover;
+    position: relative;
+    left: -450px
+}
+
+.text_box2 {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    left: -118px;
+    padding: 40px 90px 40px 20px;
+}
+
+
+/* -- Main Container right -- */
+
+.Idea_3 {
+    top: -250px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    animation-name: slide2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    right: -100%;
+}
+
+.Idea_4 {
+    top: -100px;
+    width: 500px;
+    position: relative;
+    animation-name: slide2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide2 {
+    0% {right: -100%;}
+    5% {right: 5%;}
+    40% {right: 5%;}
+    45% {right: -100%;}
+    100% {right: -100%;}
+}
+
+/* -- Inner -- */
+
+
+.idea_img2 {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    right: -140px
+    
+}
+
+.text_box3 {
+    width: 550px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    right: -100px;
+    padding: 40px 90px 40px 20px;
+}
+
+.text_box4 {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    right: -100px;
+    padding: 40px 80px 40px 20px;
+}
+    </style>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <img src="https://www.lego.com/cdn/cs/set/assets/bltcc3057738bd9d1c9/01_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1.5"
+                width="100%">
+        </div>
+        <div class="row justify-content-center">
+            <img src="https://www.lego.com/cdn/cs/set/assets/bltcac87f0dc7cca292/Short_Banner_-_Rebuild_the_world_-_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=200&dpr=1.5"
+                style="padding: 40px 20px;" width="100%">
+        </div>
+        <div class="row justify-content-center">
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="row " style="padding: 60px 20px">
+                        <div class="col-sm-3 ">
+                            <div class="container">
+                                <video loop autoplay width="304.38px" class="boxshadow"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blt4d9473448d938e8f/hippo3.mp4">
+                            </div>
+                            <div class="container">
+                                <div class="textbox">
+                                    <p style="font-size: 40px;">Finding Creative Solutions…</p>
+                                    <p style="font-size: 14px;">To problems kids identify themselves</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/blt255475959539c7ee/02-building-creative-confidence.jpg?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5"
+                                class="boxshadow" width="304.38px">
+                            <div class="textbox" style="background-color:#00a3e7;">
+                                <p style="font-size: 40px;">And Building Confidence…</p>
+                                <p style="font-size: 14px;">With every challenge they creatively conquer</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="container">
+                                <video loop autoplay width="304.38px" class="boxshadow"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blta3215490a2514a7f/turtle3.mp4">
+                            </div>
+                            <div class="container">
+                                <div class="textbox" style="background-color:#12b53e">
+                                    <p style="font-size: 40px;">Again and again (and again)…</p>
+                                    <p style="font-size: 14px;">Building & rebuilding, as only LEGO® bricks can, to grow
+                                        resilience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/bltae4367a5c3303bc8/04-create.jpg?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5"
+                                class="boxshadow" width="306px">
+                            <div class="textbox" style="background-color:#f7adce">
+                                <p style="font-size: 40px;">Through Creative Collaboration!</p>
+                                <p style="font-size: 14px;">Sharing that unique LEGO® style and creativity with close
+                                    ones</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+             <!-- Random Idea -->
+    <div class="container-fluid" style="text-align: center;">
+        <!-- left Idea -->
+        <div class="row" style="padding-top: 17%;">
+            <div class="col-4">
+                <div class="container Idea_1">
+                    <div class="container image_box"></div>
+                    <img class="idea_img1" src="https://www.lego.com/cdn/cs/set/assets/blt81ee926afeb848c7/08_RTW_TT_heart.jpg" alt="heart">
+                    <div class="container text_box1">
+                        <h1 style="text-align: left;">Build a heart</h1>
+                    </div>
+                </div>
+                <div class="container Idea_2">
+                    <div class="container image_box"></div>
+                    <img class="idea_img1" src="https://www.lego.com/cdn/cs/set/assets/blt214f73ed812c2a59/10_RTW_TT_big_animal.jpg" alt="heart">
+                    <div class="container text_box2">
+                        <h1 style="text-align: left;">Build a mighty big animal</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- Information -->
+            <div class="col-sm-4">
+                <h1>Need ideas? Try the Random Idea Generator.</h1>
+                <p style="font-size: 20px;">Short on ideas? We have hundreds! Our Random<br> Idea Generator will search
+                    LEGO® builds from<br> around the world to find an idea that you can<br> create with your little one.</p>
+                <button class="btn btn-ani"> Try&nbsp;now&nbsp;></button>
+            </div>
+            <!-- right Idea -->
+            <div class="col-4">
+                <div class="container Idea_3">
+                    <div class="container image_box"></div>
+                    <img class="idea_img2" src="https://www.lego.com/cdn/cs/set/assets/bltaaf2946393d6c547/17_RTW_TT_multi_favoritecolor.jpg" alt="heart">
+                    <div class="container text_box3">
+                        <h1 style="text-align: right;">… but using only your<br> favorite color</h1>
+                    </div>
+                </div>
+                <div class="container Idea_4">
+                    <div class="container image_box"></div>
+                    <img class="idea_img2" src="https://www.lego.com/cdn/cs/set/assets/blt5a7e26cc4396f037/07_RTW_TT_multi_blindfold.jpg" alt="heart">
+                    <div class="container text_box4">
+                        <h1 style="text-align: right;">… but build it<br> blindfolded</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid">
+                <img src="https://www.lego.com/cdn/cs/set/assets/blt08177ba68c76e3c6/04_Tall_De.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1.5"
+                    width="100%">
+                <div class="text-block_right">
+                    <p style="font-size: 40px;">Build the Change</p>
+                    <p style="font-size: 16px;">Discover even more building challenges themed around making the world a
+                        brigther place.</p>
+                    <button class="btn button_black">Learn more ></button>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="container-fluid">
+                <img src="https://www.lego.com/cdn/cs/set/assets/blt0bfb77d89f972017/05_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1.5"
+                    width="100%">
+                <div class="text-block_left" style=" color:white;">
+                    <p style="font-size: 40px;">A Dog in Need</p>
+                    <p style="font-size: 16px;">12-year old Dylan created a rolling wheelchair out of LEGO® bricks to
+                        help an injured dog. Thanks to his clever build, this pup is back in action!</p>
+                    <button class="btn button_black" style="color:black; background-color: white;">Learn more ></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid">
+                <img src="https://www.lego.com/cdn/cs/set/assets/blt3e00541790d15a62/06_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1.5"
+                    width="100%">
+                <div class="text-block_right" style=" color:white;">
+                    <p style="font-size: 40px;">How an autistic child built friendships using LEGO® bricks</p>
+                    <p style="font-size: 16px;">The Brick-by-Brick program helps uplift autistic children through
+                        LEGO® play. Here’s George’s story...</p>
+                    <button class="btn button_black" style="color:black; background-color: white;">Learn more
+                        ></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container" style="display: flex; margin-left: 100px; padding-bottom: 30px;">
+                <div>
+                    <img src="https://www.lego.com/cdn/cs/set/assets/blt482482e9da3c042c/HERO.JPG?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5"
+                        class="img_4block">
+                    <div class="info_4block">
+                        <p style="font-size: 20px;">Sammie’s on a mission to make the world a better place – and she’s
+                            not stopping anytime soon</p>
+                        <p style="font-size: 14px;"">Meet the girl building a brighter future for all</p>
+                        <p style="font-size: 16px"><a href="" style="color: black;">Read more</a> ></p>
+                    </div>
+                    
+                </div>
+                <div>
+                    <img src="
+                            https://www.lego.com/cdn/cs/set/assets/blt43751d5fb368272b/OG_image.png?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5"
+                            class="img_4block">
+                    <div class="info_4block">
+                        <p style="font-size: 20px;">Meet the musical girl helping to spread joy in her hometown</p>
+                        <p style="font-size: 14px;"">Mahiru and her marching band are bringing positivity to Minamisoma City</p>
+                        <p style="font-size: 16px"><a href=""style="color: black;" >Read more</a> ></p>
+                    </div>
+                    </div>
+                    <div>
+                        <img src="https://www.lego.com/cdn/cs/set/assets/bltd7beae852ee15819/OG_image.png?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5"
+                            class="img_4block">
+                            <div class="info_4block">
+                                <p style="font-size: 20px;">Meet the inventive sisters building a better world</p>
+                                <p style="font-size: 14px;"">Space is just the start for Fatima and Shaikha</p>
+                                <p style="font-size: 16px"><a href="" style="color: black;">Read more</a> ></p>
+                            </div>
+                    </div>
+                    <div>
+                        <img src="https://www.lego.com/cdn/cs/set/assets/blt1c0bc0d0521f3ea9/chelseas_og.png?fit=crop&format=webply&quality=80&width=635&height=440&dpr=1.5"
+                            class="img_4block">
+                            <div class="info_4block">
+                                <p style="font-size: 20px;">
+                                    How Chelsea’s tenth birthday changed thousands of children’s lives</p>
+                                <p style="font-size: 14px;"">The story of one girl’s mission to bring art to all</p>
+                                <p style="font-size: 16px"><a href="" style="color: black;">Read more</a> ></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="position: relative;">
+                <img src="https://www.lego.com/cdn/cs/set/assets/blte911e21f1834fde9/09_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=1000&dpr=1.5"
+                    width="100%">
+                <div class="text-block_center">
+                    <p style="font-size: 40px;">Build a bridge to the future</p>
+                    <p style="font-size: 18px;">&nbsp;&nbsp;&nbsp;&nbsp;We love to see builds from around the world and all the<br> creative fun that kids have with LEGO® bricks. Share your build<br> photos with us on Instagram! Just mention @LEGO and use the <br>hashtag #RebuildTheWorld for a chance to be featured here.</p>
+            </div>
+        </div>
+        <!-- -->
+        <div class="row justify-content-center" style="padding-top: 30px; padding-bottom: 30px;">
+                <div class="col-5">
+                    <div class="row">
+                        <img src="https://z1photorankmedia-a.akamaihd.net/media/9/e/u/9euhd25/normal.jpg" width="630px" height="630px">
+                    </div>
+                    <div class="row" style="margin-top: 20px; margin-left: -30px;">
+                        <div class="col-6">
+                            <img src="https://z3photorankmedia-a.akamaihd.net/media/b/u/j/bujqe25/normal.jpg" width="305px" height="305px">
+                        </div>
+                        <div class="col-6">
+                            <img src="https://z3photorankmedia-a.akamaihd.net/media/e/z/a/ezac925/normal.jpg" width="305px" height="305px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="row">
+                        <div class="col-6" >
+                            <img src="https://z2photorankmedia-a.akamaihd.net/media/5/k/p/5kpoe25/normal.jpg" width="305px" height="305px">
+                        </div>
+                        <div class="col-6">
+                            <img src="https://z1photorankmedia-a.akamaihd.net/media/8/p/e/8pece25/normal.jpg" width="305px" height="305px">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-left: 5px; margin-top: 20px;">
+                        <img src="https://z3photorankmedia-a.akamaihd.net/media/e/x/7/ex7vc25/normal.jpg" width="630px" height="630px">
+                    </div>
+                </div>
+        </div>
+        <div class="row justify-content-center">
+            <button></button>
+        </div>
+    </div>
+    <script>
+        function page1(){
+            image1.src = "http://10.0.15.20/lab3/images/3.png";
+            image2.src = "http://10.0.15.20/lab3/images/1.png";
+            image3.src = "http://10.0.15.20/lab3/images/4.png";
+            image4.src = "http://10.0.15.20/lab3/images/2.png";
+            image5.src = "http://10.0.15.20/lab3/images/2.png";
+            image6.src = "http://10.0.15.20/lab3/images/2.png";
+        }
+        function page2(){
+            image1.src = "http://10.0.15.20/lab3/images/3.png";
+            image2.src = "http://10.0.15.20/lab3/images/1.png";
+            image3.src = "http://10.0.15.20/lab3/images/4.png";
+            image4.src = "http://10.0.15.20/lab3/images/2.png";
+            image5.src = "http://10.0.15.20/lab3/images/2.png";
+            image6.src = "http://10.0.15.20/lab3/images/2.png";
+        }
+    </script>
+</body>
+
+</html>
