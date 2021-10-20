@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Order</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .title {
+            color: #2C2C2C;
+            font-size: 32px;
+        }
+
+        .btn-light {
+            background-color: white;
+        }
+
+        .btn-light:hover {
+            background-color: #e6f3ff;
+        }
+
+        .card_content {
+            background-color: #0a4dad;
+            color: white;
+            padding: 15px;
+            width: 230px;
+        }
+
+        .card_left {
+            margin: 55px 0px 0px;
+        }
+
+        .card_right {
+            border: #e0e0e0 1px solid;
+            background-color: #F8F8F8;
+            margin: 25px 18px 0px;
+            padding: 18px;
+        }
+
+        .detail_card {
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+        .in {
+            border: 1px solid #e0e0e0;
+            height: 55px;
+            width: 102%;
+            padding-left: 20px;
+        }
+    </style>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="container-fluid" style="padding-left: 65px; padding-top: 15px;">
+        <div class="head">
+            <span class="title">Check Your Order Status</span>
+        </div>
+        <div class="content" style="display: flex;">
+            <div class="card_left">
+                <img style="padding-left: 25px;" width="215" height="165"
+                    src="https://www.lego.com/_build/public/orderStatusMf-98f6ac4a1c67350b5a9f9a43accea3d6.jpg">
+                <div class="card_content" style="margin-top: 15px;">
+                    <div class="title_card" style="font-size: 18px;">Sign In With Your <br>LEGO® Account</div>
+                    <div class="detail_card">Sign in to see all your orders in <br>
+                        one place and follow them to <br>
+                        your door.</div>
+                    <a class="btn btn-light"
+                        style="color: #212529; padding: 12px 45px; cursor: default; border: #006db7 0.8px solid; margin-top: 12px;">Sign In</a>
+                </div>
+            </div>
+            <div class="card_right" style="color: #2C2C2C;">
+                <h3 style="font-size: 20px; padding: 20px 0px 15px;">Don't have a LEGO Account?</h3>
+                <span style="font-size: 16px;">No problem! Just enter your order number (from your order confirmation email) and your email
+                    address, and we’ll send you a link <br>
+                    to view your order status.</span>
+                <div class="my_form" style="margin-top: 15px; padding: 18px; background-color: white;">
+                    <span style="font-size: 16px;"><b>Guest Order Tracking</b></span>
+                    <div class="wrap_number" style="margin-top: -10px; margin-left: -20px;">
+                        <div class="wrap_input" style="padding: 18px 20px 0px;">
+                            <div class="input">
+                                <label type="text"></label>
+                                <input class="in" type="text" placeholder="Order Number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap_mail" style=" margin-left: -20px;">
+                        <div class="wrap_input" style="padding: 18px 20px 0px;">
+                            <div class="input">
+                                <label type="text"></label>
+                                <input class="in" type="text" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-light" style="margin-top: 25px; margin-bottom: 20px; border: #006db7 1px solid; padding: 12px 36px; font-size: 14px; color: black;">Send Email</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
