@@ -1,0 +1,134 @@
+/* -- slider -- */
+
+.wrapper {
+
+    padding: 0% 4% 0% 1%;
+	position: relative;
+	user-select: none;
+}
+
+.items {
+	position: relative;
+	overflow-x: scroll;
+	white-space: nowrap;
+    cursor: pointer;
+}
+
+.item {
+	display: inline-block;
+	user-select: none;
+    color: black;
+    cursor: default;
+}
+
+.sl-in {
+    width: 100%;
+}
+
+
+.img_mag {
+    width: 330px;
+    height: 320px;
+    object-fit: scale-down;
+}
+
+.i-text {
+    top: -30;
+    position: relative;
+}
+
+@media screen and (min-width: 1200px) {
+	
+
+	.item {
+		width: 360px;	
+	}
+}
+
+/** -- slider button -- **/
+
+.fl-left {
+    left: 20px;
+    top: 200px;
+}
+
+.fl-right {
+    right: 65px;
+    top: 200px;
+}
+
+.fl-button {
+    position: absolute;
+    background: #4a4a4a;
+    color: white;
+    font-size: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fl-button:hover {
+    background: #4a4a4a;
+    cursor: pointer;
+}
+
+.fl-button:disabled {
+    display: none;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+/* -- Slide Scrollbar -- */
+
+#style-4::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar{
+    height: 5px;
+    background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar-thumb{
+	background-color: #555555;
+}
+
+#style-4::-webkit-scrollbar-thumb:hover{
+	background-color: black;
+}
+
+#style-4::-webkit-scrollbar-button:start:increment {
+    width: 20%;
+    display: block;
+    background: white;
+    
+  }
+
+#style-4::-webkit-scrollbar-button:end:increment {
+    width: 20%;
+    display: block;
+    background: white;
+  }
+
+  /** -- Additional code for scrollbar -- **/
+  /* textArea = new JTextArea();
+    scroll = new JScrollPane(textArea);
+    this.add(scroll); */

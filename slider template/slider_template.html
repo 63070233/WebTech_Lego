@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="slider.css" media="screen">
+
+</head>
+
+<body>
+    <!-- slider -->
+    <div class="col" style="text-align: center;">
+        <div class="wrapper">
+            <!-- slider inner-->
+            <ul class="items" id="style-4" onscroll="check()">
+                <li class="item">
+                    <div class="container sl-in">
+                        <img src="https://lc-imageresizer-live-s.legocdn.com/resize/activities_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2factivities_llmagazine.jpg%3fl.r%3d591717839"
+                            class="img_mag" draggable="false" alt="mag1">
+                        <p class="i-text">Super-fun LEGO activities</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="container sl-in">
+                        <img src="https://lc-imageresizer-live-s.legocdn.com/resize/comic_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fcomic_llmagazine.jpg%3fl.r%3d-1738126484"
+                            class="img_mag" draggable="false" alt="mag2">
+                        <p class="i-text">LEGO character comics</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="container sl-in">
+                        <img src="https://lc-imageresizer-live-s.legocdn.com/resize/poster_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fposter_llmagazine.jpg%3fl.r%3d-1655502463"
+                            class="img_mag" draggable="false" alt="mag3">
+                        <p class="i-text">Amazing LEGO posters</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="container sl-in">
+                        <img src="https://lc-imageresizer-live-s.legocdn.com/resize/cool-creations_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fcool-creations_llmagazine.jpg%3fl.r%3d1358843950"
+                            class="img_mag" draggable="false" alt="mag4">
+                        <p class="i-text">Kids’ cool creations</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="container sl-in">
+                        <img src="https://lc-imageresizer-live-s.legocdn.com/resize/buildinginstructions_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fbuildinginstructions_llmagazine.jpg%3fl.r%3d-1490341332"
+                            class="img_mag" draggable="false" alt="mag5">
+                        <p class="i-text">Building Instructions</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="container sl-in">
+                        <img src="https://lc-imageresizer-live-s.legocdn.com/resize/sets_llmagazine?width=1920&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2flego-life-2019%2fmagazinepage%2fcarousel%2fsets_llmagazine.jpg%3fl.r%3d1805384162"
+                            class="img_mag" draggable="false" alt="mag6">
+                        <p class="i-text">LEGO sets</p>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- button -->
+            <button disabled onclick="slideLeft()" id="left" class="btn fl-button fl-left"><i
+                    class="arrow left"></i></button>
+            <button onclick="slideRight()" id="right" class="btn fl-button fl-right"><i
+                    class="arrow right"></i></button>
+        </div>
+    </div>
+
+    <script src="slider_main.js"></script>
+</body>
+
+</html>
