@@ -44,6 +44,12 @@ body {
     object-fit: cover;
 }
 
+.stick {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
 /* -- button -- */
 
 .btn_mag {
@@ -56,6 +62,22 @@ body {
 .btn_mag:hover {
     filter: brightness(150%);
     color: white;
+}
+
+.mag0:hover {
+    color: #a7a5a5;
+}
+
+.btn_mag0 {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn_mag1 {
+    background-color: #4a4a4a;
+    color: white;
+    font-size: 18px;
+    height: 55px;
 }
 
 /* -- navigator 2 --*/
