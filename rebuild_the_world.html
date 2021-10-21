@@ -90,6 +90,171 @@
         .btn_read{
             color: black;
         }
+        /** animation **/
+        /** -- rebuild the world --*/
+
+body {
+    overflow-x: hidden;
+}
+
+/** -- Random Idea -- **/
+/* -- button animation --*/
+
+.btn-ani {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    width: 220px;
+    height: 70px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.btn-ani:hover {
+    background-color: white;
+    color: black;
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(-3deg);}
+    20% {transform: rotate(3deg);}
+    32% {transform: rotate(-3deg);}
+    44% {transform: rotate(3deg);}
+    56% {transform: rotate(-3deg);}
+    68% {transform: rotate(3deg);}
+    80% {transform: rotate(0deg);}
+  }
+
+
+/* -- Random Idea Box -- */
+
+/* -- Main Container left -- */
+
+.Idea_1 {
+    top: -250px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    animation-name: slide1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.Idea_2 {
+    top: -100px;
+    width: 500px;
+    position: relative;
+    animation-name: slide1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    left: -100%;
+}
+
+@keyframes slide1 {
+    0% {left: -100%;}
+    5% {left: 5%;}
+    40% {left: 5%;}
+    45% {left: -100%;}
+    100% {left: -100%;}
+}
+
+/* -- Inner -- */
+
+
+.text_box1 {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    left: -50px;
+    padding: 60px 0px 60px 25px;
+}
+
+.idea_img1 {
+    width: 800px;
+    object-fit: cover;
+    position: relative;
+    left: -450px
+}
+
+.text_box2 {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    left: -118px;
+    padding: 40px 90px 40px 20px;
+}
+
+
+/* -- Main Container right -- */
+
+.Idea_3 {
+    top: -250px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    animation-name: slide2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    right: -100%;
+}
+
+.Idea_4 {
+    top: -100px;
+    width: 500px;
+    position: relative;
+    animation-name: slide2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide2 {
+    0% {right: -100%;}
+    5% {right: 5%;}
+    40% {right: 5%;}
+    45% {right: -100%;}
+    100% {right: -100%;}
+}
+
+/* -- Inner -- */
+
+
+.idea_img2 {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    right: -140px
+    
+}
+
+.text_box3 {
+    width: 550px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    right: -100px;
+    padding: 40px 90px 40px 20px;
+}
+
+.text_box4 {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    right: -100px;
+    padding: 40px 80px 40px 20px;
+}
     </style>
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
@@ -158,14 +323,49 @@
         </div>
         <div class="row">
             <div class="container-fluid" style="text-align: center;">
-                <h4 style="font-size: 40px;"><b>Need ideas? Try the Random<br>Idea Generator.</b></h4>
-                <p style="font-size: 20px;">Short on ideas? We have hundreds! Our Random<br> Idea
-                    Generator will search LEGO® builds from<br> around the world to find an idea that you can<br>
-                    create
-                    with your little one.</p>
-                <button class="btn button_black" style="font-size: 24px; width:200px; height:58px;">Try
-                    Now
-                    ></button>
+                <!-- left Idea -->
+                <div class="row" style="padding-top: 17%;">
+                    <div class="col-4">
+                        <div class="container Idea_1">
+                            <div class="container image_box"></div>
+                            <img class="idea_img1" src="https://www.lego.com/cdn/cs/set/assets/blt81ee926afeb848c7/08_RTW_TT_heart.jpg" alt="heart">
+                            <div class="container text_box1">
+                                <h1 style="text-align: left;">Build a heart</h1>
+                            </div>
+                        </div>
+                        <div class="container Idea_2">
+                            <div class="container image_box"></div>
+                            <img class="idea_img1" src="https://www.lego.com/cdn/cs/set/assets/blt214f73ed812c2a59/10_RTW_TT_big_animal.jpg" alt="heart">
+                            <div class="container text_box2">
+                                <h1 style="text-align: left;">Build a mighty big animal</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Information -->
+                    <div class="col-sm-4">
+                        <h1>Need ideas? Try the Random Idea Generator.</h1>
+                        <p style="font-size: 20px;">Short on ideas? We have hundreds! Our Random<br> Idea Generator will search
+                            LEGO® builds from<br> around the world to find an idea that you can<br> create with your little one.</p>
+                        <button class="btn btn-ani"> Try&nbsp;now&nbsp;></button>
+                    </div>
+                    <!-- right Idea -->
+                    <div class="col-4">
+                        <div class="container Idea_3">
+                            <div class="container image_box"></div>
+                            <img class="idea_img2" src="https://www.lego.com/cdn/cs/set/assets/bltaaf2946393d6c547/17_RTW_TT_multi_favoritecolor.jpg" alt="heart">
+                            <div class="container text_box3">
+                                <h1 style="text-align: right;">… but using only your<br> favorite color</h1>
+                            </div>
+                        </div>
+                        <div class="container Idea_4">
+                            <div class="container image_box"></div>
+                            <img class="idea_img2" src="https://www.lego.com/cdn/cs/set/assets/blt5a7e26cc4396f037/07_RTW_TT_multi_blindfold.jpg" alt="heart">
+                            <div class="container text_box4">
+                                <h1 style="text-align: right;">… but build it<br> blindfolded</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -292,22 +492,7 @@
         </div>
     </div>
     <script>
-        function page1(){
-            image1.src = "http://10.0.15.20/lab3/images/3.png";
-            image2.src = "http://10.0.15.20/lab3/images/1.png";
-            image3.src = "http://10.0.15.20/lab3/images/4.png";
-            image4.src = "http://10.0.15.20/lab3/images/2.png";
-            image5.src = "http://10.0.15.20/lab3/images/2.png";
-            image6.src = "http://10.0.15.20/lab3/images/2.png";
-        }
-        function page2(){
-            image1.src = "http://10.0.15.20/lab3/images/3.png";
-            image2.src = "http://10.0.15.20/lab3/images/1.png";
-            image3.src = "http://10.0.15.20/lab3/images/4.png";
-            image4.src = "http://10.0.15.20/lab3/images/2.png";
-            image5.src = "http://10.0.15.20/lab3/images/2.png";
-            image6.src = "http://10.0.15.20/lab3/images/2.png";
-        }
+        
     </script>
 </body>
 
