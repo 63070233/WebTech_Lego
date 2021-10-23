@@ -1,0 +1,370 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="harry.css" media="screen">
+
+</head>
+
+<body id="body">
+
+    <div class="container-fluid" style="width: 1600px;">
+        <!-- video content -->
+        <div class="row">
+            <img src="https://www.lego.com/cdn/cs/set/assets/bltb84afaf7aa29106e/02_Xl_banner-D.jpg?fit=crop&format=webply&quality=80&width=1600&height=1000&dpr=1.5"
+                width="100%" alt="video">
+            <div class="container-fluid" style="position: absolute; width: 1600px;">
+                <img src="https://www.lego.com/_build/public/play-2ac991a542ce4352b7c0fa77539482be.svg" width="4.5%"
+                    alt="video" style="position: absolute; left: 47.5%; top: 460px;" onclick="play_video()"
+                    class="play_video">
+                <video
+                    src="https://videoprocessingpipeline.services.lego.com/assets/563e59fb-829f-40f0-86fa-7ee68af3d61b/34493888-6b78-44a7-b71b-adbf0091b9ce/1080p.mp4"
+                    preload="auto" controls id="myPopup" class="vpop"></video>
+                <button id="myBut" class="btn but glyphicon glyphicon-remove" onclick="close_video()"></button>
+                <!-- video background-->
+                <div id="back" onclick="close_video()"></div>
+            </div>
+        </div>
+
+        <!-- sub -->
+        <div class="row" style="padding: 3% 0 2% 0;">
+            <div class="col">
+                <a href="harry_character.html">
+                    <div class="container" style="width: 80px; margin-right: 0;">
+                        <img src="https://www.lego.com/cdn/cs/set/assets/blt1ee9f91b6687607e/harrypotter-Quicklink-characters.jpg?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
+                            alt="characters">
+                        <p style="font-size: 12px; padding: 10px 10px;"> characters </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="harry_game.html" style="width: 80px; margin-left: 0;">
+                    <img src="https://www.lego.com/cdn/cs/set/assets/bltc8d9610a66d2aa45/harrypotter-Quicklink-games.jpg?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
+                        alt="game">
+                    <p style="font-size: 12px; padding: 10px 23px;"> game </p>
+                </a>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="row" style="background-color: #003f62; text-align: center; color: white; padding: 1% 0;">
+            <h3 style="font-size: 32px; padding-left: 30%;">Celebrating 20 Years of LEGO® Harry Potter™!</h3>
+            <p style="font-size: 16px; padding: 1% 2.8%;">Calling all witches, wizards and Harry Potter™ fans! We are
+                celebrating 20 years
+                of LEGO® Harry Potter adventures, spells, magic and friendship. You can build, play, rebuild and display
+                your favorite moments from the movies with new and old LEGO Harry Potter sets.</p>
+        </div>
+        <div class="container-fluid"
+            style="margin-left: -15; height: 500px; width: 1600px; background-image: url(https://www.lego.com/cdn/cs/set/assets/bltfd63d2f1853b0fd4/03_Standard_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=500&dpr=1);">
+            <div class="text_container0">
+                <h2 style="font-size: 37;">Collect the Golden<br> Minifigures</h2>
+                <p style="font-size: 17px;">All-new LEGO® Harry Potter™ 20th Anniversary Golden minifigures, available
+                    in LEGO Harry Potter sets. Fun for play or as collectables.</p>
+            </div>
+            <div class="row"
+                style="height: 500px; background-image: url(https://www.lego.com/cdn/cs/set/assets/bltab99f9e417a0eb69/04_Standard_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=500&dpr=1);">
+            </div>
+            <div class="row"
+                style="height: 1000px; background-image: url(https://www.lego.com/cdn/cs/set/assets/blt24f2d2da001a5cf8/05_XL_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=1000&dpr=1);">
+            </div>
+            <div class="row" style="background-color: #003f62; text-align: center; color: white; padding: 1.5% 0;">
+                <h3 style="font-size: 32px; padding-left: 30%;">LEGO® Harry Potter™ Hogwarts™ Icons</h3>
+                <p style="font-size: 16px; padding: 1% 3%;">Hedwig™ the owl delivers a special invitation for Harry
+                    Potter™ to join the Hogwarts™ School of Witchcraft and Wizardry. The homage to the Wizarding World
+                    includes iconic movie artifacts like Ron’s chocolate frog, Hermione’s potions, Tom Riddle’s diary,
+                    the
+                    Golden Snitch™ and a scarf customizable to any Hogwarts House. It also includes a display stand with
+                    a
+                    decorated tile celebrating 20 years of LEGO® Harry Potter. It’s the perfect collector’s item for
+                    Harry
+                    Potter fans of all ages.</p>
+                <button type="button" class="btn btn_shop">Shop now &nbsp;<i
+                        class="glyphicon glyphicon-menu-right"></i></button>
+            </div>
+
+
+            <!-- slide album1 -->
+            <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel1" data-slide-to="0" class="active Indicators"></li>&nbsp;
+                    <li data-target="#myCarousel1" data-slide-to="1" class="Indicators"></li>&nbsp;
+                    <li data-target="#myCarousel1" data-slide-to="2" class="Indicators"></li>&nbsp;
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" style="height: 700px; width: 1600px; margin-left: -15;">
+                    <div class="item active"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt5b494e6877b6733d/07_1_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                        <div class="text_container">
+                            <h2 style="font-size: 37; padding-bottom: 2%;">LEGO® Hogwarts™ Polyjuice Potion Mistake</h2>
+                            <p style="font-size: 17px; padding-bottom: 2%;">Brew powerful Polyjuice potions in the
+                                Hogwarts™
+                                bathroom with Harry Potter™, Ron Weasley™ and Hermione Granger™. But be careful, you
+                                never
+                                know what happens next!</p>
+                            <button type="button" class="btn btn_shop btnin">Shop now &nbsp;<i
+                                    class="glyphicon glyphicon-menu-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blte7f5020ffc71af6e/07_2_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                        <div class="text_container">
+                            <h2 style="font-size: 37; padding-bottom: 2%;">Even more magic at Hogwarts™ Castle</h2>
+                            <p style="font-size: 17px; padding-bottom: 2%;">Connect two rooms for more play! Combine
+                                this
+                                set with the LEGO® Hogwarts™ Chamber of Secrets (76389) to unlock a secret tunnel below
+                                the
+                                sink!</p>
+                            <button type="button" class="btn btn_shop btnin">Shop now &nbsp;<i
+                                    class="glyphicon glyphicon-menu-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt8dbd1f1e9911f126/07_3_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                        <div class="text_container">
+                            <h2 style="font-size: 37; padding-bottom: 2%;">Harry Potter™ Minifigure Magic</h2>
+                            <p style="font-size: 17px; padding-bottom: 2%;">This potion-y set includes an exclusive
+                                golden
+                                Harry Potter™ minifigure and 2 collectable wizard card tiles (take a look at the other
+                                sets
+                                to collect all 16).</p>
+                            <button type="button" class="btn btn_shop btnin">Shop now &nbsp;<i
+                                    class="glyphicon glyphicon-menu-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="btn_caro caro_left" href="#myCarousel1" data-slide="prev">
+                        <span class="glyphicon glyphicon-menu-left"></span>
+                    </a>
+                    <a class="btn_caro caro_right" href="#myCarousel1" data-slide="next">
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </a>
+                </div>
+            </div>
+            <!-- slide album2 -->
+            <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel2" data-slide-to="0" class="active Indicators"></li>&nbsp;
+                    <li data-target="#myCarousel2" data-slide-to="1" class="Indicators"></li>&nbsp;
+                    <li data-target="#myCarousel2" data-slide-to="2" class="Indicators"></li>&nbsp;
+                    <li data-target="#myCarousel2" data-slide-to="3" class="Indicators"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" style="height: 700px; width: 1600px; margin-left: -15;">
+                    <div class="item active"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt9799e0e681f45c86/08_1_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                        <div class="text_container1">
+                            <h2 style="font-size: 37; padding-bottom: 2%;">Hogwarts™: Fluffy Encounter</h2>
+                            <p style="font-size: 17px; padding-bottom: 2%;">Recreate the scene in which Harry Potter™,
+                                Hermione Granger™ and Ron Weasley™ tamed Fluffy, the three-headed dog with a soft spot
+                                for music!</p>
+                            <button type="button" class="btn btn_shop btnin" style="margin-left: 0;">Shop now &nbsp;<i
+                                    class="glyphicon glyphicon-menu-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt1185be7b44dc2ea1/08_2_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                        <div class="text_container1">
+                            <h2 style="font-size: 37; padding-bottom: 2%;">Endless magical fun at Hogwarts™ Castle</h2>
+                            <p style="font-size: 17px; padding-bottom: 2%;">The set contains 5 separate modules that
+                                connect in a variety of ways and gives you the chance to add more rooms to create an
+                                entire Hogwarts™ Castle model.</p>
+                            <button type="button" class="btn btn_shop btnin" style="margin-left: 0;">Shop now &nbsp;<i
+                                    class="glyphicon glyphicon-menu-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt833bce70716f0fb8/08_3_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt3d1c0d91a4c7c349/08_4_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                        <div class="text_container1">
+                            <h2 style="font-size: 37; padding-bottom: 2%;">Harry Potter™ Minifigure Magic</h2>
+                            <p style="font-size: 17px; padding-bottom: 2%;">This magic-packed set includes an exclusive,
+                                golden Harry Potter™ minifigure and 2 collectable wizard card tiles (collect all 16).
+                            </p>
+                            <button type="button" class="btn btn_shop btnin" style="margin-left: 0;">Shop now &nbsp;<i
+                                    class="glyphicon glyphicon-menu-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="btn_caro caro_left" href="#myCarousel2" data-slide="prev">
+                        <span class="glyphicon glyphicon-menu-left"></span>
+                    </a>
+                    <a class="btn_caro caro_right" href="#myCarousel2" data-slide="next">
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </a>
+                </div>
+            </div>
+            <!-- slide album3 -->
+            <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel3" data-slide-to="0" class="active Indicators"></li>&nbsp;
+                    <li data-target="#myCarousel3" data-slide-to="1" class="Indicators"></li>&nbsp;
+                    <li data-target="#myCarousel3" data-slide-to="2" class="Indicators"></li>&nbsp;
+                    <li data-target="#myCarousel3" data-slide-to="3" class="Indicators"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" style="height: 700px; width: 1600px; margin-left: -15; text-align: right;">
+                    <div class="item active"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt0a949a33fb38a8a4/09_1_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                        <div class="text_container">
+                            <h2 style="font-size: 37; padding-bottom: 2%;">Hogwarts™ Chamber of Secrets</h2>
+                            <p style="font-size: 17px; padding-bottom: 2%;">The Chamber of Secrets features a grand
+                                entrance, the sorting hat, Great Hall tables, Dumbledore’s golden-owl lantern and 10
+                                minifigures.</p>
+                            <button type="button" class="btn btn_shop btnin">Shop now &nbsp;<i
+                                    class="glyphicon glyphicon-menu-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt6188718146889432/09_2_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                        <div class="text_container">
+                            <h2 style="font-size: 37; padding-bottom: 2%;">Magical play in the Hogwarts™ Chamber of
+                                Secrets</h2>
+                            <p style="font-size: 17px; padding-bottom: 2%;">LEGO® Harry Potter™ Hogwarts™ Chamber of
+                                Secrets (76389) is ideal for explorative play and display with authentic movie details.
+                            </p>
+                            <button type="button" class="btn btn_shop btnin">Shop now &nbsp;<i
+                                    class="glyphicon glyphicon-menu-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt803fafcb683ee0d0/09_3_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                    </div>
+                    <div class="item"
+                        style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blta9d7822d908946b1/09_4_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                        <div class="text_container">
+                            <h2 style="font-size: 37; padding-bottom: 2%;">Harry Potter™ Minifigure Magic</h2>
+                            <p style="font-size: 17px; padding-bottom: 2%;">This magical set includes an exclusive,
+                                golden, anniversary Voldemort™ minifigure and 6 collectable wizard card tiles (collect
+                                all 16).</p>
+                            <button type="button" class="btn btn_shop btnin">Shop now &nbsp;<i
+                                    class="glyphicon glyphicon-menu-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="btn_caro caro_left" href="#myCarousel3" data-slide="prev">
+                        <span class="glyphicon glyphicon-menu-left"></span>
+                    </a>
+                    <a class="btn_caro caro_right" href="#myCarousel3" data-slide="next">
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- recommend product -->
+            <div></div>
+
+            <!-- sub content -->
+            <div class="container-fluid"
+                style="margin-left: -15; height: 700px; width: 1600px; background-image: url(https://www.lego.com/cdn/cs/set/assets/bltc1e96b953be82f62/11_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                <div class="text_container2">
+                    <h2 style="font-size: 37;">Build and Share Your Favorite Scene</h2>
+                    <p style="font-size: 17px; padding-bottom: 2%;">We love to see your builds and creativity!</p>
+                    <div style="display: inline-block; width: 196px; height: 47px; margin-right: 1%;">
+                        <button type="button" class="btn btn_shop btnin1">Go to App Store &nbsp;<i
+                                class="glyphicon glyphicon-menu-right"></i></button>
+                    </div>
+                    <div
+                        style="display: inline-block; width: 196px; height: 47px; margin-right: 17%; text-align: left;">
+                        <button type="button" class="btn btn_shop btnin1">Go to Google Play &nbsp;<i
+                                class="glyphicon glyphicon-menu-right"></i></button>
+                    </div>
+                </div>
+                <div class="row"
+                    style="height: 700px; background-image: url(https://www.lego.com/cdn/cs/set/assets/blt9da9aab882fdbe78/12_Tall_D.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                    <div class="text_container2" style="margin-top: 1.5%;">
+                        <h2 style="font-size: 37;">Celebrate 20 years of magic!</h2>
+                        <p style="font-size: 17px;">We’re looking for a magnificently magical creative build that
+                            celebrates everything you love about LEGO® Harry Potter™. Join the contest today!</p>
+                    </div>
+                </div>
+                <!-- end credit -->
+                <div class="row" style="padding-top: 2%; padding-left: 10%; padding-right: 10%; padding-bottom: 8%;">
+                    <img src="https://www.lego.com/cdn/cs/set/assets/bltd6584fb614775329/harrypotterlegalline_1920_240.jpg?fit=crop&format=webply&quality=80&width=1600&height=200&dpr=1"
+                        style="width: 100%; height: 100%;" alt="credit">
+                </div>
+            </div>
+        </div>
+
+
+
+        <script>
+            function play_video() {
+
+                var but = document.getElementById("myBut");
+                but.classList.add("show");
+
+                var popup = document.getElementById("myPopup");
+                popup.classList.add("show");
+                popup.autoplay = true;
+                popup.load();
+
+                var b = document.getElementById("back");
+                b.classList.add("back");
+
+                var body = document.getElementById("body");
+                body.style.overflow = "hidden";
+
+            }
+
+            function close_video() {
+
+                var but = document.getElementById("myBut");
+                but.classList.remove("show");
+
+                var popup = document.getElementById("myPopup");
+                popup.classList.remove("show");
+                popup.pause();
+                popup.currentTime = 0;
+
+                var b = document.getElementById("back");
+                b.classList.remove("back");
+
+                var body = document.getElementById("body");
+                body.style.overflow = "auto";
+
+            }
+
+            // stop auto slide
+            $('.carousel').carousel({
+                interval: false,
+            });
+
+            // video slide
+            $(window).scroll(function () {
+                $("#myPopup").stop().animate({ "marginTop": ($(window).scrollTop()) + 240 + "px", "marginLeft": ($(window).scrollLeft()) + 320 + "px" }, "fast");
+            });
+            var totaltext = "";
+            for (var i = 0; i < 100; i++) {
+                totaltext += "scroll!<br />";
+            }
+            $("#div2").html(totaltext);
+
+
+        </script>
+
+</body>
+
+</html>

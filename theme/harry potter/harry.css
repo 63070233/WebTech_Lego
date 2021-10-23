@@ -1,0 +1,212 @@
+/* -- video -- */
+.play_video:hover {
+    cursor: pointer;
+}
+
+.vpop {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    width: 63%;
+    margin: 15% 20%;
+  }
+
+.show {
+    display: block;
+    opacity: 100%;
+  }
+
+.show:hover {
+    cursor: pointer;
+}
+
+/* -- video button -- */
+.but {
+    position: absolute;
+    display: none;
+    margin: 10% 80%;
+    z-index: 11;
+    font-size: 180%;
+    color: white;
+}
+
+.but:hover {
+    color: white;
+}
+
+/* -- video background -- */
+.back {
+    background-color: black;
+    opacity: 50%;
+    width: 100000;
+    height: 100000;
+    left: -100%;
+    z-index: 3;
+    position: absolute;
+}
+
+.hidden {
+    overflow-x: hidden;
+}
+
+
+/* -- main content --*/
+
+/* -- button -- */
+.btn_shop {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    margin-left: 45%;
+    padding: 0.5% 1.5%;
+}
+
+.btn_shop:hover {
+    color: white;
+    background-color: black;
+}
+
+.glyphicon {
+    padding-top: 2%;
+}
+
+.text_container0 {
+
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    margin-left: 6%;
+    padding-top: 9%;
+    padding-right: 65%;
+}
+
+.text_container1 {
+    position: absolute;
+    color: white;
+    text-align: left;
+    width: 93%;
+    margin-top: 13%;
+    margin-left: 8%;
+    padding-right: 60%;
+}
+
+.text_container2 {
+    color: white;
+    text-align: right;
+    height: 100%;
+    text-align: right;
+    width: 93%;
+    padding-top: 15%;
+    padding-left: 60%;
+    display: inline-block;
+}
+
+
+/* -- carousel --*/
+
+.carousel .item {
+    width: 100%;
+    height: 100%;
+}
+
+
+.text_container {
+    position: absolute;
+    color: white;
+    text-align: right;
+    width: 93%;
+    margin-top: 13%;
+    padding-left: 60%;
+}
+
+
+.btnin {
+    padding: 1.5% 3%;
+}
+
+.btnin1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* -- carousel button -- */
+.btn_caro {
+    position: absolute;
+    padding: 5px 5px 7px 5px;
+    border-radius: 50%;
+    font-size: 23px;
+    color: white;
+    background-color: #3b3b3b;
+    opacity: 80%;
+}
+
+.btn_caro:hover {
+    color: #535353;
+    background-color: #e0e0e0;
+}
+
+.btn_caro:focus {
+    color: #535353;;
+}
+
+.caro_left {
+    left: 1%;
+    bottom: 49%;
+}
+
+.caro_right {
+    right: 1%;
+    bottom: 49%;
+}
+
+/* -- indicator -- */
+
+.carousel-indicators {
+    bottom: 5;
+}
+
+ol.carousel-indicators li {
+    padding: 0px;
+    background-color: white;
+    border: none;
+    opacity: 80%;
+}
+
+ol.carousel-indicators li.active {
+    padding: 0px;
+    background: rgb(36, 36, 36);
+    animation-name: activate;
+    animation-duration: 0.3s;
+  }
+
+@keyframes activate {
+    0% {background-color: white;}
+    50% {background-color: #4a4a4a;}
+    100% {background: rgb(36, 36, 36);}
+}
+
+.Indicators {
+    animation-name: deactivate;
+    animation-duration: 0.3s;
+}
+
+@keyframes deactivate {
+    0% {background-color: rgb(36, 36, 36);}
+    50% {background-color: #4a4a4a;}
+    100% {background: white}
+}
+
+
+/*-- character --*/
+.text_container0 {
+
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    margin-left: 6%;
+    padding-top: 9%;
+    padding-right: 65%;
+}
