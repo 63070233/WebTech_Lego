@@ -70,6 +70,10 @@
     padding-top: 2%;
 }
 
+.glyphicon-menu-right {
+    top: 2px;
+}
+
 .text_container0 {
 
     color: white;
@@ -159,6 +163,11 @@
 .caro_right {
     right: 1%;
     bottom: 49%;
+}
+
+.carousel .glyphicon-menu-right {
+    top: 1;
+    left: 1;
 }
 
 /* -- indicator -- */
