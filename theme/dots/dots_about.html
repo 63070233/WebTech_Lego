@@ -18,360 +18,387 @@
 
     <link rel="stylesheet" href="dots.css" media="screen">
 
+
 </head>
 
 <body id="body">
 
     <div class="container-fluid" style="width: 1600px;">
-        <!-- video content -->
-        <video
-            src="https://videoprocessingpipeline.services.lego.com/assets/7c777691-085b-451e-81ba-8d68cb7a96f3/1a919b53-9fbb-41f2-b84c-ad2b00b90cf9/1080p.mp4"
-            preload="auto" controls id="myPopup1" class="vpop" style="width: 55%;"></video>
-        <video
-            src="https://videoprocessingpipeline.services.lego.com/assets/8c8f2ee8-fb80-475c-8283-5709c7ebbcb9/e3845494-de8b-4651-bba7-ad2b00ab960d/1080p.mp4"
-            preload="auto" controls id="myPopup2" class="vpop" style="width: 55%;"></video>
-        <video
-            src="https://videoprocessingpipeline.services.lego.com/assets/60e0c680-3fcf-4324-ace8-a73a869e5785/93540975-c16d-4715-91de-ac7800b15b32/1080p.mp4"
-            preload="auto" controls id="myPopup3" class="vpop" style="width: 55%;"></video>
-        <button id="myBut" class="btn but glyphicon glyphicon-remove" onclick="close_video()"></button>
-        <!-- video background-->
-        <div id="back" onclick="close_video()"></div>
 
 
-        <!-- header content -->
-        <div class="row">
-            <img src="https://www.lego.com/cdn/cs/set/assets/blt10a867836ad65eb8/01_hero_tall_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
-                width="100%" alt="title">
-        </div>
+        <div class="container-fluid" style="width: 1600px; position: absolute;">
+            <!-- video content -->
+            <video
+                src="https://videoprocessingpipeline.services.lego.com/assets/7c777691-085b-451e-81ba-8d68cb7a96f3/1a919b53-9fbb-41f2-b84c-ad2b00b90cf9/1080p.mp4"
+                preload="auto" controls id="myPopup1" class="vpop" style="width: 55%;"></video>
+            <video
+                src="https://videoprocessingpipeline.services.lego.com/assets/8c8f2ee8-fb80-475c-8283-5709c7ebbcb9/e3845494-de8b-4651-bba7-ad2b00ab960d/1080p.mp4"
+                preload="auto" controls id="myPopup2" class="vpop" style="width: 55%;"></video>
+            <video
+                src="https://videoprocessingpipeline.services.lego.com/assets/60e0c680-3fcf-4324-ace8-a73a869e5785/93540975-c16d-4715-91de-ac7800b15b32/1080p.mp4"
+                preload="auto" controls id="myPopup3" class="vpop" style="width: 55%;"></video>
+            <button id="myBut" class="btn but glyphicon glyphicon-remove" onclick="close_video()"></button>
+            <!-- video background-->
+            <div id="back" onclick="close_video()"></div>
 
-        <!-- sub -->
-        <div class="row" style="margin-left: 26%; margin-top: 2.5%;">
-            <div class="nav_con">
-                <a href="">
-                    <div class="container" style="width: 110px;">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt67b31c5056a45e14/Meet_DOT.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
-                            alt="Meet DOTS">
-                        <p style="font-size: 12px; padding-top: 13px;"> Meet DOTS </p>
-                    </div>
-                </a>
-            </div>
-            <div class="nav_con">
-                <a href="">
-                    <div class="container" style="width: 110px;">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt1e90096ab141187c/02_quicklink_howtodot.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
-                            alt="How to Dot">
-                        <p style="font-size: 12px; padding-top: 13px;"> How to Dot </p>
-                    </div>
-                </a>
-            </div>
-            <div class="nav_con">
-                <a href="">
-                    <div class="container" style="width: 110px;">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/bltd2ee7931e3e4f64d/02_quicklink_getinspired.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
-                            alt="Get Inspired">
-                        <p style="font-size: 12px; padding-top: 13px;"> Get Inspired </p>
-                    </div>
-                </a>
-            </div>
-            <div class="nav_con">
-                <a href="">
-                    <div class="container" style="width: 120px;">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt5a34f9df07a0845c/Kids_Arts_and_Crafts.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
-                            alt="Kids Arts and Crafts">
-                        <p style="font-size: 12px; padding-top: 13px;"> Kids Arts and Crafts </p>
-                    </div>
-                </a>
-            </div>
-            <div class="nav_con">
-                <a href="">
-                    <div class="container" style="width: 130px;">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt7532d21f266cdf2b/Desk_accessories.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
-                            alt="Desk Accessories">
-                        <p style="font-size: 12px; padding-top: 13px;"> Desk Accessories </p>
-                    </div>
-                </a>
-            </div>
-            <div class="nav_con">
-                <a href="">
-                    <div class="container" style="width: 130px;">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/bltf3fa89d3b7e4168f/Children_s_bracelets.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
-                            alt="Children’s Bracelets">
-                        <p style="font-size: 12px; padding-top: 13px;"> Children’s Bracelets </p>
-                    </div>
-                </a>
-            </div>
-        </div>
 
-        <div class="container-fluid"
-            style="margin-left: -15; height: 700px; width: 1600px; background-image: url(https://www.lego.com/cdn/cs/set/assets/bltd72cdcd853e673e3/Hero_Tall_Desktop_02.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
-            <div class="text_container">
-                <h2 style="font-size: 37;">Create your LEGO® DOTS world!</h2>
-                <p style="font-size: 16;">Share a world full of creativity and self-expression with LEGO® DOTS craft
-                    kits. Kids can design and decorate their own unique bracelets and assemble and decorate a range of
-                    useful desk accessories for their rooms. The creative possibilities are endless with these clever
-                    arts-and-crafts sets. Boys and girls can give their imagination free rein and express themselves any
-                    way they wish. These kits are perfect for those who love being creative ¬ both for short or longer
-                    periods of time.</p>
+            <!-- header content -->
+            <div class="row">
+                <img src="https://www.lego.com/cdn/cs/set/assets/blt10a867836ad65eb8/01_hero_tall_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
+                    width="100%" alt="title">
             </div>
-        </div>
 
-        <!-- main content -->
-        <div class="row" style="height: 600px;">
-            <div class="col" style="background-color: #ff9dcc;">
-                <div class="text_container">
-                    <h2>One for the experts…</h2>
-                    <p>Take your arts and craft skills to the next level! Get a sense of the endless artistic
-                        possibilities of the new LEGO® DOTS Creative Designer Box, as shown off by our fabulous set
-                        designers Chiara and Frédéric – as well as artist Rachel Burke!</p>
+            <!-- sub -->
+            <div class="row" style="margin-left: 26%; margin-top: 2.5%;">
+                <div class="nav_con">
+                    <a href="">
+                        <div class="container" style="width: 110px;">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/blt67b31c5056a45e14/Meet_DOT.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
+                                alt="Meet DOTS">
+                            <p style="font-size: 12px; padding-top: 13px;"> Meet DOTS </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_con">
+                    <a href="">
+                        <div class="container" style="width: 110px;">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/blt1e90096ab141187c/02_quicklink_howtodot.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
+                                alt="How to Dot">
+                            <p style="font-size: 12px; padding-top: 13px;"> How to Dot </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_con">
+                    <a href="">
+                        <div class="container" style="width: 110px;">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/bltd2ee7931e3e4f64d/02_quicklink_getinspired.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
+                                alt="Get Inspired">
+                            <p style="font-size: 12px; padding-top: 13px;"> Get Inspired </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_con">
+                    <a href="">
+                        <div class="container" style="width: 120px;">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/blt5a34f9df07a0845c/Kids_Arts_and_Crafts.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
+                                alt="Kids Arts and Crafts">
+                            <p style="font-size: 12px; padding-top: 13px;"> Kids Arts and Crafts </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_con">
+                    <a href="">
+                        <div class="container" style="width: 130px;">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/blt7532d21f266cdf2b/Desk_accessories.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
+                                alt="Desk Accessories">
+                            <p style="font-size: 12px; padding-top: 13px;"> Desk Accessories </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_con">
+                    <a href="">
+                        <div class="container" style="width: 130px;">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/bltf3fa89d3b7e4168f/Children_s_bracelets.png?fit=crop&format=webply&quality=80&width=80&height=65&dpr=1"
+                                alt="Children’s Bracelets">
+                            <p style="font-size: 12px; padding-top: 13px;"> Children’s Bracelets </p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <!-- video container -->
-            <div class="col"
-                style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt51ca97883a184e13/Designers.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1);">
-                <a onclick="play_video1()" class="vdo-player"><img
-                        src="https://www.lego.com/_build/public/play-2ac991a542ce4352b7c0fa77539482be.svg"
-                        alt="play"></a>
-            </div>
-        </div>
-        <div class="row" style="height: 600px;">
-            <!-- video container -->
-            <div class="col"
-                style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt24e1ab4e8579be52/Rockets.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1);">
-                <a onclick="play_video2()" class="vdo-player"><img
-                        src="https://www.lego.com/_build/public/play-2ac991a542ce4352b7c0fa77539482be.svg"
-                        alt="play"></a>
-            </div>
-            <div class="col" style="background-color: #52a2c7;">
-                <div class="text_container" style="width: 72%;">
-                    <h2>Ready for take off?</h2>
-                    <p>Join our very own design gurus Diego and Fiorella as they imprint their unique creativity on our
-                        new, rocket-themed LEGO® DOTS Pencil Holder! After seeing how our official designers take on the
-                        creative challenge of LEGO DOTS, how do you think you would do it differently?</p>
+
+            <div class="container-fluid"
+                style="margin-left: -15; height: 700px; width: 1600px; background-image: url(https://www.lego.com/cdn/cs/set/assets/bltd72cdcd853e673e3/Hero_Tall_Desktop_02.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                <div class="text_container">
+                    <h2 style="font-size: 37;">Create your LEGO® DOTS world!</h2>
+                    <p style="font-size: 16;">Share a world full of creativity and self-expression with LEGO® DOTS craft
+                        kits. Kids can design and decorate their own unique bracelets and assemble and decorate a range
+                        of
+                        useful desk accessories for their rooms. The creative possibilities are endless with these
+                        clever
+                        arts-and-crafts sets. Boys and girls can give their imagination free rein and express themselves
+                        any
+                        way they wish. These kits are perfect for those who love being creative ¬ both for short or
+                        longer
+                        periods of time.</p>
                 </div>
             </div>
-        </div>
-        <div class="row" style="height: 600px;">
-            <div class="col" style="background-color: white;">
-                <div class="text_container">
-                    <h2>Tag your things with a bold, colorful unicorn</h2>
-                    <p>Unicorn fans, add a sassy pal to your outfit or bag and show off your style! Design your magical
-                        dream unicorn and have it hold your keys or wear it anywhere you like. Change the design to
-                        reflect your mood or fashion!</p>
-                    <button type="button" class="btn btn_shop">Shop now &nbsp;<i
+
+            <!-- main content -->
+            <div class="row" style="height: 600px;">
+                <div class="col" style="background-color: #ff9dcc;">
+                    <div class="text_container">
+                        <h2>One for the experts…</h2>
+                        <p>Take your arts and craft skills to the next level! Get a sense of the endless artistic
+                            possibilities of the new LEGO® DOTS Creative Designer Box, as shown off by our fabulous set
+                            designers Chiara and Frédéric – as well as artist Rachel Burke!</p>
+                    </div>
+                </div>
+                <!-- video container -->
+                <div class="col"
+                    style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt51ca97883a184e13/Designers.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1);">
+                    <a onclick="play_video1()" class="vdo-player"><img
+                            src="https://www.lego.com/_build/public/play-2ac991a542ce4352b7c0fa77539482be.svg"
+                            alt="play"></a>
+                </div>
+            </div>
+            <div class="row" style="height: 600px;">
+                <!-- video container -->
+                <div class="col"
+                    style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt24e1ab4e8579be52/Rockets.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1);">
+                    <a onclick="play_video2()" class="vdo-player"><img
+                            src="https://www.lego.com/_build/public/play-2ac991a542ce4352b7c0fa77539482be.svg"
+                            alt="play"></a>
+                </div>
+                <div class="col" style="background-color: #52a2c7;">
+                    <div class="text_container" style="width: 72%;">
+                        <h2>Ready for take off?</h2>
+                        <p>Join our very own design gurus Diego and Fiorella as they imprint their unique creativity on
+                            our
+                            new, rocket-themed LEGO® DOTS Pencil Holder! After seeing how our official designers take on
+                            the
+                            creative challenge of LEGO DOTS, how do you think you would do it differently?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="height: 600px;">
+                <div class="col" style="background-color: white;">
+                    <div class="text_container">
+                        <h2>Tag your things with a bold, colorful unicorn</h2>
+                        <p>Unicorn fans, add a sassy pal to your outfit or bag and show off your style! Design your
+                            magical
+                            dream unicorn and have it hold your keys or wear it anywhere you like. Change the design to
+                            reflect your mood or fashion!</p>
+                        <button type="button" class="btn btn_shop">Shop now &nbsp;<i
+                                class="glyphicon glyphicon-menu-right"></i></button>
+                    </div>
+                </div>
+                <div class="col"
+                    style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt7dc26a9687ef7607/DOTS_41940_Sidekick_tall.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1);">
+                </div>
+            </div>
+            <div class="row" style="height: 600px;">
+                <div class="col"
+                    style="background-image: url(https://www.lego.com/cdn/cs/set/assets/bltf691c575d2bd2056/DOTS_41939_Sidekick_tall.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1);">
+                </div>
+                <div class="col" style="background-color: white;">
+                    <div class="text_container" style="width: 72%;">
+                        <h2>Tag your stuff with a fierce guardian</h2>
+                        <p>You can decorate this cool tag and create a unique dragon of your own! Use it to guard your
+                            keys,
+                            bag, jacket or whatever. You can change the design and the dragon’s expression any time and
+                            show
+                            off another side of you!</p>
+                        <button type="button" class="btn btn_shop">Shop now &nbsp;<i
+                                class="glyphicon glyphicon-menu-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="height: 500px;">
+                <img
+                    src="https://www.lego.com/cdn/cs/set/assets/blt091c73ac7702de6e/3-desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=500&dpr=1">
+            </div>
+
+            <!-- recommend product -->
+            <div row style="height: 100px;"></div>
+
+            <div class="row" style="height: 500px;">
+                <video autoplay muted loop id="myVideo">
+                    <source id="myVideo"
+                        src="https://www.lego.com/cdn/cs/set/assets/bltb239fe0d9cbe12ca/motionbanner_standard_02.mp4"
+                        type="video/mp4">
+                </video>
+                <div class="text_container"
+                    style="position: absolute; text-align: right; color: black; margin: 6% 57%; width: 35%;">
+                    <h2 style="font-size: 37px;">Check this out – Once you<br> start, it’s hard to stop!</h2>
+                    <p style="font-size: 18px; padding-bottom: 2%;">Click here to see just how much fun LEGO® DOTS
+                        creativity can be. Choose a bracelet and get started!
+                        Add tiles, create a pattern,<br> then remove the tiles and make something new.</p>
+                    <button type="button" class="btn btn_shop">Try it now &nbsp;<i
                             class="glyphicon glyphicon-menu-right"></i></button>
                 </div>
+                <button class="btn pause_btn" id="myBtn" onclick="pauseplay()"><i id="btn_icon"
+                        class="glyphicon glyphicon-pause"></i></button>
             </div>
-            <div class="col"
-                style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt7dc26a9687ef7607/DOTS_41940_Sidekick_tall.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1);">
-            </div>
-        </div>
-        <div class="row" style="height: 600px;">
-            <div class="col"
-                style="background-image: url(https://www.lego.com/cdn/cs/set/assets/bltf691c575d2bd2056/DOTS_41939_Sidekick_tall.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1);">
-            </div>
-            <div class="col" style="background-color: white;">
-                <div class="text_container" style="width: 72%;">
-                    <h2>Tag your stuff with a fierce guardian</h2>
-                    <p>You can decorate this cool tag and create a unique dragon of your own! Use it to guard your keys,
-                        bag, jacket or whatever. You can change the design and the dragon’s expression any time and show
-                        off another side of you!</p>
-                    <button type="button" class="btn btn_shop">Shop now &nbsp;<i
-                            class="glyphicon glyphicon-menu-right"></i></button>
+
+            <div class="row" style="height: 600px;">
+                <div class="col" style="background-color: white;">
+                    <div class="text_container">
+                        <h2>Make it, Give it!</h2>
+                        <p>LEGO® DOTS arts and crafts sets make great personalized, unique gifts for any gift-giving
+                            occasion!</p>
+                        <button type="button" class="btn btn_shop">Learn more &nbsp;<i
+                                class="glyphicon glyphicon-menu-right"></i></button>
+                    </div>
+                </div>
+                <div class="col"
+                    style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt8c0eafd962856035/5-sidekick.jpg?fit=crop&amp;format=jpg&amp;quality=80&amp;width=800&amp;height=600&amp;dpr=1);">
                 </div>
             </div>
-        </div>
 
-        <div class="row" style="height: 500px;">
-            <img
-                src="https://www.lego.com/cdn/cs/set/assets/blt091c73ac7702de6e/3-desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=500&dpr=1">
-        </div>
-
-        <!-- recommend product -->
-        <div row style="height: 100px;"></div>
-
-        <div class="row" style="height: 500px;">
-            <video autoplay muted loop id="myVideo">
-                <source id="myVideo"
-                    src="https://www.lego.com/cdn/cs/set/assets/bltb239fe0d9cbe12ca/motionbanner_standard_02.mp4"
-                    type="video/mp4">
-            </video>
-            <div class="text_container"
-                style="position: absolute; text-align: right; margin: 5% 48.5%; padding-left: 1.23%;">
-                <h2 style="font-size: 37px;">Check this out – Once you start, it’s hard to stop!</h2>
-                <p style="font-size: 18px; padding-bottom: 2%;">Click here to see just how much fun LEGO® DOTS
-                    creativity can be. Choose a bracelet and get started!
-                    Add tiles, create a pattern, <br>then remove the tiles and make something new.</p>
-                <button type="button" class="btn btn_shop">Try it now &nbsp;<i
-                        class="glyphicon glyphicon-menu-right"></i></button>
+            <!-- video container -->
+            <div class="row"
+                style="height: 700px; background-image: url(https://www.lego.com/cdn/cs/set/assets/blt28967725fb50c6dd/06_hero_tall_videothumbnail_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
+                <div class="col">
+                    <a onclick="play_video3()" class="vdo-player" style="left: 47.75%;"><img
+                            src="https://www.lego.com/_build/public/play-2ac991a542ce4352b7c0fa77539482be.svg"
+                            alt="play"></a>
+                </div>
             </div>
-            <button class="btn pause_btn" id="myBtn" onclick="pauseplay()"><i id="btn_icon"
-                    class="glyphicon glyphicon-pause"></i></button>
-        </div>
 
-        <div class="row" style="height: 600px;">
-            <div class="col" style="background-color: white;">
-                <div class="text_container">
-                    <h2>Make it, Give it!</h2>
-                    <p>LEGO® DOTS arts and crafts sets make great personalized, unique gifts for any gift-giving
-                        occasion!</p>
+            <div class="row h-inner" style="margin-top: 2.5%; margin-bottom: 2.5%; height: 700px; padding: 0 2%;">
+                <img src="https://www.lego.com/cdn/cs/set/assets/blt69f973c289fa45ac/7-desktop.jpg?fit=crop&format=jpg&quality=80&width=1600&height=700&dpr=1"
+                    style="width: 100%;">
+                <div class="text_container" style="position: absolute; margin-top: 10%; margin-left: 32%; width: 32%;">
+                    <h2 style="font-size: 37;">Playing the LEGO® DOTS way!</h2>
+                    <p style="font-size: 18;">Fast, easy, bite-sized play! Click the button to see the steps for making
+                        a
+                        one-of-a-kind bracelet or useful desk accessory piece. Quick, enjoyable arts-and-crafts project
+                        that
+                        give kids an immediate sense of accomplishment and pride in what they’ve made. Then they can do
+                        it
+                        over and over. From bracelets to the plates to the LEGO® DOTS tiles, they fit together in a
+                        snap!
+                    </p>
                     <button type="button" class="btn btn_shop">Learn more &nbsp;<i
                             class="glyphicon glyphicon-menu-right"></i></button>
                 </div>
             </div>
-            <div class="col"
-                style="background-image: url(https://www.lego.com/cdn/cs/set/assets/blt8c0eafd962856035/5-sidekick.jpg?fit=crop&amp;format=jpg&amp;quality=80&amp;width=800&amp;height=600&amp;dpr=1);">
-            </div>
-        </div>
 
-        <!-- video container -->
-        <div class="row"
-            style="height: 700px; background-image: url(https://www.lego.com/cdn/cs/set/assets/blt28967725fb50c6dd/06_hero_tall_videothumbnail_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1);">
-            <div class="col">
-                <a onclick="play_video3()" class="vdo-player" style="left: 47.75%;"><img
-                        src="https://www.lego.com/_build/public/play-2ac991a542ce4352b7c0fa77539482be.svg"
-                        alt="play"></a>
+            <div class="row h-inner" style="margin-top: 4%; margin-bottom: 2.5%; height: 700px; padding: 0 2%;">
+                <img src="https://www.lego.com/cdn/cs/set/assets/blt366871e249e30d36/Hero_Tall_Desktop_07.jpg?fit=crop&format=jpg&quality=80&width=1600&height=700&dpr=1"
+                    style="width: 100%;">
+                <div class="text_container"
+                    style="position: absolute; color: black; margin-top: 15%; margin-left: 32%; width: 32%;">
+                    <h2 style="font-size: 37;">More than just cool toys</h2>
+                    <p style="font-size: 18;">There are loads of benefits when kids get creative at home with LEGO® DOTS
+                        craft sets. From building confidence in their own design skills, to the joy of evolving
+                        creativity,
+                        DOTS desk accessories and bracelet sets let boys and girls explore the freedom and possibilities
+                        of
+                        imaginative play!
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div class="row h-inner" style="margin-top: 2.5%; margin-bottom: 2.5%; height: 700px;">
-            <img src="https://www.lego.com/cdn/cs/set/assets/blt69f973c289fa45ac/7-desktop.jpg?fit=crop&format=jpg&quality=80&width=1600&height=700&dpr=1"
-                style="width: 100%;">
-            <div class="text_container" style="position: absolute;">
-                <h2 style="font-size: 37;">Playing the LEGO® DOTS way!</h2>
-                <p style="font-size: 18;">Fast, easy, bite-sized play! Click the button to see the steps for making a
-                    one-of-a-kind bracelet or useful desk accessory piece. Quick, enjoyable arts-and-crafts project that
-                    give kids an immediate sense of accomplishment and pride in what they’ve made. Then they can do it
-                    over and over. From bracelets to the plates to the LEGO® DOTS tiles, they fit together in a snap!
-                </p>
-                <button type="button" class="btn btn_shop">Learn more &nbsp;<i
-                        class="glyphicon glyphicon-menu-right"></i></button>
+            <div class="row" style="height: 600px;">
+                <div class="col"
+                    style="background-image: url(https://www.lego.com/cdn/cs/set/assets/bltc45c753dd101e980/9-sidekick.jpg?fit=crop&amp;format=jpg&amp;quality=80&amp;width=800&amp;height=600&amp;dpr=1);">
+                </div>
+                <div class="col" style="background-color: white;">
+                    <div class="text_container" style="width: 72%; margin-top: 20%;">
+                        <h2>Express yourself with LEGO® DOTS sets!</h2>
+                        <p>Creative LEGO® DOTS crafts sets give kids unlimited opportunities to express every and any
+                            side
+                            of their personality. From cool bracelets that range from cute and colorful to bold,
+                            empowering
+                            and adventurous, to desk accessories that can match a child’s room decor and be redecorated
+                            at
+                            any time, to fit any mood or style they like. DOTS arts-and-crafts kits let children stretch
+                            their imagination and have fun with self-expression, encouraging them to take chances and
+                            try
+                            something new while expressing their feelings through free, playful creativity.</p>
+                        <button type="button" class="btn btn_shop">Shop now &nbsp;<i
+                                class="glyphicon glyphicon-menu-right"></i></button>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="row h-inner" style="margin-top: 4%; margin-bottom: 2.5%; height: 700px;">
-            <img src="https://www.lego.com/cdn/cs/set/assets/blt366871e249e30d36/Hero_Tall_Desktop_07.jpg?fit=crop&format=jpg&quality=80&width=1600&height=700&dpr=1"
-                style="width: 100%;">
-            <div class="text_container" style="position: absolute; color: black; margin: 12% 29%;">
-                <h2 style="font-size: 37;">More than just cool toys</h2>
-                <p style="font-size: 18;">There are loads of benefits when kids get creative at home with LEGO® DOTS
-                    craft sets. From building confidence in their own design skills, to the joy of evolving creativity,
-                    DOTS desk accessories and bracelet sets let boys and girls explore the freedom and possibilities of
-                    imaginative play!
-                </p>
-            </div>
-        </div>
-
-        <div class="row" style="height: 600px;">
-            <div class="col"
-                style="background-image: url(https://www.lego.com/cdn/cs/set/assets/bltc45c753dd101e980/9-sidekick.jpg?fit=crop&amp;format=jpg&amp;quality=80&amp;width=800&amp;height=600&amp;dpr=1);">
-            </div>
-            <div class="col" style="background-color: white;">
-                <div class="text_container" style="width: 72%; margin-top: 20%;">
-                    <h2>Express yourself with LEGO® DOTS sets!</h2>
-                    <p>Creative LEGO® DOTS crafts sets give kids unlimited opportunities to express every and any side
-                        of their personality. From cool bracelets that range from cute and colorful to bold, empowering
-                        and adventurous, to desk accessories that can match a child’s room decor and be redecorated at
-                        any time, to fit any mood or style they like. DOTS arts-and-crafts kits let children stretch
-                        their imagination and have fun with self-expression, encouraging them to take chances and try
-                        something new while expressing their feelings through free, playful creativity.</p>
-                    <button type="button" class="btn btn_shop">Shop now &nbsp;<i
+            <div class="row h-inner" style="height: 700px;">
+                <img src="https://www.lego.com/cdn/cs/set/assets/bltcc63b37e5d0ce295/09_hero_tall_txtBG_desktop.jpg?fit=crop&format=jpg&quality=80&width=1600&height=700&dpr=1"
+                    style="width: 100%;">
+                <div class="text_container" style="position: absolute; margin-top: 13%;">
+                    <h2 style="font-size: 37;">Set your inner creativity free!</h2>
+                    <p style="font-size: 18;">LEGO® DOTS arts-and-crafts sets let kids design the way they want! Check
+                        it
+                        out – select a bracelet and create your own style.
+                    </p>
+                    <button type="button" class="btn btn_shop">Learn more &nbsp;<i
                             class="glyphicon glyphicon-menu-right"></i></button>
                 </div>
             </div>
-        </div>
 
-        <div class="row h-inner" style="height: 700px;">
-            <img src="https://www.lego.com/cdn/cs/set/assets/bltcc63b37e5d0ce295/09_hero_tall_txtBG_desktop.jpg?fit=crop&format=jpg&quality=80&width=1600&height=700&dpr=1"
-                style="width: 100%;">
-            <div class="text_container" style="position: absolute; margin-top: 13%;">
-                <h2 style="font-size: 37;">Set your inner creativity free!</h2>
-                <p style="font-size: 18;">LEGO® DOTS arts-and-crafts sets let kids design the way they want! Check it
-                    out – select a bracelet and create your own style.
-                </p>
-                <button type="button" class="btn btn_shop">Learn more &nbsp;<i
-                        class="glyphicon glyphicon-menu-right"></i></button>
-            </div>
-        </div>
+            <!-- slide album -->
+            <div class="row" style="height: 700px;">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel3" data-slide-to="0" class="active Indicators"></li>&nbsp;
+                        <li data-target="#myCarousel3" data-slide-to="1" class="Indicators"></li>&nbsp;
+                        <li data-target="#myCarousel3" data-slide-to="2" class="Indicators"></li>&nbsp;
+                        <li data-target="#myCarousel3" data-slide-to="3" class="Indicators"></li>
+                    </ol>
 
-        <!-- slide album -->
-        <div class="row" style="height: 700px;">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel3" data-slide-to="0" class="active Indicators"></li>&nbsp;
-                    <li data-target="#myCarousel3" data-slide-to="1" class="Indicators"></li>&nbsp;
-                    <li data-target="#myCarousel3" data-slide-to="2" class="Indicators"></li>&nbsp;
-                    <li data-target="#myCarousel3" data-slide-to="3" class="Indicators"></li>
-                </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/blt36da5eb10ec063b7/10_hero_tall_howtocarousel_slide1_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
+                                style="width:100%;">
+                            <div class="text_container">
+                                <h2 style="font-size: 37;">Start with a canvas</h2>
+                                <p style="font-size: 18;">The bracelets or room decor plates are easy to lay out, then
+                                    the
+                                    included patterns can be used to jump-start your child’s creativity.
+                                </p>
+                            </div>
+                        </div>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt36da5eb10ec063b7/10_hero_tall_howtocarousel_slide1_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
-                            style="width:100%;">
-                        <div class="text_container">
-                            <h2 style="font-size: 37;">Start with a canvas</h2>
-                            <p style="font-size: 18;">The bracelets or room decor plates are easy to lay out, then the
-                                included patterns can be used to jump-start your child’s creativity.
-                            </p>
+                        <div class="item">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/blt6c497ca61c6f318a/10_hero_tall_howtocarousel_slide2_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
+                                style="width:100%;">
+                            <div class="text_container">
+                                <h2 style="font-size: 37;">Grab some tiles (called DOTS)</h2>
+                                <p style="font-size: 18;">They come in loads of cool, funky and bold colors, with
+                                    decorated
+                                    tiles and special tile shapes and styles to reflect your child’s taste or mood.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/blt8c01b2ac5e60e6dd/10_hero_tall_howtocarousel_slide3_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
+                                style="width:100%;">
+                            <div class="text_container">
+                                <h2 style="font-size: 37;">Design!</h2>
+                                <p style="font-size: 18;">Kids can choose to follow the included patterns in the
+                                    packaging
+                                    or come up with something completely new. There’s no wrong way to design!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://www.lego.com/cdn/cs/set/assets/blte750876df6a4401c/10_hero_tall_howtocarousel_slide4_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
+                                style="width:100%;">
+                            <div class="text_container">
+                                <h2 style="font-size: 37;">Keep creating!</h2>
+                                <p style="font-size: 18;">Kids can show off their cool designs, share with friends, then
+                                    switch them up any time they like. There are no limits!
+                                </p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="item">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt6c497ca61c6f318a/10_hero_tall_howtocarousel_slide2_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
-                            style="width:100%;">
-                        <div class="text_container">
-                            <h2 style="font-size: 37;">Grab some tiles (called DOTS)</h2>
-                            <p style="font-size: 18;">They come in loads of cool, funky and bold colors, with decorated
-                                tiles and special tile shapes and styles to reflect your child’s taste or mood.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt8c01b2ac5e60e6dd/10_hero_tall_howtocarousel_slide3_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
-                            style="width:100%;">
-                        <div class="text_container">
-                            <h2 style="font-size: 37;">Design!</h2>
-                            <p style="font-size: 18;">Kids can choose to follow the included patterns in the packaging
-                                or come up with something completely new. There’s no wrong way to design!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blte750876df6a4401c/10_hero_tall_howtocarousel_slide4_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1"
-                            style="width:100%;">
-                        <div class="text_container">
-                            <h2 style="font-size: 37;">Keep creating!</h2>
-                            <p style="font-size: 18;">Kids can show off their cool designs, share with friends, then
-                                switch them up any time they like. There are no limits!
-                            </p>
-                        </div>
-                    </div>
+                    <!-- Left and right controls -->
+                    <a class="btn_caro caro_left" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-menu-left"></span>
+                    </a>
+                    <a class="btn_caro caro_right" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </a>
                 </div>
+            </div>
 
-                <!-- Left and right controls -->
-                <a class="btn_caro caro_left" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-menu-left"></span>
-                </a>
-                <a class="btn_caro caro_right" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-menu-right"></span>
-                </a>
+            <div class="row h-inner" style="height: 700px; margin-bottom: 2%;">
+                <img src="https://www.lego.com/cdn/cs/set/assets/blt8d3f61f550fe73ce/Hero_Tall_Desktop_11.jpg?fit=crop&format=jpg&quality=80&width=1600&height=700&dpr=1"
+                    style="width: 100%;">
+                <div class="text_container" style="position: absolute; color: black;">
+                    <h2 style="font-size: 37;">There are no limits here!</h2>
+                    <p style="font-size: 18;">LEGO® DOTS arts-and-crafts sets give kids limitless chances for
+                        self-expression!
+                    </p>
+                </div>
             </div>
         </div>
-
-        <div class="row h-inner" style="height: 700px; margin-bottom: 2%;">
-            <img src="https://www.lego.com/cdn/cs/set/assets/blt8d3f61f550fe73ce/Hero_Tall_Desktop_11.jpg?fit=crop&format=jpg&quality=80&width=1600&height=700&dpr=1"
-                style="width: 100%;">
-            <div class="text_container" style="position: absolute; margin: 15% 28%; color: black; width: 28%;">
-                <h2 style="font-size: 37;">There are no limits here!</h2>
-                <p style="font-size: 18;">LEGO® DOTS arts-and-crafts sets give kids limitless chances for
-                    self-expression!
-                </p>
-            </div>
-        </div>
-
-
     </div>
 
 

@@ -35,8 +35,9 @@ p {
 
 /* -- inner -- */
 .h-inner .text_container {
-    width: 27%;
-    margin: 9% 29%;
+    width: 34%;
+    margin-top: 18%;
+    margin-left: 33%;
 }
 
 .h-inner .btn {
@@ -74,8 +75,9 @@ p {
     font-size: 18px;
     padding: 0.6%;
     opacity: 65%;
-    right: 9%;
-    top: 470%;
+    margin-left: 96%;
+    margin-top: 1%;
+    z-index: 5;
 }
 
 .pause_btn:focus {
