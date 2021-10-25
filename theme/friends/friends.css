@@ -1,0 +1,174 @@
+h2 {
+    font-size: 37px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.col {
+    height: 100%;
+}
+
+/* -- container -- */
+
+.sub_nav {
+    color: black;
+}
+
+.nav_con {
+    text-align: center;
+}
+
+
+.col .text_container {
+    width: 74%;
+    text-align: left;
+    margin-top: -60%;
+    margin-left: 15%;
+    color: white;
+    padding-right: 12%;
+}
+
+.text_container h2, .text_container p {
+    padding-bottom: 1%;
+}
+
+
+.right_s .text_container {
+    text-align: right;
+    width: 80%;
+    margin-top: -40%;
+    margin-left: 18%;
+    color: white;
+    padding-left: 8%;
+}
+
+
+
+/* -- button -- */
+
+.btn_w {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    padding: 2% 3%;
+}
+
+.btn_w:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn_b {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 2% 3%;
+}
+
+.btn_b:hover {
+    color: black;
+    background-color: white;
+}
+
+.glyphicon-menu-right {
+    top: 2px;
+}
+
+
+
+/* -- carousel -- */
+/* -- content -- */
+
+
+/* -- carousel button -- */
+.btn_caro {
+    position: absolute;
+    padding: 5px 5px 7px 5px;
+    border-radius: 50%;
+    font-size: 23px;
+    color: white;
+    background-color: #3b3b3b;
+    opacity: 80%;
+}
+
+.btn_caro:hover {
+    color: #535353;
+    background-color: #e0e0e0;
+}
+
+.btn_caro:focus {
+    color: #535353;;
+}
+
+.caro_left {
+    left: 1%;
+    bottom: 49%;
+}
+
+.caro_right {
+    right: 1%;
+    bottom: 49%;
+}
+
+.carousel .glyphicon-menu-right {
+    top: 1;
+    left: 1;
+}
+
+/* -- indicator -- */
+
+.carousel-indicators {
+    bottom: 5;
+}
+
+ol.carousel-indicators li {
+    padding: 0px;
+    background-color: white;
+    border: none;
+    opacity: 80%;
+}
+
+ol.carousel-indicators li.active {
+    padding: 0px;
+    background: rgb(36, 36, 36);
+    animation-name: activate;
+    animation-duration: 0.3s;
+  }
+
+@keyframes activate {
+    0% {background-color: white;}
+    50% {background-color: #4a4a4a;}
+    100% {background: rgb(36, 36, 36);}
+}
+
+.Indicators {
+    animation-name: deactivate;
+    animation-duration: 0.3s;
+}
+
+@keyframes deactivate {
+    0% {background-color: rgb(36, 36, 36);}
+    50% {background-color: #4a4a4a;}
+    100% {background: white}
+}
+
+
+
+
+@media screen and (max-width:1920px) {
+
+    #page {
+        margin-left: 8%;
+    }
+
+}
+
+@media screen and (max-width:1600px) {
+
+    #page {
+        margin-left: 0%;
+    }
+
+}
