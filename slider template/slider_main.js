@@ -29,10 +29,10 @@ const move = (e) => {
     if (slider.scrollLeft < 40) {
         document.getElementById("left").disabled = true;
     }
-    if (slider.scrollLeft != 750) {
+    if (slider.scrollLeft != 550) {
         document.getElementById("right").disabled = false;
     }
-    if (slider.scrollLeft > 750) {
+    if (slider.scrollLeft > 550) {
         document.getElementById("right").disabled = true;
     }
 }
@@ -69,10 +69,10 @@ function check() {
     if (slider.scrollLeft < 40) {
         document.getElementById("left").disabled = true;
     }
-    if (slider.scrollLeft != 750) {
+    if (slider.scrollLeft != 550) {
         document.getElementById("right").disabled = false;
     }
-    if (slider.scrollLeft > 750) {
+    if (slider.scrollLeft > 550) {
         document.getElementById("right").disabled = true;
     }
 }

@@ -1,5 +1,13 @@
 /* -- slider -- */
 
+.item h2 {
+    font-size: 18px;
+}
+
+.item h3 {
+    font-size: 16px;
+}
+
 .wrapper {
 
     padding: 0% 4% 0% 1%;
@@ -19,31 +27,36 @@
 	user-select: none;
     color: black;
     cursor: default;
+    text-align: left;
+    margin-right: 2%;
 }
 
-.sl-in {
+.item .btn {
+    background-color: rgb(255, 161, 72);
     width: 100%;
 }
 
-
-.img_mag {
-    width: 330px;
-    height: 320px;
-    object-fit: scale-down;
+.score {
+    width: 291.75;
 }
 
-.i-text {
-    top: -30;
-    position: relative;
+.score img {
+    width: 10;
 }
 
-@media screen and (min-width: 1200px) {
-	
-
-	.item {
-		width: 360px;	
-	}
+.container-img img {
+    width: 90%;
+    height: 57%;
+    margin: 5%;
 }
+
+
+.container-img {
+    width: 289.75;
+    height: 289.75;
+    border: 1px solid black;
+}
+
 
 /** -- slider button -- **/
 
