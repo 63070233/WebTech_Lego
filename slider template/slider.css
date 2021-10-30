@@ -2,15 +2,18 @@
 
 .item h2 {
     font-size: 18px;
+    font-weight: bold;
 }
 
 .item h3 {
     font-size: 16px;
+    color: black;
+    font-weight: 500;
 }
 
 .wrapper {
 
-    padding: 0% 4% 0% 1%;
+    padding: 5% 4% 0% 1%;
 	position: relative;
 	user-select: none;
 }
@@ -31,68 +34,142 @@
     margin-right: 2%;
 }
 
-.item .btn {
-    background-color: rgb(255, 161, 72);
+
+/* -- Image Container --*/
+.container-img {
+    padding-top: 5%;
     width: 100%;
-    height: 6%;
+    height: 289.75;
+    border: 1px solid black;
+    overflow: hidden;
 }
 
+.tag {
+    font-size: 12;
+}
+
+.ex-tag {
+    background-color: #ffcf00;
+    text-align: center;
+    width: 25%;
+    height: 9%;
+    margin: 3% 0 0 5%;
+    padding: 1%;
+}
+
+.new-tag {
+    background-color: #ffcf00;
+    text-align: center;
+    width: 17%;
+    height: 9%;
+    margin: 3% 0 0 5%;
+    padding: 1%;
+}
+
+/* -- wish list -- */
+.wish {
+    padding-left: 5%;
+    padding-bottom: 3%;
+    font-size: 12;
+    color: black;
+}
+
+.wish:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* -- image -- */
+.container-img img {
+    width: 90.5%;
+    height: 61%;
+    margin: 5%;
+    transition: transform .5s;
+}
+
+.container-img img:hover {
+    transform: scale(1.1);
+}
+
+
+/* -- information -- */
 .score {
-    width: 291.75;
+    width: 100%;
 }
 
 .score img {
-    width: 10;
+    width: 5%;
 }
 
-.container-img img {
-    width: 90%;
-    height: 57%;
-    margin: 5%;
+.item .btn {
+    background-color: #fd8024;
+    width: 100%;
+    height: 6%;
+    font-weight: 600;
+    border: #fd8024;
 }
 
-
-.container-img {
-    width: 289.75;
-    height: 289.75;
-    border: 1px solid black;
+.item .btn:hover {
+    background-color: white;
+    width: 100%;
+    height: 6%;
+    font-weight: 600;
+    border: 2px solid #fd8024;
 }
+
 
 
 /** -- slider button -- **/
 
 .fl-left {
-    left: 20px;
+    left: -25px;
     top: 200px;
+    padding-left: 1%;
 }
 
 .fl-right {
-    right: 65px;
+    right: 5px;
     top: 200px;
+    padding-right: 1%;
 }
 
 .fl-button {
     position: absolute;
-    background: #4a4a4a;
-    color: white;
+    background: white;
     font-size: 10px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     text-align: center;
+    border: #cccccc 1px solid;
+    animation-name: appear;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
 }
 
 .fl-button:hover {
-    background: #4a4a4a;
+    background: #cccccc;
     cursor: pointer;
 }
 
 .fl-button:disabled {
-    display: none;
+    animation-name: disappear;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes disappear {
+    0% {opacity: 100%;}
+    100% {opacity: 0%;}
 }
 
 .arrow {
-    border: solid white;
+    border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 5px;
@@ -141,6 +218,10 @@
     display: block;
     background: white;
   }
+
+#style-4 {
+    padding-bottom: 3%;
+}
 
   /** -- Additional code for scrollbar -- **/
   /* textArea = new JTextArea();
