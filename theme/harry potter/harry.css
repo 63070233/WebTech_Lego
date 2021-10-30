@@ -52,6 +52,10 @@
 
 /* -- main content --*/
 
+.sub_nav {
+    color: black;
+}
+
 /* -- button -- */
 .btn_shop {
     color: black;
@@ -130,7 +134,7 @@
 }
 
 .btnin1 {
-    width: 100%;
+    width: 190px;
     height: 100%;
 }
 
@@ -219,3 +223,4 @@ ol.carousel-indicators li.active {
     padding-top: 9%;
     padding-right: 65%;
 }
+

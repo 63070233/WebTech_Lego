@@ -15,6 +15,10 @@ p {
     text-align: center;
 }
 
+.sub_nav {
+    color: black;
+}
+
 .text_container {
     color: white;
     text-align: center;
@@ -233,4 +237,20 @@ ol.carousel-indicators li.active {
 
 .hidden {
     overflow-x: hidden;
+}
+
+@media screen and (max-width:1920px) {
+
+    #page {
+        margin-left: 8%;
+    }
+
+}
+
+@media screen and (max-width:1600px) {
+
+    #page {
+        margin-left: 0%;
+    }
+
 }
