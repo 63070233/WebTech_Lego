@@ -1,0 +1,665 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | LEGO® City | Official LEGO® Shop US </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .path {
+            font-size: 14px;
+            color: #006db7;
+            margin: 0px 10px 15px;
+        }
+
+        .top_branner {
+            background-image: url("https://www.lego.com/cdn/cs/set/assets/blte67473094960d277/city-navigation-background2.jpg?fit=crop&format=jpg&quality=80&width=1600&height=90&dpr=1");
+            width: 1525px;
+            height: 90px;
+            background-size: contain;
+        }
+
+        .btn_top {
+            height: 40px;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 2px solid white;
+            color: white;
+            margin-top: 25px;
+            margin-left: 30px;
+            padding: 0px 15px;
+        }
+
+        .content {
+            width: 1600px;
+            background-size: cover;
+        }
+
+        .box_left {
+            width: 762.5px;
+            height: 600px;
+        }
+
+        .wrap_text {
+            padding: 110px;
+            padding-top: 200px;
+            color: white;
+        }
+
+        .btn_learn {
+            position: absolute;
+            margin: 20px 10px 0px;
+            padding: 10px 15px;
+        }
+
+        /** row 8 box**/
+        .box {
+            display: inline-block;
+            text-align: center;
+            padding-right: 25px;
+        }
+
+        .submenu {
+            position: relative;
+            padding: 40px 20px;
+            left: 20%;
+        }
+
+        .p_submenu {
+            font-size: 12px;
+            margin-top: 15px;
+        }
+
+        .recom_product {
+            padding: 30px 60px 60px;
+            width: 100%;
+        }
+
+        .sub_product {
+            padding: 40px 120px;
+            width: 100%;
+        }
+
+        /** navbar **/
+        nav {
+            background-color: #ffcf00;
+            height: 1.75cm;
+        }
+
+        .hover_underline:hover {
+            text-decoration: underline;
+        }
+
+        .btn_next {
+            background-color: rgba(253, 128, 36, 255);
+            border: 2px solid rgba(253, 128, 36, 255);
+            text-align: center;
+            height: 55px;
+            width: 50px;
+            font-weight: bold;
+        }
+
+        .btn_next:hover {
+            background-color: #ffffff;
+        }
+
+        .in {
+            border: 1px solid #e0e0e0;
+            height: 55px;
+            width: 50%;
+            padding-left: 20px;
+        }
+
+        .img {
+            padding: 40px;
+        }
+
+        .bg_holiday {
+            background-color: #9ad0ce;
+        }
+
+        .img_4block {
+            width: 305px;
+            margin: 10px;
+        }
+
+        .img_2block {
+            width: 630px;
+            margin: 10px;
+        }
+
+        .info_4block {
+            text-align: center;
+            margin: 10px;
+        }
+
+        .btn_read {
+            color: black;
+        }
+
+        /** slider **/
+        /* -- navigator -- */
+
+        .navt:hover {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .navt {
+            color: white;
+        }
+
+        /* -- button -- */
+
+        .btn_lm {
+            background-color: white;
+            color: #4a4a4a;
+            font-size: 18px;
+            height: 44px;
+            width: 157.91px;
+            opacity: 87%;
+        }
+
+        .btn_faq:hover {
+            opacity: 70%;
+            color: #4a4a4a;
+        }
+
+
+        /* -- button -- */
+
+        .btn_mag {
+            background-color: #4a4a4a;
+            color: white;
+            font-size: 18px;
+            height: 55px;
+        }
+
+        .btn_mag:hover {
+            filter: brightness(150%);
+            color: white;
+        }
+
+        /* -- navigator 2 --*/
+        .ah:hover {
+            filter: opacity(80%);
+            text-decoration: none;
+            color: #9d9d9d;
+        }
+
+        .ah {
+            color: black;
+        }
+
+
+
+        /** -- app content --**/
+
+        .row_content1 {
+            width: 1266.4px;
+            height: 504.3px;
+        }
+
+        .img_app1 {
+            width: 100%;
+            height: 504.3px;
+            position: absolute;
+            object-fit: cover;
+            top: 290;
+            left: 0;
+        }
+
+        .img_app {
+            width: 1600px;
+            height: 500px;
+            object-fit: cover;
+            right: 0;
+            position: absolute;
+        }
+
+        /* -- carousel --*/
+
+        .carousel .item {
+            height: 474px;
+        }
+
+        .item_text {
+            width: 393.2;
+            text-align: center;
+            padding: 70px;
+        }
+
+
+        /* -- carousel button -- */
+        .btn_caro {
+            position: absolute;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 20px;
+            color: white;
+            background-color: #4a4a4a;
+        }
+
+        .btn_caro:hover {
+            color: #9d9d9d;
+        }
+
+        .btn_caro:focus {
+            color: #9d9d9d;
+        }
+
+        .caro_left {
+            left: 10px;
+            bottom: 50%;
+        }
+
+        .caro_right {
+            right: 10px;
+            bottom: 50%;
+        }
+
+        /* -- indicator -- */
+
+        .carousel-indicators {
+            bottom: 8px;
+        }
+
+        ol.carousel-indicators li {
+            padding: 0.25px;
+            background-color: white;
+            opacity: 100%;
+            border-color: #4a4a4a;
+        }
+
+        ol.carousel-indicators li.active {
+            padding: 0.25px;
+            background: black;
+            opacity: 50%;
+        }
+
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 30px 40px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 24px;
+            transition: 0.4s;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .accordion:after {
+            content: '\002B';
+            color: #777;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2212";
+        }
+
+        .accordion-margin {
+            margin-top: -20px;
+        }
+
+        .panel {
+            padding: 0px 40px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            font-size: 16px;
+        }
+    </style>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#" style="font-size: 34px;"></a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav pl-5">
+                <li class="nav-item pr-5">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+                        width="55px" height="55px">
+                </li>
+                <li class="nav-item pr-5">
+                    <a id="underline_animate" class="nav-link" href="#edu_link">SHOP</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a id="underline_animate" class="nav-link" href="#skill_link">DISCOVER</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a id="underline_animate" class="nav-link" href="#hobby_link">HELP</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a id="underline_animate" class="nav-link" href="#work_link">HOLIDAY</a>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" style="width: 1525px;">
+        <div class="row path">
+            Home &nbsp;&nbsp; > &nbsp;&nbsp; Creator 3-in-1 &nbsp;&nbsp; > &nbsp;&nbsp; Medieval Castle
+        </div>
+        <div class="row">
+            <img src="https://www.lego.com/cdn/cs/set/assets/blteaa6e5a92ea0a74c/02_City_About_1HY2021_hero_desktop.jpg?fit=crop&format=webply&quality=80&width=1600&height=700&dpr=1.5"
+                width="100%">
+        </div>
+        <div class="row justify-content-center" style="padding:40px 20px; background-color: #ffcf00;">
+            <p style="font-size: 32px;">A world of everyday possibility</p>&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;
+            <p style="font-size: 16px; text-align: center;">LEGO® City sets provide rewarding experiences for young
+                builders, while empowering them to be the creator of their own stories.</p>
+        </div>
+        <div class="row">
+            <button class="accordion accordion-margin">Section 1</button>
+            <div class="panel">
+                <p>Kids will love taking a trip back in time with this brilliantly detailed LEGO® Creator 3in1 Medieval
+                    Castle (31120). It’s packed with all they need to create captivating stories – a 2-floored Castle
+                    toy with an opening gate, water mill, prison, king’s room, 3 minifigures, dragon toy, 3 chickens and
+                    a rat. There are also hinges so the Castle can fold open at the back.
+
+                    3in1 awesome toys fuel kids’ passions
+                    Creative kids have the chance to build 3 different models with this LEGO Creator 3in1 set. They can
+                    start with the Medieval Castle, rebuild it into a castle tower with a catapult or transform it into
+                    a bustling marketplace with a water mill, tower and prison.
+
+                    Fantastic gifts for kids to grip their imaginations
+                    LEGO Creator 3in1 buildable toys let kids enjoy imaginative play with 3 different models in every
+                    box! The possibilities are endless as each model can be rebuilt into something new. Select from a
+                    brilliant 3in1 range including crocodiles, fairgrounds and rockets.
+
+                    The LEGO® Creator 3in1 Medieval Castle (31120) building set will enchant imaginative kids with 3
+                    models in 1 – a Medieval Castle, castle tower and medieval marketplace.
+                    This medieval toy set also includes 3 minifigures – a blacksmith and 2 medieval guards with
+                    impressive weapons to add even more fun to kids’ daring adventures.
+                    The Castle has 2 floors and hinges so it can fold open at the back for different play options. It
+                    also features an opening gate, smithy, water mill, king’s room and a prison.
+                    The castle tower is accompanied by a working catapult toy, while the medieval marketplace features a
+                    water mill, guard tower and prison.
+                    This 1,426-piece LEGO® Creator 3in1 Castle toy is a rewarding building task for creative kids aged 9
+                    and up and makes a great birthday or holiday gift.
+                    This Castle toy for kids measures over 10.5 in. (26 cm) high, 12 in. (31 cm) wide and 11 in. (28 cm)
+                    deep – a great size for play or to proudly display in a bedroom.
+                    Look out for other new-for-2021 LEGO® Creator 3in1 sets: Space Shuttle Adventure (31117) and Ferris
+                    Wheel (31119).
+                    The 3 different models can be attached to each other to create an eye-catching mega castle if 3
+                    separate boxes are purchased.
+                    For more than 6 decades LEGO® building bricks have been made from high-quality materials to ensure
+                    they consistently connect and pull apart every time.
+                    LEGO® building bricks meet stringent global safety standards.</p>
+            </div>
+        </div>
+        <div class="row">
+            <button class="accordion accordion-margin">Section 2</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="row">
+            <button class="accordion accordion-margin">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat.</p>
+            </div>
+        </div>
+
+
+        <div class="row" style="display: flex; background-color: #0181db;">
+            <div class="box_left">
+                <div class="wrap_text">
+                    <p style="font-size: 32px;">They’re in control</p>
+                    <p style="font-size: 14px;">With LEGO® City, young builders can immerse themselves in whatever parts
+                        of City life inspire them
+                        most. There are always new missions to fulfil, problems to solve, vehicles to drive (or fly),
+                        and
+                        choices to be made. And as they decide the plotlines and heroes of their adventures, they’ll be
+                        developing valuable key life skills along the way!</p>
+                </div>
+            </div>
+            <img src="https://www.lego.com/cdn/cs/set/assets/blt75771657d3b96bad/03_City_About_1HY2021_sidekick.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1"
+                width="762.5px" height="600px">
+        </div>
+        <div class="row" style="display: flex; background-color: #9c374f;">
+            <img src="https://www.lego.com/cdn/cs/set/assets/bltf3c0ed27f1fd8dd8/04_City_About_1HY2021_sidekick.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1"
+                width="762.5px" height="600px">
+            <div class="box_left">
+                <div class="wrap_text">
+                    <p style="font-size: 32px;">Who are LEGO® City sets for?</p>
+                    <p style="font-size: 14px;">Everyone belongs here in LEGO® City – all ages, genders and interests
+                        are welcome. And those with great imaginations (and an appreciation of pizza) will fit in
+                        especially well...!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex; background-color: #a5d0f0; ">
+            <div class="box_left">
+                <div class="wrap_text" style="color: black;">
+                    <p style="font-size: 32px;">LEGO® City loves role play</p>
+                    <p style="font-size: 14px;">Every storyline is welcome, and ready to be built upon. So a new set
+                        isn’t simply ‘one to add to the collection’ – it’s an opportunity to expand the stories they can
+                        create, enabling their imagination to flourish.</p>
+                </div>
+            </div>
+            <img src="https://www.lego.com/cdn/cs/set/assets/blt5296402a4735c947/05_City_About_1HY2021_sidekick.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1"
+                width="762.5px" height="600px">
+        </div>
+        <div class="row" style="height: 600px; background-color: white;">
+        </div>
+        <div class="row" style="display: flex; background-color: #ffcf00; ">
+            <img src="https://www.lego.com/cdn/cs/set/assets/bltc053719eb2e0e153/06_City_About_1HY2021_sidekick.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1"
+                width="762.5px" height="600px">
+            <div class="box_left">
+                <div class="wrap_text" style="color: black;">
+                    <p style="font-size: 32px;">LEGO® 4+ playsets – the perfect sets for younger builders</p>
+                    <p style="font-size: 14px;">Packed with exciting buildings, cool vehicles and endless opportunities
+                        to develop key life skills through creative play, LEGO® City offers the ideal introduction to
+                        LEGO building. Just look for the red 4+ markings on the box – containing starter bricks and
+                        step-by-step instructions created especially with preschool children in mind, to help their
+                        confidence and pride grow as their creation takes shape.</p>
+                    <button class="btn btn_learn" style="background-color: black; color: white;">Learn more ></button>
+                </div>
+            </div>
+
+        </div>
+        <div class="row" style="display: flex; background-color: #9c0000;">
+            <div class="box_left">
+                <div class="wrap_text">
+                    <p style="font-size: 32px;">Are they already crazy about LEGO® City?</p>
+                    <p style="font-size: 14px;">Click here for kid-friendly content and fun City building challenges!
+                    </p>
+                    <button class="btn btn_learn" style="background-color: white; color: black;">Learn more ></button>
+                </div>
+            </div>
+            <img src="https://www.lego.com/cdn/cs/set/assets/blt2eb80c9486d22ee9/07_City_About_1HY2021_sidekick.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1"
+                width="762.5px" height="600px">
+        </div>
+        <div class="row" style="display: flex; background-color: #a5d0f0;">
+            <img src="https://www.lego.com/cdn/cs/set/assets/blta4d811485383f9e2/08_City_About_1HY2021_sidekick.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1"
+                width="762.5px" height="600px">
+            <div class="box_left">
+                <div class="wrap_text" style="color: black;">
+                    <p style="font-size: 32px;">LEGO® Instructions PLUS
+                    </p>
+                    <p style="font-size: 14px;">Building just got easier! With the LEGO® Building Instructions app you
+                        can zoom, rotate and view your new LEGO City set as a 3D model (and even in ghost view mode),
+                        making it much easier to build your LEGO bricks, whichever way you want!</p>
+                    <button class="btn btn_learn" style="background-color: black; color: white;">Learn more ></button>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: flex; background-color: #0181db; ">
+            <div class="box_left">
+                <div class="wrap_text">
+                    <p style="font-size: 32px;">Get more LEGO® City in LEGO Life Magazine!</p>
+                    <p style="font-size: 14px;">With a FREE magazine subscription, kids aged 5-9 can join their favorite
+                        City heroes for more adventures, and discover even more LEGO® fun and activities. Sign up your
+                        child today and get the magazine sent directly to their home!</p>
+                    <button class="btn btn_learn" style="background-color: white; color: black;">Learn more ></button>
+                </div>
+            </div>
+            <img src="https://www.lego.com/cdn/cs/set/assets/blt0bc4b8f95e5e6b12/09_City_About_1HY2021_sidekick.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1"
+                width="762.5px" height="600px">
+        </div>
+        <div class="row" style="display: flex; background-color:#ffcf00;">
+            <img src="https://www.lego.com/cdn/cs/set/assets/blt18f5045d90cd9908/10_City_About_1HY2021_sidekick.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1"
+                width="762.5px" height="600px">
+            <div class="box_left">
+                <div class="wrap_text" style="color: black;">
+                    <p style="font-size: 32px;">Featuring the stars of the hit TV show!</p>
+                    <p style="font-size: 14px;">Kids can role-play as their favorite characters from LEGO® City
+                        Adventures – like genius Fire Chief Freya McCloud, eccentric handyman Harl Hubbs, and the
+                        ever-heroic Lieutenant Duke DeTain!</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row" style="height:600px;">
+
+        </div>
+    </div>
+    <div class="container-fluid" style="width: 1525px;">
+        <div class="row accordion-margin">
+            <button class="accordion "><b>Specifications</b></button>
+            <div class="panel">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <br>
+                        <br>
+                        <p>Kids will love taking a trip back in time with this brilliantly detailed LEGO® Creator 3in1
+                            Medieval Castle (31120). It’s packed with all they need to create captivating stories – a
+                            2-floored Castle toy with an opening gate, water mill, prison, king’s room, 3 minifigures,
+                            dragon toy, 3 chickens and a rat. There are also hinges so the Castle can fold open at the
+                            back.</p><br>
+                        <p>3in1 awesome toys fuel kids’ passions<br>
+                            Creative kids have the chance to build 3 different models with this LEGO Creator 3in1 set.
+                            They can start with the Medieval Castle, rebuild it into a castle tower with a catapult or
+                            transform it into a bustling marketplace with a water mill, tower and prison..</p><br>
+                        <p>Fantastic gifts for kids to grip their imaginations
+                            LEGO Creator 3in1 buildable toys let kids enjoy imaginative play with 3 different models in
+                            every box! The possibilities are endless as each model can be rebuilt into something new.
+                            Select from a brilliant 3in1 range including crocodiles, fairgrounds and rockets</p><br>
+                        <ul>
+                            <li>The LEGO® Creator 3in1 Medieval Castle (31120) building set will enchant imaginative
+                                kids with 3 models in 1 – a Medieval Castle, castle tower and medieval marketplace.</li>
+                            <br>
+                            <li>This medieval toy set also includes 3 minifigures – a blacksmith and 2 medieval guards
+                                with impressive weapons to add even more fun to kids’ daring adventures.</li>
+                            <br>
+                            <li>The Castle has 2 floors and hinges so it can fold open at the back for different play
+                                options. It also features an opening gate, smithy, water mill, king’s room and a prison.
+                            </li>
+                            <br>
+                            <li>The castle tower is accompanied by a working catapult toy, while the medieval
+                                marketplace features a water mill, guard tower and prison.</li>
+                            <br>
+                            <li>This 1,426-piece LEGO® Creator 3in1 Castle toy is a rewarding building task for creative
+                                kids aged 9 and up and makes a great birthday or holiday gift.</li>
+                            <br>
+                            <li>This Castle toy for kids measures over 10.5 in. (26 cm) high, 12 in. (31 cm) wide and 11
+                                in. (28 cm) deep – a great size for play or to proudly display in a bedroom.</li>
+                            <br>
+                            <li>Look out for other new-for-2021 LEGO® Creator 3in1 sets: Space Shuttle Adventure (31117)
+                                and Ferris Wheel (31119).</li>
+                            <br>
+                            <li>The 3 different models can be attached to each other to create an eye-catching mega
+                                castle if 3 separate boxes are purchased.</li>
+                            <br>
+                            <li>For more than 6 decades LEGO® building bricks have been made from high-quality materials
+                                to ensure they consistently connect and pull apart every time.</li>
+                            <br>
+                            <li>LEGO® building bricks meet stringent global safety standards.</li>
+                            <br>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5">
+                        <img src="https://www.lego.com/cdn/cs/set/assets/blte4f8e12ff68e1e76/31120_alt1.jpg?fit=bounds&format=jpg&quality=80&width=320&height=320&dpr=1"
+                            style="padding: 20px 150px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row accordion-margin">
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <p><br></p>
+
+                <p><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex
+                    ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="row accordion-margin">
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex
+                    ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
