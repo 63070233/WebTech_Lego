@@ -1,0 +1,264 @@
+/* -- slider -- */
+
+.recom .item h1 {
+    font-size: 32px;
+    color: black;
+}
+
+.recom .item h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.recom .item h3 {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+.view-all {
+    font-size: 15px;
+    color: black;
+    text-decoration: underline;
+    opacity: 70%;
+}
+
+.view-all:hover {
+    color: black;
+    opacity: 100%;
+}
+
+.righto {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    margin-left: 3px;
+  }
+
+.recom .wrapper {
+    padding: 2% 4% 0% 1%;
+	position: relative;
+	user-select: none;
+    margin-bottom: 4%;
+}
+
+.recom .items {
+	position: relative;
+	overflow-x: scroll;
+	white-space: nowrap;
+    cursor: pointer;
+}
+
+.recom .item {
+	display: inline-block;
+	user-select: none;
+    color: black;
+    cursor: default;
+    text-align: left;
+    margin-right: 2%;
+}
+
+
+/* -- Image Container --*/
+.container-img {
+    padding-top: 5%;
+    width: 100%;
+    height: 289.75;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+}
+
+.tag {
+    font-size: 12;
+}
+
+.ex-tag {
+    background-color: #ffcf00;
+    text-align: center;
+    width: 25%;
+    height: 9%;
+    margin: 4% 0 0 5%;
+    padding: 1%;
+}
+
+.new-tag {
+    background-color: #ffcf00;
+    text-align: center;
+    width: 17%;
+    height: 9%;
+    margin: 4% 0 0 5%;
+    padding: 1%;
+}
+
+.htf-tag {
+    background-color: #ffcf00;
+    text-align: center;
+    width: 30%;
+    height: 9%;
+    margin: 4% 0 0 5%;
+    padding: 1%;
+}
+
+/* -- wish list -- */
+.wish {
+    padding-left: 5%;
+    padding-bottom: 3%;
+    font-size: 12;
+    color: black;
+}
+
+.wish:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* -- image -- */
+.container-img img {
+    width: 90.5%;
+    height: 61%;
+    margin: 5%;
+    transition: transform .5s;
+    object-fit: scale-down;
+}
+
+.container-img img:hover {
+    transform: scale(1.1);
+}
+
+
+/* -- information -- */
+.score {
+    width: 100%;
+}
+
+.score img {
+    width: 5%;
+}
+
+.recom .item .btn {
+    background-color: #fd8024;
+    width: 100%;
+    height: 59;
+    padding: 6%;
+    font-weight: 600;
+    border: 2px solid #fd8024;
+}
+
+.recom .item .btn:hover {
+    background-color: white;
+    width: 100%;
+    height: 59;
+    padding: 6%;
+    font-weight: 600;
+    border: 2px solid #fd8024;
+}
+
+
+
+/** -- slider button -- **/
+
+.recom .fl-left {
+    left: -25px;
+    top: 200px;
+    padding-left: 1%;
+}
+
+.recom .fl-right {
+    right: 5px;
+    top: 200px;
+    padding-right: 1%;
+}
+
+.recom .fl-button {
+    position: absolute;
+    background: white;
+    font-size: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border: #cccccc 1px solid;
+    animation-name: appear;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+.recom .fl-button:hover {
+    background: #cccccc;
+    cursor: pointer;
+}
+
+.recom .fl-button:disabled {
+    animation-name: disappear;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes disappear {
+    0% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+/* -- Slide Scrollbar -- */
+
+#style-4::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar{
+    height: 5px;
+    background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar-thumb{
+	background-color: #555555;
+}
+
+#style-4::-webkit-scrollbar-thumb:hover{
+	background-color: black;
+}
+
+#style-4::-webkit-scrollbar-button:start:increment {
+    width: 20%;
+    display: block;
+    background: white;
+    
+  }
+
+#style-4::-webkit-scrollbar-button:end:increment {
+    width: 20%;
+    display: block;
+    background: white;
+  }
+
+#style-4 {
+    padding-bottom: 3%;
+}
+
+  /** -- Additional code for scrollbar -- **/
+  /* textArea = new JTextArea();
+    scroll = new JScrollPane(textArea);
+    this.add(scroll); */
