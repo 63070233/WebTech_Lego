@@ -1,0 +1,218 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+
+        .hover_underline:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            background-color: rgba(253, 128, 36, 255);
+            border: 2px solid rgba(253, 128, 36, 255);
+            text-align: center;
+            height: 50px;
+            width: 55px;
+            margin-left: 0;
+            font-size: large;
+        }
+
+        .btn:hover {
+            background-color: #ffffff;
+        }
+
+        .arrow {
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 5px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        label {
+            bottom: 20px;
+            position: relative;
+            font-size: 16px;
+        }
+
+        input {
+            margin-top: 20px;
+            position: relative;
+            width: 100%;
+            padding: 10px 0px 10px 20px;
+            border: none;
+            outline: none;
+            height: 100%;
+            padding-bottom: 1px;
+            font-size: 14px;
+        }
+
+        input::placeholder {
+            opacity: 0;
+        }
+
+        span {
+            position: absolute;
+            top: 10;
+            left: 20;
+            transform: translateY(30px);
+            font-size: 0.825em;
+            transition-duration: 300ms;
+            color: gray;
+        }
+
+        label:focus-within>span,
+        input:not(:placeholder-shown)+span {
+            font-size: 10px;
+            transform: translateY(15px);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- footer -->
+    <div class="container-fluid" style="background-color: rgba(32,29,72,255); color: white;" id="con">
+        <div class="container-fluid" style="padding-top: 27px; width: 1525px;"></div>
+        <div class="row" style="padding: 23px;">
+            <div class="col-sm-3" style="padding-left: 5.1%;">
+                <img src="../footer/logo.svg"
+                    width="97px" height="97px" alt="logo">
+                <br><br>
+                <button style="background-color: rgba(24,21,45,255); color: white; border: none; text-align: center; padding: 8px;">
+                    <img src="../footer/USA_flag.png" width="18px" alt="usa flag">
+                    Change Region</button><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Gift Cards</h6>
+                <h6 class="hover_underline">LEGO Catalogue</h6>
+            </div>
+            <div class="col">
+                <h6 style="font-weight: bold; padding-top: 15px;">ABOUT US</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">About the LEGO Group</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® News</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Sustainability</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Supply Chain Transparency Statement</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Product Certification</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Jobs</h6>
+            </div>
+            <div class="col">
+                <h6 style="font-weight: bold; padding-top: 15px;">SUPPORT</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Contact Us</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Find Building Instructions</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Replacement Parts</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Shipping and Returns</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Payment Methods</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Terms & Conditions</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Product Recalls</h6>
+            </div>
+            <div class="col">
+                <h6 style="font-weight: bold; padding-top: 15px;">ATTRACTIONS</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® House</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGOLAND® Parks</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGOLAND Discovery Centers</h6>
+            </div>
+            <div class="col" style="padding-right: 5.1%;">
+                <h6 style="font-weight: bold; padding-top: 15px;">MORE FROM US</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® LIFE</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Education</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Ideas</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Foundation</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Affiliate Program</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Student Offers</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® Braille Bricks</h6>
+            </div>
+        </div>
+        <!-- search bar -->
+        <div class="row" style="padding: 23px;">
+            <div class="col-sm-3" style="padding-left: 5.1%;">
+                <h6 style="padding-bottom: 10px;">SUBSCRIBE TO LEGO® SHOP EMAILS</h6>
+                <div class="input-group">
+                    <label for="email" style="color: black;">
+                        <input type="email" id="email" placeholder="Your email address">
+                        <span>Your email address</span>
+                    </label>
+                    <div class="input-group-append">
+                        <button class="btn" type="button"><i class="arrow right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- social logo -->
+            <div class="col">
+                <div class="container" style="padding-left: 40%; width: 50%;">
+                    <h6 style="font-weight: bold;">FOLLOW US</h6><br>
+                    <span style="padding-left: 63%;">
+                        <img src="https://www.lego.com/_build/public/facebook-192779851a255b67f3e4d3939aded408.svg"
+                            width="45px" alt="facebook">
+                    </span>
+                    <span style="padding-left: 68%;">
+                        <img src="https://www.lego.com/_build/public/twitter-6485f3053f010c1cda02f99c13f388d9.svg"
+                            width="45px" alt="twitter">
+                    </span>
+                    <span style="padding-left: 73%;">
+                        <img src="https://www.lego.com/_build/public/instagram-407d05b50418038badb371abae1de072.svg"
+                            width="45px" alt="instagram">
+                    </span>
+                    <span style="padding-left: 78%;">
+                        <img src="https://www.lego.com/_build/public/youtube-20aca7fd76d3bb595be0036d19fc9160.svg"
+                            width="45px" alt="youtube">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- bottom -->
+        <div class="row" style="padding: 23px 23 0 23;">
+            <div class="con" style="padding-left: 5.1%; font-size: 12px; position: relative;">
+                <p class="hover_underline">Privacy Policy</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Cookies</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Legal Notice</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Terms of Use</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Digital Wellbeing</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Accessibility</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Cookie Settings</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Do Not Sell My Personal Information</p>
+            </div>
+        </div>
+        <div class="row" style="padding:12 23px 23 23;">
+            <div class="col" style="padding-left: 5.1%; padding-right: 5.1%;">
+                <p style="padding-bottom: 40px; font-size: 12px;">LEGO System A/S, DK-7190 Billund, Denmark. Must be 18 years or older to
+                    purchase online. LEGO, the
+                    LEGO
+                    logo, the Minifigure, DUPLO, LEGENDS OF CHIMA, NINJAGO, BIONICLE, MINDSTORMS and MIXELS are
+                    trademarks
+                    and copyrights of the LEGO Group. ©2021 The LEGO Group. All rights reserved. Use of this site
+                    signifies
+                    your agreement to the terms of use.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

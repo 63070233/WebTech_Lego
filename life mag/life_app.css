@@ -33,6 +33,10 @@ body {
     opacity: 87%;
 }
 
+.btn_lm:hover {
+    opacity: 70%;
+}
+
 .btn_faq:hover {
     opacity: 70%;
     color: #4a4a4a;
@@ -84,7 +88,7 @@ body {
     height: 504.3px;
     overflow: hidden;
     padding-top: 11%;
-    padding-left: 15%;
+    padding-left: 6%;
 }
 
 .stick {
@@ -112,9 +116,9 @@ body {
 }
 
 .item_text {
-    width: 95%;
+    width: 90%;
     text-align: center;
-    padding: 5% 14% 0 0%;
+    padding: 5% 24% 0 0%;
     margin: 100px;
 }
 
