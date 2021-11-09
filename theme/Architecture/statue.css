@@ -1,0 +1,193 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+.buttonP {
+    align-items: center;
+    background-color: #f9dc4b00;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    width: 120px;
+    height: 43px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.buttonP:hover {
+    text-decoration: underline;
+}
+
+
+.button-shop {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.button-shop:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.button-more {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #0152bd;
+    color: #0a73fc;;
+}
+.button-product {
+    border-left: #ffffff;
+    border-right: #ffffff;
+    border-bottom: #ffffff;
+    background-color: #ffffff;
+    font-size: 14px;
+
+}
+
+.hover_underline:hover {
+    text-decoration: underline;
+}
+
+.btn1 {
+    background-color: rgba(253, 128, 36, 255);
+    border: 2px solid rgba(253, 128, 36, 255);
+    text-align: center;
+    height: 50px;
+    width: 55px;
+    margin-left: 0;
+    font-size: large;
+}
+
+.btn-out {
+    background-color: rgb(252, 223, 223);
+    color: #810c0c;
+    width: 100%;
+    height: 59;
+    padding: 6%;
+    font-weight: 600;
+    border: 0px;
+}
+
+.btn1:hover {
+    background-color: #ffffff;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+}
+a:hover {
+    color: #0152bd;
+    text-decoration: none;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+label {
+    bottom: 20px;
+    position: relative;
+    font-size: 16px;
+}
+
+input {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    border: none;
+    outline: none;
+    height: 100%;
+    padding-bottom: 1px;
+    font-size: 14px;
+}
+
+input::placeholder {
+    opacity: 0;
+}
+
+
+
+label:focus-within>span,
+input:not(:placeholder-shown)+span {
+    font-size: 10px;
+    transform: translateY(15px);
+}
+
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 5;
+  }
+
+
+/* -----
+Collaps
+----- */
+.collapsible {
+    background-color: rgb(241, 241, 241);
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    padding-right: 10%;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    background-color: white;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
