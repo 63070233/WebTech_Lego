@@ -1,0 +1,1242 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator 3-in-1 | Themes | Official LEGO® Shop US</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+
+
+
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .path {
+            font-size: 14px;
+            color: #006db7;
+            margin: 0px 100px 15px;
+            padding: 20px 0px 10px 0px;
+        }
+
+        .top_branner {
+            background-color: #f0b400;
+            width: 1525px;
+            height: 90px;
+        }
+
+        .btn_top {
+            height: 40px;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 2px solid white;
+            color: white;
+            margin-top: 25px;
+            margin-right: 25px;
+            padding: 0px 15px;
+        }
+
+        /** navbar **/
+        nav {
+            background-color: #ffcf00;
+            height: 1.75cm;
+        }
+
+        .hover_underline:hover {
+            text-decoration: underline;
+        }
+
+        /** slider **/
+        /* -- navigator -- */
+
+        .navt:hover {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .navt {
+            color: white;
+        }
+
+
+        .card_product {
+            width: 312.33px;
+            height: 549.36px;
+            background-color: white;
+            border: 1px solid rgb(224, 224, 224);
+        }
+
+        .img_box {
+            width: 254.35px;
+            height: 254.35px;
+            padding: 15px 15px 10px;
+        }
+
+        .img_product {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            width: 254.35px;
+            transition: transform .5s;
+        }
+        .img_product:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+
+        .detail_product {
+            padding: 15px 15px 10px;
+        }
+
+        .add_to {
+            width: 282.33px;
+            height: 58.8px;
+            background-color: #fd8024;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+        }
+        .out_stock {
+            width: 282.33px;
+            height: 58.8px;
+            background-color: #fff2f2;
+            color: #d0021b;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .row_bottom {
+            margin-bottom: -15px;
+        }
+
+        .upper_content {
+            width: 1280px;
+            background-color: #f8f8f8;
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+
+        .filer_menu {
+            border: 1px solid rgb(224, 224, 224);
+            width: 338px;
+        }
+
+        .drop_btn {
+            padding: 12px;
+            background-color: transparent;
+            border: 1px solid rgb(224, 224, 224);
+            position: absolute;
+            margin-top: -20px;
+        }
+
+        .frame_img {
+            height: 254.35px;
+            width: 254.35px;
+        }
+        .under_product{
+            height: 121.6px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .page{
+            padding: 0px 20px;
+            background-color: transparent;
+            font-size: 16px;
+            border: transparent;
+        }
+        .show_all{
+            margin: 20px 0px 10px;
+            padding: 10px 20px;
+            color: black;
+            border: 1px solid #006db7;
+            background-color: transparent;
+            border-radius: 5px;
+        }
+
+        /**footer**/
+        .hover_underline:hover {
+            text-decoration: underline;
+        }
+
+        .btn_footer {
+            background-color: rgba(253, 128, 36, 255);
+            border: 2px solid rgba(253, 128, 36, 255);
+            text-align: center;
+            height: 50px;
+            width: 55px;
+            margin-left: 0;
+            font-size: large;
+        }
+
+        .btn:hover {
+            background-color: #ffffff;
+        }
+
+        .arrow {
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 5px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        label {
+            bottom: 20px;
+            position: relative;
+            font-size: 16px;
+        }
+
+        input {
+            margin-top: 20px;
+            position: relative;
+            width: 100%;
+            padding: 10px 0px 10px 20px;
+            border: none;
+            outline: none;
+            height: 100%;
+            padding-bottom: 1px;
+            font-size: 14px;
+        }
+
+        input::placeholder {
+            opacity: 0;
+        }
+
+        .span {
+            position: absolute;
+            top: 10;
+            left: 20;
+            transform: translateY(30px);
+            font-size: 0.825em;
+            transition-duration: 300ms;
+            color: gray;
+        }
+
+        label:focus-within>span,
+        input:not(:placeholder-shown)+span {
+            font-size: 10px;
+            transform: translateY(15px);
+        }
+        .detail{
+            height: 30px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#" style="font-size: 34px;"></a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav pl-5">
+                <li class="nav-item pr-5">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+                        width="55px" height="55px">
+                </li>
+                <li class="nav-item pr-5">
+                    <a id="underline_animate" class="nav-link" href="#edu_link">SHOP</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a id="underline_animate" class="nav-link" href="#skill_link">DISCOVER</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a id="underline_animate" class="nav-link" href="#hobby_link">HELP</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a id="underline_animate" class="nav-link" href="#work_link">HOLIDAY</a>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" style="width: 1525px;">
+        <div class="row path">
+
+            Home &nbsp;&nbsp; > &nbsp;&nbsp;Sets by theme &nbsp;&nbsp; > &nbsp;&nbsp; Creator 3-in-1
+        </div>
+        <div class="row top_branner justify-content-center">
+            <img src="https://www.lego.com/cdn/cs/set/assets/blt58f95d5b0ad0c3eb/creator3in1-logo.png?format=png&height=60&dpr=1"
+                width="200px" height="36.03px" style="margin-right: 30px; margin-top: 25px;">
+            <a href=""><button class="btn btn_top">product</button></a>
+            <a href="about_create.html"><button class="btn btn_top">about</button></a>
+        </div>
+        <div class="row justify-content-center" style="padding:40px 20px;">
+            <div class="upper_content">
+                <h4>Creator 3-in-1</h4>
+                <p>The LEGO® Creator series lets your child experiment with houses, cars, planes and creatures. With
+                    LEGO Creator 3-in-1 sets, your child also gets to choose between 3 exciting builds for even more
+                    build and play fun.</p>
+            </div>
+        </div>
+
+        <div class="row" style="padding-left: 110px;">
+            <div class="col-sm-3">
+                <div id="accordion">
+
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                Collapsible Group Item #1
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum..
+                            </div>
+                        </div>
+                    </div>
+                    <div id="a2">
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                    Collapsible Group Item #2
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-parent="#a2">
+                                <div class="card-body">
+                                    Lorem ipsum..
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="a3">
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                    Collapsible Group Item #3
+                                </a>
+                            </div>
+                            <div id="collapseThree" class="collapse" data-parent="#a3">
+                                <div class="card-body">
+                                    Lorem ipsum..
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-sm-8 ">
+                <div class="row" style="padding-left: 15px; padding-top: 20px; padding-bottom: 25px; ">
+                    <h4>Showing 1 - 18 of 27 results</h4>
+                    <div class="dropdown" style="padding-left: 500px; position: relative;">
+                        <button class="dropdown-toggle drop_btn" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sort by<br>Featured
+
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Featured</a>
+                            <a class="dropdown-item" href="#">Price: Low to High</a>
+                            <a class="dropdown-item" href="#">Rrice: High to Low</a>
+                            <a class="dropdown-item" href="#">Rating</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--  product 1 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blt8979ea9bbd9b87e5/31120.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Medieval Castle</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$99.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 2 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blt7db84b2f76d28ad2/31119.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Ferris Wheel</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$79.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 3 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blte6ba9bcf9cab55bd/31118.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Surfer Beach House</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$49.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-left: 110px;">
+            <div class="col-sm-3">
+            </div>
+            <!--  product 4 -->
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blt34eaa55098810683/31117.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Space Rover Explorer</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$39.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 5 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product" style="padding-top: 70px;"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blted14486cf9b80a14/31121.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Crocodile</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_4.5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$29.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 6 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blt429a57fb25f97d35/31116.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Safari Wildlife Tree House</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$29.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-left: 110px;">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-8">
+                <div class="row">
+                    <!--  product 7 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blte3e1861f8c6549b2/31115.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Safari Wildlife Tree House</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$24.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 8 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blt40f486ce9238f4a0/31113.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Race Car Transporter</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$19.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 9 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blt1529abf929062fad/31114.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Superbike</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$19.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-left: 110px;">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-8">
+                <div class="row">
+                    <!--  product 10 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blteba967f736f12e9e/31058_alt2.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Mighty Dinosaurs</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_4.5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$14.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 11 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/bltd6f7b204e1e11893/31101.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Monster Truck</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$14.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 12 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="https://www.lego.com/cdn/cs/set/assets/blt28eab11b67d4156b/31109.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Pirate Ship</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_4.5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$99.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-left: 110px;">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-8">
+                <div class="row">
+                    <!--  product 13 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                            <img class="img_product" src="https://www.lego.com/cdn/cs/set/assets/blt3bc6a46024728887/31108.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                        </div></div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>
+                                    Caravan Family Holiday</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_4.5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$69.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 14 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                            <img class="img_product"
+                                src="https://www.lego.com/cdn/cs/set/assets/blt48b218bff639d8e6/31122.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                        </div></div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Fish Tank</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_4.5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$29.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <div class="out_stock"><span><b>Out Of Stock</b></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 15 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                            <img class="img_product"
+                                src="https://www.lego.com/cdn/cs/set/assets/bltc691d8d0172af5f1/31088.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                        </div></div>
+                        <div class="row detail">
+
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Deep Sea Creatures</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$14.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <div class="out_stock"><span><b>Out Of Stock</b></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-left: 110px;">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-8">
+                <div class="row">
+                    <!--  product 16 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                            <img class="img_product"
+                                src="https://www.lego.com/cdn/cs/set/assets/blt5d05a1802f79d93a/31112.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                        </div></div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Wild Lion</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$14.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <div class="out_stock"><span><b>Out Of Stock</b></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 17 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                            <img class="img_product"
+                                src="https://www.lego.com/cdn/cs/set/assets/bltd4f3d5eb2a835297/31111.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                        </div></div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Cyber Drone</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$9.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <div class="out_stock"><span><b>Out Of Stock</b></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 18 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                            <img class="img_product"
+                                src="https://www.lego.com/cdn/cs/set/assets/blt6be68a5fd375077c/31100.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1.5">
+                        </div></div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Sports Car</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="star_5.png" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$9.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <div class="out_stock"><span><b>Out Of Stock</b></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-left: 110px;">
+            <div class="col-sm-3">
+
+            </div>
+            <div class="col-sm-8">
+                <div class="row ">
+                    <div class="col-sm-12 under_product">
+                        <span>&lt;<a href="" class="page">1</a><a href="" class="page">2</a>&gt;</span><br>
+                        <button class="show_all">Show All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid" style="background-color: rgba(32,29,72,255); color: white;" id="con">
+        <div class="container-fluid" style="padding-top: 27px; width: 1525px;"></div>
+        <div class="row" style="padding: 23px;">
+            <div class="col-sm-3" style="padding-left: 5.1%;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+                    width="97px" height="97px" alt="logo">
+                <br><br>
+                <button style="background-color: rgba(24,21,45,255); color: white; border: none; text-align: center; padding: 8px;">
+                    <img src="https://www.lego.com/_build/public/us-4ebaed6a76e4d7930e0b2c9e86a43389.png" width="18px" alt="usa flag">
+                    Change Region</button><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Gift Cards</h6>
+                <h6 class="hover_underline">LEGO Catalogue</h6>
+            </div>
+            <div class="col">
+                <h6 style="font-weight: bold; padding-top: 15px;">ABOUT US</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">About the LEGO Group</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® News</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Sustainability</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Supply Chain Transparency Statement</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Product Certification</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Jobs</h6>
+            </div>
+            <div class="col">
+                <h6 style="font-weight: bold; padding-top: 15px;">SUPPORT</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Contact Us</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Find Building Instructions</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Replacement Parts</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Shipping and Returns</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Payment Methods</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Terms & Conditions</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Product Recalls</h6>
+            </div>
+            <div class="col">
+                <h6 style="font-weight: bold; padding-top: 15px;">ATTRACTIONS</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® House</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGOLAND® Parks</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGOLAND Discovery Centers</h6>
+            </div>
+            <div class="col" style="padding-right: 5.1%;">
+                <h6 style="font-weight: bold; padding-top: 15px;">MORE FROM US</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® LIFE</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Education</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Ideas</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Foundation</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Affiliate Program</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Student Offers</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® Braille Bricks</h6>
+            </div>
+        </div>
+        <!-- search bar -->
+        <div class="row" style="padding: 23px;">
+            <div class="col-sm-3" style="padding-left: 5.1%;">
+                <h6 style="padding-bottom: 10px;">SUBSCRIBE TO LEGO® SHOP EMAILS</h6>
+                <div class="input-group">
+                    <label for="email" style="color: black;">
+                        <input type="email" id="email" placeholder="Your email address">
+                        <span class="span">Your email address</span>
+                    </label>
+                    <div class="input-group-append">
+                        <button class="btn btn_footer" type="button"><i class="arrow right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- social logo -->
+            <div class="col">
+                <div class="container" style="padding-left: 40%; width: 50%;">
+                    <h6 style="font-weight: bold;">FOLLOW US</h6><br>
+                    <span class="span" style="padding-left: 63%;">
+                        <img src="https://www.lego.com/_build/public/facebook-192779851a255b67f3e4d3939aded408.svg"
+                            width="45px" alt="facebook">
+                    </span>
+                    <span class="span" style="padding-left: 68%;">
+                        <img src="https://www.lego.com/_build/public/twitter-6485f3053f010c1cda02f99c13f388d9.svg"
+                            width="45px" alt="twitter">
+                    </span>
+                    <span class="span" style="padding-left: 73%;">
+                        <img src="https://www.lego.com/_build/public/instagram-407d05b50418038badb371abae1de072.svg"
+                            width="45px" alt="instagram">
+                    </span>
+                    <span class="span" style="padding-left: 78%;">
+                        <img src="https://www.lego.com/_build/public/youtube-20aca7fd76d3bb595be0036d19fc9160.svg"
+                            width="45px" alt="youtube">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- bottom -->
+        <div class="row" style="padding: 23px 23 0 23;">
+            <div class="con" style="padding-left: 5.1%; font-size: 12px; position: relative;">
+                <p class="hover_underline">Privacy Policy</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Cookies</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Legal Notice</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Terms of Use</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Digital Wellbeing</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Accessibility</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Cookie Settings</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Do Not Sell My Personal Information</p>
+            </div>
+        </div>
+        <div class="row" style="padding:12 23px 23 23;">
+            <div class="col" style="padding-left: 5.1%; padding-right: 5.1%;">
+                <p style="padding-bottom: 40px; font-size: 12px;">LEGO System A/S, DK-7190 Billund, Denmark. Must be 18 years or older to
+                    purchase online. LEGO, the
+                    LEGO
+                    logo, the Minifigure, DUPLO, LEGENDS OF CHIMA, NINJAGO, BIONICLE, MINDSTORMS and MIXELS are
+                    trademarks
+                    and copyrights of the LEGO Group. ©2021 The LEGO Group. All rights reserved. Use of this site
+                    signifies
+                    your agreement to the terms of use.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
