@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>284B2849-D7BA-4A64-B7FF-2906AA91B070</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Pattern-Lib" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-677.000000, -2410.000000)" fill="#000000">
+            <g id="Monochrome---Zoom-out" transform="translate(609.000000, 2389.000000)">
+                <g id="Icon-/-Mono-/-Zoon-out" transform="translate(68.000000, 21.000000)">
+                    <g>
+                        <g id="Icon-/-Mono-/-Search" fill-rule="nonzero">
+                            <path d="M54.67,48.4 L36.96,30.69 C38.885,27.61 39.985,23.98 39.985,20.075 C39.985,9.02 31.075,0.11 20.02,0.11 C8.965,0.11 0,8.965 0,20.02 C0,31.075 8.91,39.985 19.965,39.985 C23.87,39.985 27.5,38.885 30.58,36.96 L48.235,54.615 C48.4,54.78 48.62,54.89 48.84,54.89 C48.95,54.945 49.06,54.945 49.17,54.945 C49.445,54.945 49.72,54.835 49.995,54.56 L54.67,49.885 C55.11,49.5 55.11,48.73 54.67,48.4 Z M19.965,5.72 C27.885,5.72 34.375,12.21 34.375,20.13 C34.375,28.05 27.995,34.54 19.965,34.54 C11.935,34.54 5.555,28.05 5.555,20.13 C5.555,12.21 12.045,5.72 19.965,5.72 Z" id="Shape"></path>
+                        </g>
+                        <g id="Icon-/-Mono-/-minus" transform="translate(9.000000, 18.000000)" fill-rule="nonzero">
+                            <polygon id="Shape" points="0 0.025 0 3.975 22 3.975 22 0.025"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
