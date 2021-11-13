@@ -144,6 +144,7 @@ ol.caro-indi li.active {
 }
 
 .t {
+    margin-left: 1px;
     top: 0;
     position: absolute;
 }
