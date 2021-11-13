@@ -1,0 +1,525 @@
+/*Left*/
+/* -- carousel --*/
+
+.carousel .item {
+    width: 100%;
+    height: 750px;
+    padding: 5%;
+}
+
+.carousel-inner img {
+    height: 625;
+    width: 780;
+    position: absolute;
+}
+
+.carousel {
+    padding: 5% 0;
+}
+
+
+
+.btnin {
+    padding: 1.5% 3%;
+}
+
+.btnin1 {
+    width: 190px;
+    height: 100%;
+}
+
+
+/* -- carousel button -- */
+.btn_caro {
+    visibility: hidden;
+    opacity: 0%;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: #3b3b3b;
+}
+
+
+.carousel-inner:hover .btn_caro {
+    visibility: visible;
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    opacity: 75%;
+    animation-fill-mode: forwards;
+    text-align: center;
+    transition: all 0.2s ease-out;
+    padding: 6px 7px 7px 6px;
+    background-color: #b3b3b3;
+    color: #e4e4e4;
+}
+
+@keyframes zoom {
+    0% {opacity: 0%;}
+    80% {opacity: 75%;}
+    100% {opacity: 75%;}
+}
+
+.carousel-inner:hover .btn_caro:hover {
+    animation-name: hov;
+    animation-duration: 0.2s;
+    opacity: 75%;
+}
+
+@keyframes hov {
+    0% {opacity: 75%; color: #e4e4e4; background-color: #b3b3b3;}
+    100% {opacity: 75%; color: #535353; background-color: #e0e0e0;}
+}
+
+.caro_left {
+    left: 3%;
+    bottom: 49%;
+}
+
+.caro_right {
+    right: 2%;
+    bottom: 49%;
+}
+
+.carousel .glyphicon-menu-right {
+    top: 1;
+    left: 1;
+}
+
+/* -- indicator -- */
+
+.caro-indi {
+    left: 27%;
+    height: 150px;
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    width: 80px;
+}
+
+.btnf{
+    border: none;
+    background-color: #b3b3b3;
+}
+
+ol.caro-indi li {
+    padding: 1px;
+    border: 1px solid #eaeaea;
+    opacity: 100%;
+    width: 65px;
+    height: 45px;
+    background-size: 99%;
+    border-radius: 0;
+    display: block;
+    margin-bottom: 13px;
+    transition: outline 0.5s;
+    outline: 1.8px solid transparent;
+    position: relative;
+    left: 6;
+    top: 10;
+}
+
+#fi {
+    top: 0px;
+}
+
+ol.caro-indi li.active {
+    padding: 1px;
+    width: 65px;
+    height: 45px;
+    background-size: 99%;
+    margin-bottom: 13px;
+    transition: outline 0.5s;
+    outline: 1.8px solid #31a1e0;
+  }
+
+/* -- button -- */
+.btn_in:focus, .btn_in:active, .btn_in{
+    outline: none;
+    border: none;
+    width: 69;
+    height: 28;
+    padding: 5;
+    background: none;
+}
+
+.t {
+    top: 0;
+    position: absolute;
+}
+
+.t svg {
+    transform: rotate(-90deg);
+}
+
+.b svg {
+    transform: rotate(90deg);
+}
+
+.b {
+
+    margin-left: 1px;
+    position: absolute;
+    margin-top: 570;
+    z-index: 10;
+}
+
+/* -- indicator slide -- */
+
+
+.activate {
+    animation: slide;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate1 {
+    animation: slide1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate2 {
+    animation: slide2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate3 {
+    animation: slide3;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate4 {
+    animation: slide4;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate5 {
+    animation: slide5;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate6 {
+    animation: slide6;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate7 {
+    animation: slide7;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate8 {
+    animation: slide8;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate9 {
+    animation: slide9;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate10 {
+    animation: slide10;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate11 {
+    animation: slide11;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate12 {
+    animation: slide12;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate13 {
+    animation: slide13;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.activate14 {
+    animation: slide14;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    0%{top: 0;}
+    100%{top: -63;}
+}
+
+@keyframes slide1 {
+    0%{top: -63;}
+    100%{top: -126;}
+}
+
+@keyframes slide2 {
+    0%{top: -126;}
+    100%{top: -189;}
+}
+
+@keyframes slide3 {
+    0%{top: -189;}
+    100%{top: -252;}
+}
+
+@keyframes slide4 {
+    0%{top: -252;}
+    100%{top: -315;}
+}
+
+@keyframes slide5 {
+    0%{top: -315;}
+    100%{top: -378;}
+}
+
+@keyframes slide6 {
+    0%{top: -378;}
+    100%{top: -441;}
+}
+
+@keyframes slide7 {
+    0%{top: -441;}
+    100%{top: -504;}
+}
+
+@keyframes slide8 {
+    0%{top: -504;}
+    100%{top: -567;}
+}
+
+@keyframes slide9 {
+    0%{top: -567;}
+    100%{top: -630;}
+}
+
+@keyframes slide10 {
+    0%{top: -630;}
+    100%{top: -693;}
+}
+
+@keyframes slide11 {
+    0%{top: -693;}
+    100%{top: -756;}
+}
+
+@keyframes slide12 {
+    0%{top: -756;}
+    100%{top: -819;}
+}
+
+@keyframes slide13 {
+    0%{top: -819;}
+    100%{top: -882;}
+}
+
+@keyframes slide14 {
+    0%{top: -882;}
+    100%{top: -945;}
+}
+
+
+.deactivate {
+    animation: deslide;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate1 {
+    animation: deslide1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate2 {
+    animation: deslide2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate3 {
+    animation: deslide3;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate4 {
+    animation: deslide4;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate5 {
+    animation: deslide5;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate6 {
+    animation: deslide6;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate7 {
+    animation: deslide7;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate8 {
+    animation: deslide8;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate9 {
+    animation: deslide9;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate10 {
+    animation: deslide10;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate11 {
+    animation: deslide11;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate12 {
+    animation: deslide12;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate13 {
+    animation: deslide13;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.deactivate14 {
+    animation: deslide14;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes deslide {
+    100%{top: 0;}
+    0%{top: -63;}
+}
+
+@keyframes deslide1 {
+    100%{top: -63;}
+    0%{top: -126;}
+}
+
+@keyframes deslide2 {
+    100%{top: -126;}
+    0%{top: -189;}
+}
+
+@keyframes deslide3 {
+    100%{top: -189;}
+    0%{top: -252;}
+}
+
+@keyframes deslide4 {
+    100%{top: -252;}
+    0%{top: -315;}
+}
+
+@keyframes deslide5 {
+    100%{top: -315;}
+    0%{top: -378;}
+}
+
+@keyframes deslide6 {
+    100%{top: -378;}
+    0%{top: -441;}
+}
+
+@keyframes deslide7 {
+    100%{top: -441;}
+    0%{top: -504;}
+}
+
+@keyframes deslide8 {
+    100%{top: -504;}
+    0%{top: -567;}
+}
+
+@keyframes deslide9 {
+    100%{top: -567;}
+    0%{top: -630;}
+}
+
+@keyframes deslide10 {
+    100%{top: -630;}
+    0%{top: -693;}
+}
+
+@keyframes deslide11 {
+    100%{top: -693;}
+    0%{top: -756;}
+}
+
+@keyframes deslide12 {
+    100%{top: -756;}
+    0%{top: -819;}
+}
+
+@keyframes deslide13 {
+    100%{top: -819;}
+    0%{top: -882;}
+}
+
+@keyframes deslide14 {
+    100%{top: -882;}
+    0%{top: -945;}
+}
+
+
+/* -- zoom -- */
+.zoom {
+    background-position: 0%;
+    position: relative;
+    overflow: hidden;
+    background-size: 0%;
+    cursor: url('../Image/zoom-out.svg'), auto;
+  }
+
+
+.zoom img {
+    max-height: 800px;
+    width: 650;
+    cursor: zoom-out;
+    cursor: url('../Image/zoom-in.svg'), auto;	
+  }
+
+.zimg {
+    visibility: hidden;
+}
+
+.zoomin {
+    background-size: 150%;
+}
