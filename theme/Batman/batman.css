@@ -1,0 +1,207 @@
+/*For About*/
+body {
+    max-width: 1600px;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn_top {
+    height: 40px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    margin-top: 25px;
+    margin-right: 25px;
+    padding: 0px 15px;
+}
+
+.vdo_content {
+    position: absolute;
+    color: white;
+}
+
+.card {
+    border-radius: 0%;
+    margin-left: 15px;
+    opacity: 0.6;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card_head {
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+}
+
+p {
+    font-size: 16px;
+}
+
+.btn-light:hover {
+    border-color: black;
+    color: white;
+    background-color: black;
+}
+
+.pause_btn {
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 18px;
+    padding: 0.6%;
+    opacity: 65%;
+    margin-left: 96%;
+    margin-top: 1%;
+    z-index: 5;
+}
+
+.pause_btn .glyphicon {
+    top: -1px;
+    left: 1px;
+    color: white;
+}
+
+.pause_btn:focus {
+    outline: none;
+    border: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.top_branner {
+    background-color: black;
+    width: 1600px;
+}
+
+.prod:hover {
+    color: white;
+}
+
+.path {
+    color: #006db7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.directory {
+    text-align: left;
+    width: 100%;
+    padding-left: 30px;
+    background-color: white;
+}
+
+/*For Products*/
+.abt:hover {
+     text-decoration: none;
+     color: white;
+}
+
+.upper_content {
+    width: 1280px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    padding: 25px 20px;
+}
+
+/** product **/
+.card_product {
+    width: 312.33px;
+    height: 549.36px;
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.img_box {
+    width: 254.35px;
+    height: 254.35px;
+    padding: 15px 15px 10px;
+}
+
+.img_product {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 254.35px;
+    transition: transform .5s;
+}
+
+.img_product:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.detail_product {
+    padding: 15px 15px 10px;
+}
+.frame_img {
+    height: 254.35px;
+    width: 254.35px;
+}        
+/** row size on product **/
+.detail {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+/** add to button **/
+.add_to {
+    width: 282.33px;
+    height: 58.8px;
+    background-color: #fd8024;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+/** out of stock button**/
+.out_stock {
+    width: 282.33px;
+    height: 58.8px;
+    background-color: #fff2f2;
+    color: #d0021b;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+.row_bottom {
+    margin-bottom: -15px;
+}
+
+/** drop down style**/
+.drop_btn {
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid rgb(224, 224, 224);
+    position: absolute;
+    margin-top: -20px;
+}
+
+/** under prodcut section **/
+.under_product {
+    height: 121.6px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.page {
+    padding: 0px 20px;
+    background-color: transparent;
+    font-size: 16px;
+    border: transparent;
+}
+
+.show_all {
+    margin: 20px 0px 10px;
+    padding: 10px 20px;
+    color: black;
+    border: 1px solid #006db7;
+    background-color: transparent;
+    border-radius: 5px;
+}

@@ -1,0 +1,194 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+        type="image/x-icon">
+
+        <link href="batman.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mypage">
+        <div class="directory path">
+            <span>Home &nbsp;&nbsp; > &nbsp;&nbsp;Sets by theme &nbsp;&nbsp; > &nbsp;&nbsp; DC &nbsp;&nbsp; > &nbsp;&nbsp; About LEGO® Batman™ Toys & Sets</span>
+        </div>
+        <div class="row top_branner justify-content-center">
+            <img src="Batman img/icon.png" width="100px" height="65px" style="margin-right: 30px; margin-top: 12px;">
+            <a href="prod_batman.html"><button class="btn btn_top prod">Products</button></a>
+            <a href=""><button class="btn btn_top abt" style="background-color: white; color: black;">About</button></a>
+        </div>
+        <div class="vdo_content" style="padding-left: 110px; margin-top: 320px;">
+            <h1 style="font-size: 40px;">Bad guys beware! It’s LEGO® Batman™!</h1>
+            <p style="font-size: 18px;">Fans of the Caped Crusader™ can recreate action-packed movie adventures and
+                take part <br>in crime-fighting missions of their own with iconic minifigures, vehicles
+                and gadgets from <br>the LEGO® Batman™ sets.<br>
+            </p>
+        </div>
+        <div class="vdo">
+            <button class="btn pause_btn" id="myBtn" onclick="pauseplay()"><i id="btn_icon"
+                    class="glyphicon glyphicon-pause"></i></button>
+            <video autoplay muted loop id="myVideo" style="width: 100%;">
+                <source id="myVideo" src="https://www.lego.com/cdn/cs/set/assets/blt10e7c8948d25bcfd/Mainstage-video_03.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="wrap" style="background-color: black; width: 100%;">
+            <ul class="dc_card" style="display: flex; padding-top: 70px; margin-left: 80px;">
+                <div class="card">
+                    <a href="#">
+                        <span class="card_head">DC Characters</span>
+                        <div class="dc_img">
+                            <img width="300" height="430"
+                                src="Batman img/card1.jpg">
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <span class="card_head">DC Games</span>
+                        <div class="dc_img">
+                            <img width="300" height="430"
+                                src="Batman img/card2.jpg">
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <span class="card_head">LEGO® DC BATMAN™</span>
+                        <div class="dc_img">
+                            <img width="300" height="430"
+                                src="Batman img/card3.jpg">
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <span class="card_head">DC</span>
+                        <div class="dc_img">
+                            <img width="300" height="430"
+                                src="Batman img/card4.jpg">
+                        </div>
+                    </a>
+                </div>
+            </ul>
+        </div>
+        <div class="prod_list"
+            style="height: 600px; width: 100%; background-color: black; color: white; margin-top: -20px;">
+            Product list
+        </div>
+        <div class="con">
+            <div class="wrap">
+                <div style="position: absolute; color: white; padding-left: 105px; padding-top: 300px;">
+                    <h1>Patrol GOTHAM CITY™ in <br>the Tumbler Batmobile™</h1>
+                    <p>Join Batman™ as he hunts down bad guys in the armored <br>Tumbler Batmobile™, as featured in The
+                        Dark
+                        Knight™ trilogy.</p>
+                    <a class="btn btn-light">Shop now ></a>
+                </div>
+                <img style="width: 100%;" src="Batman img/part1.jpg">
+            </div>
+            <div class="wrap">
+                <div
+                    style="position: absolute; color: white; text-align: right; padding-left: 1000px; padding-top: 180px;">
+                    <h1>Capture the power of the <br>Tumbler Batmobile™</h1>
+                    <p>Build and display one of the most iconic vehicles in cinema <br>history: the Tumbler Batmobile™
+                        from
+                        The Dark Knight™ trilogy <br>of Batman™ movies.</p>
+                    <a class="btn btn-light">Shop now ></a>
+                </div>
+                <img style="width: 100%;" src="Batman img/part2.jpg">
+            </div>
+            <div class="wrap">
+                <div style="position: absolute; color: white; padding-left: 105px; padding-top: 180px;">
+                    <h1>Recreate the beauty of <br>the 1989 Batmobile™</h1>
+                    <p>This 3,306-piece, buildable model captures forever the classic <br>curves of the famous
+                        Batmobile™
+                        from the 1989 <br>Batman movie.</p>
+                    <a class="btn btn-light">Shop now ></a>
+                </div>
+                <img style="width: 100%;" src="Batman img/part3.jpg">
+            </div>
+            <div class="wrap">
+                <div
+                    style="position: absolute; color: white; text-align: right; padding-left: 1000px; padding-top: 180px;">
+                    <h1>The iconic Batman™ cowl, <br>to build and display</h1>
+                    <p>This authentic model of the cowl worn by the Caped Crusader™ <br>is sure to attract attention and
+                        admiration wherever it is <br>displayed.</p>
+                    <a class="btn btn-light">Shop now ></a>
+                </div>
+                <img style="width: 100%;" src="Batman img/part4.jpg">
+            </div>
+            <div class="wrap">
+                <div style="position: absolute; color: white; padding-left: 105px; padding-top: 180px;">
+                    <h1>Introduce your young <br>superhero to Batman™</h1>
+                    <p>With 3 classic minifigures, a Batmobile™, a wacky hot rod and <br>more, this versatile
+                        build-and-play
+                        toy is ideal for youngsters <br>aged 4 and up.</p>
+                    <a class="btn btn-light">Shop now ></a>
+                </div>
+                <img style="width: 100%;" src="Batman img/part5.jpg">
+            </div>
+            <div class="wrap">
+                <div
+                    style="position: absolute; color: white; text-align: right; padding-left: 1000px; padding-top: 150px;">
+                    <h1>All-in-one Batman™ <br>adventure set – on wheels!</h1>
+                    <p>This LEGO® Batman™ Batcave™ playset includes 6 popular <br>minifigures, 5 iconic vehicles, lots
+                        of
+                        awesome weapons and <br>heaps of cool gadgets.</p>
+                    <a class="btn btn-light">Shop now ></a>
+                </div>
+                <img style="width: 100%;" src="Batman img/part6.jpg">
+            </div>
+        </div>
+        <div style="background-color: black;">
+            <div class="content"
+                style="color: white; text-align: left; font-size: 16px; padding-left: 150px; padding-top: 40px; padding-bottom: 30px;">
+                BATMAN and all related characters and elements © & ™ DC Comics. BATMAN BEYOND, THE DARK KNIGHT and all
+                related characters and elements © & ™ DC Comics and<br>
+                Warner Bros. Entertainment Inc. (s21)
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Pause video 
+        // Get the video
+        var video = document.getElementById("myVideo");
+
+        // Get the button
+        var btn = document.getElementById("myBtn");
+        var icon = document.getElementById("btn_icon");
+
+        // Pause and play the video, and change the button text
+        function pauseplay() {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+
+            }
+            icon.classList.toggle("glyphicon-play");
+            icon.classList.toggle("glyphicon-pause");
+        }
+    </script>
+</body>
+
+</html>
