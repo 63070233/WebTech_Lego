@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+        type="image/x-icon">
+
+    <style>
+        body {
+            overflow-x: hidden;
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+        }
+
+        .wrap_all {
+            width: 100%;
+            max-width: 1600px;
+        }
+
+        .directory {
+            text-align: left;
+            width: 100%;
+            padding-left: 30px;
+            background-color: white;
+        }
+
+        .logo_top {
+            display: flex;
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 1220px;
+        }
+
+        .float_text_left {
+            position: absolute;
+            text-align: left;
+        }
+
+        .float_text_right {
+            position: absolute;
+            text-align: right;
+        }
+
+        .link_list {
+            width: 100%;
+            text-align: center;
+        }
+
+        .list_box {
+            margin-top: 30px;
+            margin-left: 405px;
+            display: flex;
+        }
+
+        .box {
+            margin: 18px;
+        }
+
+        .list {
+            text-decoration: none;
+        }
+
+        .link {
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+
+        .link_list .list_box .box a {
+            color: black;
+        }
+
+        .link_list .list_box .box a:hover {
+            color: #338ace;
+        }
+
+        .list_box {
+            margin-left: 600px;
+        }
+
+        .wrap {
+            display: flex;
+            width: 100%;
+        }
+
+        .half {
+            width: 50%;
+        }
+
+        .half img {
+            width: 100%;
+            height: 600px;
+        }
+
+        .info {
+            background-color: black;
+            margin-bottom: 25px;
+        }
+
+        .text {
+            width: 100%;
+            text-align: left;
+            color: white;
+            font-size: 16px;
+            padding: 40px 0px;
+        }
+
+        .pos_text {
+            margin-left: 80px;
+            margin-top: 150px;
+        }
+
+        .btn-light {
+            padding: 13px 28px;
+            border: none;
+        }
+
+        .btn-light:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .btn-dark {
+            background-color: black;
+            padding: 13px 28px;
+            border: none;
+        }
+
+        .btn-dark:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .slideshow-container {
+            width: 100%;
+            position: relative;
+            margin: auto;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: 45px;
+            height: auto;
+            padding: 8px;
+            margin-top: -22px;
+            background-color: #808080;
+            color: #d3d3d3;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 50%;
+            user-select: none;
+        }
+
+        .prev {
+            text-decoration: none;
+            left: 10px;
+        }
+
+        .next {
+            text-decoration: none;
+            right: 10px;
+            border-radius: 48%;
+        }
+
+        .prev:hover,
+        .next:hover {
+            text-decoration: none;
+            background-color: #e0e0e0;
+            color: #454545;
+        }
+
+        .dot {
+            position: absolute;
+            cursor: pointer;
+            top: 95%;
+            height: 10px;
+            width: 10px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: black;
+        }
+
+        .top_branner {
+            background-image: url('DC img/Banner.jpeg');
+            height: 89px;
+        }
+
+        .btn_top {
+            height: 40px;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 2px solid white;
+            color: white;
+            margin-top: 25px;
+            margin-right: 25px;
+            padding: 0px 15px;
+        }
+
+        .prod:hover {
+            color: white;
+        }
+
+        .path {
+            color: #006db7;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap_all">
+        <div class="directory path">
+            <span>Home &nbsp;&nbsp; > &nbsp;&nbsp;Sets by theme &nbsp;&nbsp; > &nbsp;&nbsp; DC &nbsp;&nbsp; > &nbsp;&nbsp; LEGO® DC Super Heroes</span>
+        </div>
+        <div class="row top_branner justify-content-center">
+            <img src="DC img/icon.png"
+                width="60px" height="60px" style="margin-right: 25px; margin-top: 12px;">
+            <a href="prod_dc.html"><button class="btn btn_top prod">Products</button></a>
+            <a href=""><button class="btn btn_top abt" style="background-color: white; color: black;">About</button></a>
+        </div>
+        <div class="content_top">
+            <div class="float_text_left" style="color: white; margin-left: 110px; margin-top: 150px;">
+                <h1>Meet your DC Super Heroes</h1>
+                <p style="margin-top: 15px;">The most iconic Super Heroes. The greatest stories.</p>
+                <a class="btn btn-light" style="margin-top: 10px;">Learn more ></a>
+            </div>
+            <div class="logo_top">
+                <img src="DC img/DC_logo.png">
+                <img src="DC img/Batman_logo.png">
+            </div>
+            <img width="100%" src="DC img/top_img.jpeg">
+        </div>
+        <div class="link_list">
+            <div class="list_box">
+                <div class="box" id="ninjago">
+                    <a href="#" class="list">
+                        <img class="circle" src="DC img/list_img1.jpeg">
+                        <div class="link">
+                            <span>DC Characters</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="box" id="city">
+                    <a href="#" class="list">
+                        <img class="circle" src="DC img/list_img2.jpeg">
+                        <div class="link">
+                            <span>DC Games</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="box" id="apps">
+                    <a href="#" class="list">
+                        <img class="circle" src="DC img/list_img3.jpeg">
+                        <div class="link">
+                            <span>LEGO® DC <br>BATMAN™</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="order_list">
+            <h1>Order List</h1>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <div class="float_text_left" style="margin-left: 110px; margin-top: 180px;">
+                    <h1>Keep smiling</h1>
+                    <p>Celebrate the iconic Super-Villain: The Joker™</p>
+                    <a class="btn btn-dark" href="#">Shop now ></a>
+                </div>
+                <img src="DC img/slide1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="float_text_left" style="margin-left: 110px; margin-top: 180px;">
+                    <h1>Keep snarling</h1>
+                    <p>Or, perhaps, it’s a hero you deserve?</p>
+                    <a class="btn btn-dark" href="#">Shop now ></a>
+                </div>
+                <img src="DC img/slide2.jpg" style="width:100%">
+            </div>
+            <span class="dot" style="margin-left: -10px;" onclick="currentSlide(1)"></span>
+            <span class="dot" style="margin-left: 6px;" onclick="currentSlide(2)"></span>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="content">
+            <div class="float_text_right" style="color: white; margin-left: 970px; margin-top: 250px;">
+                <h1>Join the adventure with <br>LEGO DC Super Heroes!</h1>
+                <p>
+                    There’s always a wrong to right with LEGO DC Super Heroes. <br>
+                    Join your heroes – from Superman™ to Batman™ to <br>
+                    Wonder Woman™ and more!
+                </p>
+            </div>
+            <img width="100%" src="DC img/content1.jpeg">
+        </div>
+        <div class="wrap">
+            <div class="half" style="background-color: black; color: white;">
+                <div class="float_text_left pos_text">
+                    <h1>Epic adventures from the DC <br>Universe</h1>
+                    <p>
+                        LEGO® DC sets inspire imaginative fun on a spectacular scale as kids <br>
+                        role-play Super Hero adventures with famous figures from the DC <br>
+                        Universe – from Superman™ to Harley Quinn™ – and a various <br>
+                        assortment of amazing accessories.
+                    </p>
+                    <a class="btn btn-light" href="#">Shop now ></a>
+                </div>
+            </div>
+            <div class="half">
+                <img src="DC img/content2.jpeg">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="half">
+                <img src="DC img/content3.jpeg">
+            </div>
+            <div class="half" style="background-color: rgb(74, 52, 140); color: white;">
+                <div class="float_text_left pos_text">
+                    <h1>Iconic Super Heroes and Super-<br>Villains</h1>
+                    <p>
+                        With a colorful cast of iconic heroes and roguish villains, LEGO® DC <br>
+                        building kits put the battle between good and evil into kids’ hands. Can <br>
+                        they use their building and battling skills to save the planet before <br>
+                        bedtime? With so many play possibilities to explore, there will always <br>
+                        be new adventures tomorrow.
+                    </p>
+                    <a class="btn btn-light" href="#">Shop now ></a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="half" style="background-color: rgb(236, 193, 91); color: black;">
+                <div class="float_text_left pos_text">
+                    <h1>LEGO® 4+ sets for budding <br>superheroes</h1>
+                    <p>
+                        Preschoolers and youngsters new to LEGO® construction will love the <br>
+                        LEGO DC 4+ sets. With special Starter Bricks, even first-time builders <br>
+                        can experience the joy of construction “by myself”. Just look for the 4+ <br>
+                        mark on the box.
+                    </p>
+                    <a class="btn btn-dark" href="#">Shop now ></a>
+                </div>
+            </div>
+            <div class="half">
+                <img src="DC img/content4.jpeg">
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="half">
+                <img src="DC img/content5.jpeg">
+            </div>
+            <div class="half" style="background-color: rgb(48, 65, 60); color: white;">
+                <div class="float_text_left pos_text">
+                    <h1>Action-packed adventures with <br>Batman™</h1>
+                    <p>
+                        LEGO® DC Batman™ toys fire up kids’ passion for the Caped Crusader™. <br>
+                        There’s non-stop action featuring Batman, his Super Hero allies and an <br>
+                        impressive array of vehicles and gadgets as youngsters battle to save <br>
+                        GOTHAM CITY™ from notorious Super-Villains.
+                    </p>
+                    <a class="btn btn-light" href="#">Shop now ></a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="half" style="background-color: rgb(73, 73, 70); color: white;">
+                <div class="float_text_left pos_text">
+                    <h1>Be a superhero! Give a kid a <br>LEGO® DC set</h1>
+                    <p>
+                        If you’re looking for a birthday, holiday or ‘just because’ gift for a kid <br>
+                        with a passion for Super Heroes, LEGO® DC sets are packed with <br>
+                        collectible minifigures, cool features and awesome action that never <br>
+                        ends.
+                    </p>
+                    <a class="btn btn-light" href="#">Shop now ></a>
+                </div>
+            </div>
+            <div class="half">
+                <img src="DC img/content6.jpeg">
+            </div>
+        </div>
+        <div class="info" style="padding-left: 130px;">
+            <p class="text">
+                BATMAN and all related characters and elements © & ™ DC Comics. BATMAN BEYOND, THE DARK KNIGHT and all
+                related characters and elements © & ™ DC Comics and <br>
+                Warner Bros. Entertainment Inc. (s21)
+            </p>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
