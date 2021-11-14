@@ -15,125 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
-
-
-
-    <style>
-        body {
-            font-family: 'Rubik', sans-serif;
-            overflow-x: hidden;
-        }
-
-        /** navbar **/
-        nav {
-            background-color: #ffcf00;
-            height: 1.75cm;
-        }
-
-        .hover_underline:hover {
-            text-decoration: underline;
-        }
-
-        /** slider **/
-        /* -- navigator -- */
-
-        .navt:hover {
-            color: gray;
-            text-decoration: none;
-        }
-
-        .navt {
-            color: white;
-        }
-
-        .btn-holiday{
-            background-color: #ffffff;
-            color: #d0021b;
-            border: none;
-            border-radius: 2px;
-            width: 105px;
-            height: 32px;
-        }
-        .btn-holiday:hover{
-            background-color: #000000;
-            color: #ffffff;
-            border: none;
-            border-radius: 2px;
-        }
-
-        .playzone{
-            width: 107px; height: 25px; border-radius: 2px; background-color: #a0d4f7; border: none;
-            box-shadow: #000000;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-        }
-        .playzone:hover{
-            background-color: white;
-        }
-
-        /*Side Nav*/
-        .sidenav {
-  height: 1800px;
-  width: 0;
-  position: fixed;
-  z-index: 5000;
-  top: 0;
-  left: 0;
-  background-color: rgb(255, 255, 255);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #000000;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #000000;
-  text-decoration: underline;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-.sidelink {
-    font-size: 15px;
-    margin-top: -15px;
-    cursor: pointer;
-}
-.sidelink:hover {
-
-    text-decoration: underline;
-    color: #005fcc;
-}
-.sidelink2 {
-    font-size: 15px;
-    margin-top: -15px;
-    cursor: pointer;
-}
-.sidelink2:hover {
-
-    text-decoration: underline;
-    color: #000000;
-}
-
-    </style>
+   <link rel="stylesheet" href="navbar.css" media="screen">
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
         type="image/x-icon">
@@ -340,13 +222,9 @@
     </div>
       
       
-     
-    <div style="height:2000px">
 
-    </div>
-    </div>
     
-
+    <!-------------------------Navbar Script--------------------------------------------------------------->
     <script>
         function openshop() {
           document.getElementById("shopnav").style.width = "750px";
