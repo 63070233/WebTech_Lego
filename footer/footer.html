@@ -12,38 +12,37 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <style>
-
-        .hover_underline:hover {
+        .footer .hover_underline:hover {
             text-decoration: underline;
         }
 
-        .btn {
+        .footer .btn-footer {
             background-color: rgba(253, 128, 36, 255);
             border: 2px solid rgba(253, 128, 36, 255);
             text-align: center;
             height: 50px;
             width: 55px;
-            margin-left: 0;
+            margin-left: 29;
             font-size: large;
         }
 
-        .btn:hover {
+        .footer .btn-footer:hover {
             background-color: #ffffff;
         }
 
-        .arrow {
-            border: solid white;
+        .footer .arrow {
+            border: solid rgb(0, 0, 0);
             border-width: 0 3px 3px 0;
             display: inline-block;
             padding: 5px;
         }
 
-        .right {
+        .footer .right {
             transform: rotate(-45deg);
             -webkit-transform: rotate(-45deg);
         }
 
-        label {
+        .footer label {
             bottom: 20px;
             position: relative;
             font-size: 16px;
@@ -61,11 +60,11 @@
             font-size: 14px;
         }
 
-        input::placeholder {
+        .footer input::placeholder {
             opacity: 0;
         }
 
-        span {
+        .footer span {
             position: absolute;
             top: 10;
             left: 20;
@@ -75,7 +74,7 @@
             color: gray;
         }
 
-        label:focus-within>span,
+        .footer label:focus-within>span,
         input:not(:placeholder-shown)+span {
             font-size: 10px;
             transform: translateY(15px);
@@ -89,11 +88,11 @@
         <div class="container-fluid" style="padding-top: 27px; width: 1525px;"></div>
         <div class="row" style="padding: 23px;">
             <div class="col-sm-3" style="padding-left: 5.1%;">
-                <img src="../footer/logo.svg"
-                    width="97px" height="97px" alt="logo">
+                <img src="../../footer/logo.svg" width="97px" height="97px" alt="logo">
                 <br><br>
-                <button style="background-color: rgba(24,21,45,255); color: white; border: none; text-align: center; padding: 8px;">
-                    <img src="../footer/USA_flag.png" width="18px" alt="usa flag">
+                <button
+                    style="background-color: rgba(24,21,45,255); color: white; border: none; text-align: center; padding: 8px;">
+                    <img src="../../footer/USA_flag.png" width="18px" alt="usa flag">
                     Change Region</button><br><br>
                 <h6 class="hover_underline" style="padding-bottom: 10px;">Gift Cards</h6>
                 <h6 class="hover_underline">LEGO Catalogue</h6>
@@ -140,11 +139,11 @@
                 <h6 style="padding-bottom: 10px;">SUBSCRIBE TO LEGO® SHOP EMAILS</h6>
                 <div class="input-group">
                     <label for="email" style="color: black;">
-                        <input type="email" id="email" placeholder="Your email address">
-                        <span>Your email address</span>
+                        <input style="height: 50px;" type="email" id="email" placeholder="Your email address">
+                        <span class="span1">Your email address</span>
                     </label>
-                    <div class="input-group-append">
-                        <button class="btn" type="button"><i class="arrow right"></i></button>
+                    <div class="input-group-append" style="margin-top: -75px; margin-left: 180px;">
+                        <button class="btn-footer" type="button"><i class="arrow right"></i></button>
                     </div>
                 </div>
             </div>
@@ -152,21 +151,17 @@
             <div class="col">
                 <div class="container" style="padding-left: 40%; width: 50%;">
                     <h6 style="font-weight: bold;">FOLLOW US</h6><br>
-                    <span style="padding-left: 63%;">
-                        <img src="https://www.lego.com/_build/public/facebook-192779851a255b67f3e4d3939aded408.svg"
-                            width="45px" alt="facebook">
+                    <span class="span1" style="padding-left: 63%;">
+                        <img src="../../image/facebook.svg" width="45px" alt="facebook">
                     </span>
-                    <span style="padding-left: 68%;">
-                        <img src="https://www.lego.com/_build/public/twitter-6485f3053f010c1cda02f99c13f388d9.svg"
-                            width="45px" alt="twitter">
+                    <span class="span1" style="padding-left: 68%;">
+                        <img src="../../image/twitter.svg" width="45px" alt="twitter">
                     </span>
-                    <span style="padding-left: 73%;">
-                        <img src="https://www.lego.com/_build/public/instagram-407d05b50418038badb371abae1de072.svg"
-                            width="45px" alt="instagram">
+                    <span class="span1" style="padding-left: 73%;">
+                        <img src="../../image/instagram.svg" width="45px" alt="instagram">
                     </span>
-                    <span style="padding-left: 78%;">
-                        <img src="https://www.lego.com/_build/public/youtube-20aca7fd76d3bb595be0036d19fc9160.svg"
-                            width="45px" alt="youtube">
+                    <span class="span1" style="padding-left: 78%;">
+                        <img src="../../image/youtube.svg" width="45px" alt="youtube">
                     </span>
                 </div>
             </div>
@@ -200,7 +195,9 @@
         </div>
         <div class="row" style="padding:12 23px 23 23;">
             <div class="col" style="padding-left: 5.1%; padding-right: 5.1%;">
-                <p style="padding-bottom: 40px; font-size: 12px;">LEGO System A/S, DK-7190 Billund, Denmark. Must be 18 years or older to
+                <p style="padding-bottom: 40px; font-size: 12px;">LEGO System A/S, DK-7190 Billund, Denmark. Must be
+                    18
+                    years or older to
                     purchase online. LEGO, the
                     LEGO
                     logo, the Minifigure, DUPLO, LEGENDS OF CHIMA, NINJAGO, BIONICLE, MINDSTORMS and MIXELS are
