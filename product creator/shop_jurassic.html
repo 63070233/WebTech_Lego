@@ -1,0 +1,1613 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurassic World™ | Themes | Official LEGO® Shop US</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /** branner **/
+        .top_branner {
+            background-color: #2D2D2D;
+            width: 1525px;
+            height: 90px;
+        }
+
+        .path {
+            font-size: 14px;
+            color: #006db7;
+            margin: 0px 100px 15px;
+            padding: 20px 0px 10px 0px;
+        }
+
+        .btn_top {
+            height: 40px;
+            background-color: white;
+            border-radius: 20px;
+            border: 2px solid white;
+            color: rgb(0, 0, 0);
+            margin-top: 25px;
+            margin-right: 25px;
+            padding: 0px 15px;
+        }
+
+        .btn_top1 {
+            height: 40px;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 2px solid white;
+            color: white;
+            margin-top: 25px;
+            margin-right: 25px;
+            padding: 0px 15px;
+        }
+
+        .btn_top:hover {
+            text-decoration: solid;
+            background-color: transparent;
+        }
+
+        .btn-out {
+    background-color: rgb(252, 223, 223);
+    color: #b60c0c;
+    width: 100%;
+    height: 59;
+    padding: 6%;
+    font-weight: 600;
+    border: 0px;
+}
+
+        /** content under branner**/
+        .upper_content {
+            width: 1280px;
+            background-color: #f8f8f8;
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+
+        /** navbar **/
+        nav {
+            background-color: #ffcf00;
+            height: 1.75cm;
+        }
+
+        .hover_underline:hover {
+            text-decoration: underline;
+        }
+
+        /** slider **/
+        /* -- navigator -- */
+
+        .navt:hover {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .navt {
+            color: white;
+        }
+
+        .btn-holiday {
+            background-color: #ffffff;
+            color: #d0021b;
+            border: none;
+            border-radius: 2px;
+            width: 150px;
+            height: 35px;
+        }
+
+        .btn-holiday:hover {
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            border-radius: 2px;
+        }
+
+        .playzone {
+            width: 107px;
+            height: 25px;
+            border-radius: 2px;
+            background-color: #a0d4f7;
+            border: none;
+            box-shadow: #000000;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+
+        .playzone:hover {
+            background-color: white;
+        }
+
+        /*Side Nav*/
+        .sidenav {
+            height: 1800px;
+            width: 0;
+            position: fixed;
+            z-index: 5000;
+            top: 0;
+            left: 0;
+            background-color: rgb(255, 255, 255);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #000000;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+
+        .sidelink {
+            font-size: 15px;
+            margin-top: -15px;
+            cursor: pointer;
+        }
+
+        .sidelink:hover {
+
+            text-decoration: underline;
+            color: #005fcc;
+        }
+
+        .sidelink2 {
+            font-size: 15px;
+            margin-top: -15px;
+            cursor: pointer;
+        }
+
+        .sidelink2:hover {
+
+            text-decoration: underline;
+            color: #000000;
+        }
+
+        /** filter **/
+        @import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+        .no_underline {
+            text-decoration: none;
+            color: black;
+        }
+
+        .card-header:after {
+            content: url("image/expandarrow.png");
+            color: black;
+            font-weight: bold;
+            float: right;
+            font-size: 18px;
+        }
+
+        .active:after {
+            transform: rotate(180deg);
+        }
+
+        .no_underline:hover {
+            text-decoration: none;
+            color: black;
+        }
+
+        .card-header {
+            border-bottom: 1px solid white;
+            background-color: white;
+            border: none;
+            font-size: 12px;
+            margin-top: 5px;
+            padding: 15px;
+        }
+
+        .card-body {
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        input.size {
+            width: 25px;
+            height: 25px;
+        }
+
+        .card {
+            border-left: 1px solid black;
+            border-radius: 0px;
+            width: 312px;
+            border-left: 1px solid rgb(224, 224, 224);
+            border-right: 1px solid rgb(224, 224, 224);
+            border-top: none;
+            border-bottom: 1px solid rgb(224, 224, 224);
+        }
+
+        /** checkbox **/
+        .checkbox_detail {
+            line-height: 35px;
+            margin-top: 5px;
+        }
+
+        /** product **/
+        .card_product {
+            width: 312.33px;
+            height: 549.36px;
+            background-color: white;
+            border: 1px solid rgb(224, 224, 224);
+        }
+        
+        .img_box {
+            width: 254.35px;
+            height: 254.35px;
+            padding: 15px 15px 10px;
+        }
+
+        .img_product {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            width: 254.35px;
+            transition: transform .5s;
+        }
+
+        .img_product:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+
+        .detail_product {
+            padding: 15px 15px 10px;
+        }
+
+        .frame_img {
+            height: 254.35px;
+            width: 254.35px;
+        }
+
+        /** row size on product **/
+        .detail {
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        /** add to button **/
+        .add_to {
+            width: 282.33px;
+            height: 58.8px;
+            background-color: #fd8024;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .add_to:hover {
+            background-color: transparent;
+            border: 2.5px solid #fd8024;
+        }
+
+        /** out of stock button**/
+        .out_stock {
+            width: 282.33px;
+            height: 58.8px;
+            background-color: #fff2f2;
+            color: #d0021b;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        /** Rest All **/
+        .rest_all {
+            width: 312px;
+            height: 58.8px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            border: none;
+        }
+
+        .rest_all:hover {
+            cursor: not-allowed;
+        }
+
+
+        .row_bottom {
+            margin-bottom: -15px;
+        }
+
+        /** drop down style**/
+        .drop_btn {
+            padding: 12px;
+            background-color: transparent;
+            border: 1px solid rgb(224, 224, 224);
+            position: absolute;
+            margin-top: -20px;
+        }
+
+        /** under prodcut section **/
+        .under_product {
+            height: 121.6px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .page {
+            padding: 0px 20px;
+            background-color: transparent;
+            font-size: 16px;
+            border: transparent;
+        }
+
+        .show_all {
+            margin: 20px 0px 10px;
+            padding: 10px 20px;
+            color: black;
+            border: 1px solid #006db7;
+            background-color: transparent;
+            border-radius: 5px;
+        }
+
+
+        /**footer**/
+        .hover_underline:hover {
+            text-decoration: underline;
+        }
+
+        .btn_footer {
+            background-color: rgba(253, 128, 36, 255);
+            border: 2px solid rgba(253, 128, 36, 255);
+            text-align: center;
+            height: 50px;
+            width: 55px;
+            margin-left: 0;
+            font-size: large;
+        }
+
+        .btn:hover {
+            background-color: #ffffff;
+        }
+
+        .arrow {
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 5px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        label {
+            bottom: 20px;
+            position: relative;
+            font-size: 16px;
+        }
+
+        .footer input {
+            margin-top: 20px;
+            position: relative;
+            width: 100%;
+            padding: 10px 0px 10px 20px;
+            border: none;
+            outline: none;
+            height: 100%;
+            padding-bottom: 1px;
+            font-size: 14px;
+        }
+
+        input::placeholder {
+            opacity: 0;
+        }
+
+        .span {
+            position: absolute;
+            top: 10;
+            left: 20;
+            transform: translateY(30px);
+            font-size: 0.825em;
+            transition-duration: 300ms;
+            color: gray;
+        }
+
+        label:focus-within>span,
+        input:not(:placeholder-shown)+span {
+            font-size: 10px;
+            transform: translateY(15px);
+        }
+    </style>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar" style="background-color: white; height: 50px; ">
+        <button class="playzone">
+            <div style="padding-bottom: 2px;">
+                <a href=""> <img src="image/navbar/arrowleft.svg" style="width: 15px;" alt=""></a>
+                <span style="font-size: 6px;"><b>PLAY ZONE</b> </span>
+            </div>
+
+        </button>
+        <span style="margin-left: 100px;">
+            < </span> LEGO® Harry Potter™ gift with purchase over $100.*Learn more <span> > </span>
+                <div style="margin-right:-150px;">
+                    <svg width="20" height="22" viewBox="0 0 20 22" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="Icon__StyledSVG-lm07h6-0 cnOvit UtilityBarstyles__AccountIcon-sc-1uwh8t8-5 fQZMuO">
+                        <g transform="translate(1 1)" fill-rule="nonzero" fill="none">
+                            <rect stroke="#2C2C2C" stroke-width="1.5" fill="#FFCF00" x="4.875" width="8.25"
+                                height="6.038" rx=".729"></rect>
+                            <rect stroke="#2C2C2C" stroke-width="1.2" fill="#FFCF00" x="3.75" y="14.34" width="10.5"
+                                height="5.66" rx=".729"></rect>
+                            <path
+                                d="M14.25 17.736H3.75C0 17.736 0 14.717 0 14.717v-8.68S0 3.02 3.75 3.02h10.5C18 3.019 18 6.038 18 6.038v8.679s0 3.019-3.75 3.019z"
+                                stroke="#2C2C2C" stroke-width="1.5" fill="#FFCF00"></path>
+                            <path
+                                d="M7.125 8.868a.94.94 0 00-.938-.943.94.94 0 00-.937.943c0 .52.42.943.938.943a.94.94 0 00.937-.943zm4.688-.943a.94.94 0 00-.938.943c0 .52.42.943.938.943a.94.94 0 00.937-.943.94.94 0 00-.938-.943zm.293 3.86a.452.452 0 00-.649.21c-.005.008-.461.84-2.463.84-1.953 0-2.437-.793-2.462-.84a.446.446 0 00-.638-.234.618.618 0 00-.215.761c.063.147.69 1.446 3.315 1.446s3.25-1.299 3.313-1.446a.609.609 0 00-.201-.738z"
+                                fill="#2C2C2C"></path>
+                        </g>
+                    </svg>
+                    <span style="padding: 5px;"> Account</span>
+                    <span style="padding: 20px;"> |</span>
+                    <img src="image/navbar/vip.png" style="width: 20px; height: 20px;" alt="">
+                    <span style="padding: 5px;"> VIP</span>
+                </div>
+                <div>
+
+                </div>
+
+    </nav>
+    <!--Nav2-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#" style="font-size: 34px;"></a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav pl-5">
+                <li class="nav-item pr-5">
+                    <a href="index.html"><img src="footer/logo.svg" width="55px" height="55px"></a>
+
+                </li>
+                <li class="nav-item pr-5">
+                    <a style="color: #000000; font-size: 20px; margin-top: 5px;" id="underline_animate" class="nav-link"
+                        href="#edu_link" onclick="openshop()">SHOP</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a style="color: #000000; font-size: 20px; margin-top: 5px;" id="underline_animate" class="nav-link"
+                        href="#skill_link" onclick="opendiscover()">DISCOVER</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a style="color: #000000; font-size: 20px; margin-top: 5px;" id="underline_animate" class="nav-link"
+                        href="#hobby_link" onclick="openhelp()">HELP</a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a href=""><button class="btn-holiday"
+                            style="font-size: 18px; margin-left: -20px; margin-top: 10px;">VIP WEEKEND</button></a>
+
+
+            </ul>
+            <div style="right: 30; position: absolute;">
+                <button style="border-radius: 100%; background-color: white; border: none; height: 30px;">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                        aria-hidden="true" class="Icon__StyledSVG-lm07h6-0 ipSswI">
+                        <path
+                            d="M18 16.615c0 .375-.137.7-.412.973a1.331 1.331 0 01-.973.412 1.28 1.28 0 01-.973-.412l-3.71-3.7a7.41 7.41 0 01-4.317 1.342c-1.03 0-2.017-.2-2.958-.6a7.616 7.616 0 01-2.434-1.623 7.605 7.605 0 01-1.622-2.433A7.472 7.472 0 010 7.616c0-1.032.2-2.018.6-2.96a7.65 7.65 0 011.623-2.433A7.616 7.616 0 014.657.601 7.49 7.49 0 017.615 0c1.032 0 2.018.2 2.959.601.94.4 1.752.941 2.434 1.622a7.624 7.624 0 011.622 2.434c.4.941.601 1.927.601 2.959a7.403 7.403 0 01-1.342 4.316l3.71 3.71c.267.266.401.592.401.973m-5.539-9c0-1.334-.474-2.475-1.423-3.423C10.09 3.244 8.95 2.77 7.615 2.77c-1.333 0-2.475.474-3.423 1.422C3.243 5.14 2.77 6.28 2.77 7.616c0 1.334.474 2.475 1.423 3.423.948.949 2.09 1.422 3.423 1.422 1.335 0 2.475-.473 3.423-1.422.95-.948 1.423-2.09 1.423-3.423"
+                            fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+
+
+                </button>
+                <span style="padding-left:20px;">
+                    <a href="" style="color: #000000; text-decoration: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18"
+                            aria-hidden="true" class="Icon__StyledSVG-lm07h6-0 giqRHe">
+                            <path
+                                d="M16.84 8.417L10 15.204 3.16 8.417A3.67 3.67 0 012 5.739C2 3.677 3.71 2 5.815 2a3.82 3.82 0 012.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0114.186 2C16.289 2 18 3.677 18 5.739a3.673 3.673 0 01-1.16 2.678M9.986 18l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 001.78-4.126C20 2.569 17.398 0 14.187 0A5.829 5.829 0 0010 1.762 5.827 5.827 0 005.815 0C2.604 0 0 2.569 0 5.739a5.68 5.68 0 001.782 4.126"
+                                fill="currentColor" fill-rule="evenodd"></path>
+                        </svg>
+                    </a>
+
+
+                </span>
+                <span style="padding:20px;">
+                    <a href="" style="color: #000000;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="20"
+                            viewBox="0 0 16 20" aria-hidden="true"
+                            class="Icon__StyledSVG-lm07h6-0 jWyjvs MainBarstyles__ActionIcon-sc-1cg7sjw-16 ffQagW">
+                            <g fill="currentColor" fill-rule="evenodd">
+                                <path
+                                    d="M4 3.512v5.804c0 .377.349.684.779.684.43 0 .779-.307.779-.684V3.512C5.558 2.33 6.653 1.368 8 1.368c1.347 0 2.442.962 2.442 2.144v5.804c0 .377.35.684.78.684.43 0 .778-.307.778-.684V3.512C12 1.575 10.206 0 8 0S4 1.575 4 3.512z">
+                                </path>
+                                <path
+                                    d="M2.46 6.33c-.269 0-.489.194-.5.441L1.435 18.19a.436.436 0 00.131.332.52.52 0 00.348.149h12.151c.276 0 .501-.207.501-.462l-.525-11.436c-.011-.248-.23-.442-.5-.442H2.46zM14.448 20l-12.974-.001a1.591 1.591 0 01-1.064-.462 1.357 1.357 0 01-.408-1.03L.56 6.372C.595 5.602 1.277 5 2.11 5h11.78c.835 0 1.516.602 1.551 1.372l.56 12.197c0 .789-.697 1.431-1.553 1.431z">
+                                </path>
+                            </g>
+                        </svg>
+                        (0)</a>
+                </span>
+            </div>
+
+        </div>
+    </nav>
+    <!---------------------------------------side shop---------------------------------------------->
+    <div id="shopnav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeshop()">&times;</a>
+        <div class="row">
+            <div class="col-3" style="font-size: 16px; padding: 5px; ">
+                <img src="footer/logo.svg"
+                    style="padding: 20px; margin-left: 60px; margin-top: -30px; width: 95px; height: 95px;" alt="">
+            </div>
+            <div class="col-2">
+                <a href="" style="font-size: 20px; margin-left: -40px; text-decoration: underline;">Shop</a>
+            </div>
+            <div class="col-2" style="font-size: 12px;">
+                <a href="" style="font-size: 20px; margin-left: -50px; ">DISCOVER</a>
+            </div>
+
+            <div class="col-2" style="font-size: 12px;">
+                <a href="holiday.html" style="font-size: 20px; margin-left: -20px;">HELP</a>
+            </div>
+
+            <div class="col-2" style="font-size: 12px;">
+                <button class="btn-holiday"
+                    style="font-size: 20px; margin-left: -20px; margin-top: 5px;">Holiday</button>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-5" style="padding-left: 40px;">
+                <a href="" style="width: 1200px;"><span class="sidelink2"> Sets by theme<span
+                            style="right: 0; position: absolute;">></span> </a>
+                <a href=""><span class="sidelink2">Age<span style="right: 0; position: absolute;">></span> </a>
+                <a href=""><span class="sidelink2">Price Ranges<span style="right: 0; position: absolute;">></span> </a>
+                <a href=""><span class="sidelink2">LEGO Merchandise<span style="right: 0; position: absolute;">></span>
+                </a>
+                <a href=""><span class="sidelink2">Clothing<span style="right: 0; position: absolute;">></span> </a>
+                <a href=""><span class="sidelink2">Interests<span style="right: 0; position: absolute;">></span> </a>
+                <a href=""><span class="sidelink2">Bricks<span style="right: 0; position: absolute;">></span> </a>
+                <a href=""><span class="sidelink2">Exclusives</a>
+                <a href=""><span class="sidelink2">New</a>
+                <a href=""><span class="sidelink2">Bestsellers</a>
+                <a href=""><span class="sidelink2">Home Decor</a>
+                <a href=""><span class="sidelink2">Offers & sale</a>
+                <a href=""><span class="sidelink2">Gift Cards</a>
+                <a href=""><span class="sidelink2">Last Chance to Buy</a>
+
+            </div>
+        </div>
+
+    </div>
+    <!---------------------------------------side discover---------------------------------------------->
+    <div id="discovernav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closediscover()">&times;</a>
+        <div class="row">
+            <div class="col-3" style="font-size: 16px; padding: 5px; ">
+                <img src="footer/logo.svg"
+                    style="padding: 20px; margin-left: 60px; margin-top: -30px; width: 95px; height: 95px;" alt="">
+            </div>
+            <div class="col-2" id="shopnav1" class="sidenav">
+                <a href="" style="font-size: 20px; margin-left: -40px;" onclick="opendiscover()">Shop</a>
+            </div>
+            <div class="col-2" style="font-size: 12px;">
+                <a href="" style="font-size: 20px; margin-left: -50px; text-decoration: underline;">DISCOVER</a>
+            </div>
+
+            <div class="col-2" style="font-size: 12px;">
+                <a href="" style="font-size: 20px; margin-left: -20px;">HELP</a>
+            </div>
+
+            <div class="col-2" style="font-size: 12px;">
+                <button class="btn-holiday"
+                    style="font-size: 20px; margin-left: -20px; margin-top: 5px;">Holiday</button>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-5" style="padding-left: 40px;" >
+                <a href="theme.html"><p class="sidelink"> All LEGO Themes</p></a>
+                <a href="lego_news.html"><p class="sidelink">LEGO News</p></a>
+                <a href="about_us.html"><p class="sidelink">About Us</p></a>
+                <a href=""><p class="sidelink">Adults Welcome</p></a>
+                <a href="life_magazine.html"><p class="sidelink">LEGO Life Magazine</p></a>
+                <a href="life_app.html"><p class="sidelink">LEGO Life App</p></a>
+                <a href=""><p class="sidelink">LEGO Building Instructions App</p></a>
+                <a href="sustainbility.html"><p class="sidelink">Sustainability</p></a> 
+                <a href="VIP.html"><p class="sidelink">VIP Reward Program</p></a> 
+                <a href=""><p class="sidelink">News & Offers Sign up</p></a>
+                <a href="rebuild.html"><p class="sidelink">Rebuild the World</p></a>
+                <a href=""><p class="sidelink">LEGO Collaborations</p></a>
+                <a href=""><p class="sidelink">DOTS 3D Decorator</p></a>
+                
+            </div>
+        </div>
+
+
+    </div>
+
+    <!---------------------------------------side HELP---------------------------------------------->
+    <div id="helpnav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closehelp()">&times;</a>
+        <div class="row">
+            <div class="col-3" style="font-size: 16px; padding: 5px; ">
+                <img src="footer/logo.svg"
+                    style="padding: 20px; margin-left: 60px; margin-top: -30px; width: 95px; height: 95px;" alt="">
+            </div>
+            <div class="col-2" id="shopnav1" class="sidenav">
+                <a href="" style="font-size: 20px; margin-left: -40px;" onclick="openhelp()">Shop</a>
+            </div>
+            <div class="col-2" style="font-size: 12px;">
+                <a href="" style="font-size: 20px; margin-left: -50px; ">DISCOVER</a>
+            </div>
+
+            <div class="col-2" style="font-size: 12px;">
+                <a href="" style="font-size: 20px; margin-left: -20px; text-decoration: underline;">HELP</a>
+            </div>
+
+            <div class="col-2" style="font-size: 12px;">
+                <button class="btn-holiday"
+                    style="font-size: 20px; margin-left: -20px; margin-top: 5px;">Holiday</button>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-5" style="padding-left: 40px;">
+                <a href="check.html">
+                    <p class="sidelink"> Check Order Status</p>
+                </a>
+                <a href="">
+                    <p class="sidelink">Delivery & Returns</p>
+                </a>
+                <a href="stores.html">
+                    <p class="sidelink">Find a LEGO Store</p>
+                </a>
+                <a href="">
+                    <p class="sidelink">Find Building Instructions</p>
+                </a>
+                <a href="">
+                    <p class="sidelink">Common Questions</p>
+                </a>
+                <a href="">
+                    <p class="sidelink">Contact Us</p>
+                </a>
+                <a href="">
+                    <p class="sidelink">Replacement Parts</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="width: 1525px;">
+        <div class="container-fluid" style="width: 100%; max-width: 1550px;">
+            <div class="row" style="padding: 1% 8% 1%; font-size: 12px;">
+                <a href="index.html">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="theme.html">Set by
+                    themes</a>&nbsp;&nbsp;>&nbsp;&nbsp;Jurassic World™
+
+            </div>
+        </div>
+        <div class="row top_branner justify-content-center">
+            <img src="image/jurassic/jurassic-logo.png"
+                max-width="80px" height="60.03px" style="margin-right: 30px; margin-top: 15px;">
+            <a href=""><button class="btn btn_top">Product</button></a>
+            <a href="about_jurassic.html"><button class="btn btn_top1">About</button></a>
+        </div>
+        <div class="row justify-content-center" style="padding:40px 20px;">
+            <div class="upper_content">
+                <h4>Jurassic World™</h4>
+                <p>There’s a dinosaur for every age with exciting LEGO® Jurassic World™ play sets featuring cool vehicles, heroic characters, iconic buildings, laboratories, scientific equipment and more.</p>
+            </div>
+        </div>
+
+        <div class="row" style="padding-left: 110px;">
+            <!--Collapse-->
+            <div class="col-sm-3">
+                <button class="rest_all"> Reset all</button>
+                <div id="accordion">
+                    <div class="card">
+                        <a class="no_underline" data-toggle="collapse" href="#collapseOne">
+                            <div class="card-header">
+                                PRODUCT TYPE
+                            </div>
+                        </a>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;Sets
+                                    [10]</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="a2">
+                        <div class="card">
+                            <a class="collapsed no_underline" data-toggle="collapse" href="#collapseTwo">
+                                <div class="card-header">
+                                    AGE
+                                </div>
+                            </a>
+                            <div id="collapseTwo" class="collapse show" data-parent="#a2">
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;1.5+
+                                        [1]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;4+
+                                        [2]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;6+
+                                        [8]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;9+
+                                        [6]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;18+
+                                        [1]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="a3">
+                        <div class="card">
+                            <a class="collapsed no_underline" data-toggle="collapse" href="#collapseThree">
+                                <div class="card-header">
+                                    PRICE
+                                </div>
+                            </a>
+                            <div id="collapseThree" class="collapse show" data-parent="#a3">
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;$0-$25
+                                        [1]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;$25-$50
+                                        [6]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;$75-$100
+                                        [2]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;$100+ [1]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="a3">
+                        <div class="card">
+                            <a class="collapsed no_underline" data-toggle="collapse" href="#collapseThree">
+                                <div class="card-header">
+                                    FEATURED
+                                </div>
+                            </a>
+                            <div id="collapseThree" class="collapse show" data-parent="#a3">
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;Hard to find
+                                        [1]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Retiring soon
+                                        [1]</span><br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="a4">
+                        <div class="card">
+                            <a class="collapsed no_underline" data-toggle="collapse" href="#collapseFour">
+                                <div class="card-header">
+                                    THEME
+                                </div>
+                            </a>
+                            <div id="collapseFour" class="collapse" data-parent="#a4">
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;DUPLO® [1]</span>
+                                </div>
+                            </div>
+                            <div id="collapseFour" class="collapse" data-parent="#a4">
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Jurassic World™ [10]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="a5">
+                        <div class="card">
+                            <a class="collapsed no_underline" data-toggle="collapse" href="#collapseFive">
+                                <div class="card-header">
+
+
+                                    INTEREST
+                                </div>
+                            </a>
+                            <div id="collapseFive" class="collapse" data-parent="#a5">
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Animals [10]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Boats [1]</span>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Fantasy [4]</span>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Learn to build [1]</span>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Preschool [3]</span>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Travel & History [1]</span>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Vehicles [3]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="a6">
+                        <div class="card">
+                            <a class="collapsed no_underline" data-toggle="collapse" href="#collapseSix">
+                                <div class="card-header">
+                                    PRICE COUNT
+                                </div>
+                            </a>
+                            <div id="collapseSix" class="collapse" data-parent="#a6">
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;1-99
+                                        [1]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;100-249
+                                        [5]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;250-499
+                                        [2]</span><br>
+                                        <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;500-999
+                                        [1]</span><br>
+                                        <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;1000+
+                                        [1]</span><br>
+                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="a7">
+                        <div class="card">
+                            <a class="collapsed no_underline" data-toggle="collapse" href="#collapseSeven">
+                                <div class="card-header">
+                                    AVAILABILITY
+                                </div>
+                            </a>
+                            <div id="collapseSeven" class="collapse" data-parent="#a7">
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;Out of
+                                        Stock
+                                        [6]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox"
+                                            class="size">&ensp;&ensp;Available Now
+                                        [3]</span><br>
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;Back
+                                        Order
+                                        [1]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="a8">
+                        <div class="card" style="border-bottom: 1px solid rgb(224, 224, 224);">
+                            <a class="collapsed no_underline" data-toggle="collapse" href="#collapseEight">
+                                <div class="card-header">
+                                    RATING
+                                </div>
+                            </a>
+                            <div id="collapseEight" class="collapse" data-parent="#a8">
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;
+                                        <img src="image/fullstar.svg" style="height: 20px;"></span>
+                                        <img src="image/fullstar.svg" style="height: 20px;"></span>
+                                        <img src="image/fullstar.svg" style="height: 20px;"></span>
+                                        <img src="image/fullstar.svg" style="height: 20px;"></span>
+                                        <img src="image/fullstar.svg" style="height: 20px;"></span>[1]
+                                </div>
+                                <div class="card-body">
+                                    <span class="checkbox_detail"><input type="checkbox" class="size">&ensp;&ensp;
+                                        <img src="image/fullstar.svg" style="height: 20px;"></span>
+                                        <img src="image/fullstar.svg" style="height: 20px;"></span>
+                                        <img src="image/fullstar.svg" style="height: 20px;"></span>
+                                        <img src="image/fullstar.svg" style="height: 20px;"></span>
+                                        <img src="image/emptystar.svg" style="height: 20px;"></span>[9]
+                                </div>
+                            </div>
+                            <div style="width: 310px; background-color: 
+                            #e0e0e0; height: 10px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Product-->
+            <div class="col-sm-8 ">
+                <div class="row" style="padding-left: 15px; padding-top: 20px; padding-bottom: 25px; ">
+                    <h4>Showing 1 - 10 of 10 results</h4>
+                    <div class="dropdown" style="padding-left: 500px; position: relative;">
+                        <button class="dropdown-toggle drop_btn" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span style="font-size: 12px; margin-left: -40px;"> Sort by</span><br> Featured
+
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Featured</a>
+                            <a class="dropdown-item" href="#">Price: Low to High</a>
+                            <a class="dropdown-item" href="#">Rrice: High to Low</a>
+                            <a class="dropdown-item" href="#">Rating</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--  product 1 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <a href="baryonyx_jurassic.html">
+                                <img class="img_product"
+                                    src="image/jurassic/baryonyx1.webp">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Baryonyx Dinosaur Boat Escape
+                                </b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$79.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <a href="baryonyx_jurassic.html">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 2 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <a href="carnotaurus_jurassic.html">
+                                <img class="img_product"
+                                    src="image/jurassic/carnotaurus.webp">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Carnotaurus Dinosaur Chase </b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$49.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <a href="carnotaurus_jurassic.html">
+                                <button class="add_to btn"><span><b>Add to bag</b></span></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 3 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <a href="stygimoloch_jurassic.html">
+                                <img class="img_product"
+                                    src="image/jurassic/stygimoloch.webp">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Stygimoloch Dinosaur Escape</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$39.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="add_to btn"><span><b>Add to Bag</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--  product 4 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="image/jurassic/trex.webp">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>T. rex Dinosaur Fossil Exhibition</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$29.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="btn-out"><span><b>Backorder</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 5 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product" style="padding-top: 70px;"
+                                    src="image/jurassic/gallimimus.webp">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Gallimimus and Pteranodon Breakout</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                              
+                            </div>
+                            <div class="row detail">
+                                <span><b>$49.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="btn-out"><span><b>Out of stock</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 6 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="image/jurassic/trex2.webp">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b style="font-size: 15px;">T. rex and Triceratops Dinosaur Breakout</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                               
+                            </div>
+                            <div class="row detail">
+                                <span><b>$29.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="btn-out"><span><b>Out of stock</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--  product 7 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="image/jurassic/velociraptor.webp">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Velociraptor:Biplane Rescue Mission</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/halfstar.svg" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$59.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="btn-out"><span><b>Out of stock</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 8 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="image/jurassic/dr_wu.webp">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b style="font-size: 15px;">Dr. Wu's Lab: Baby Dinosaurs Breakout​</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/halfstar.svg" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$19.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="btn-out"><span><b>Out of stock</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  product 9 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="image/jurassic/rampage.webp">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Jurassic Park: T. rex Rampage</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/halfstar.svg" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$249.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="btn-out"><span><b>Out of stock</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--  product 10 -->
+                    <div class="col-sm-4 card_product">
+                        <div class="row" style="padding: 15px 15px 0px">
+                            <svg width="10%" height="10%" viewBox="0 0 40 40" alt="" style="margin: 5px;"
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 hnIedY"
+                                data-di-res-id="dee087c8-55e0a9ec" data-di-rand="1636519570099">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#F8F8F8"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <span style="padding: 10px;">Add to wish list</span>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="frame_img">
+                                <img class="img_product"
+                                    src="image/jurassic/indominus.webp">
+                            </div>
+                        </div>
+                        <div class="row detail">
+                        </div>
+                        <div class="detail_product">
+                            <div class="row">
+                                <span><b>Indominus Rex vs. Ankylosaurus</b></span>
+                            </div>
+                            <div class="row detail">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/fullstar.svg" height="20px">
+                                <img src="image/halfstar.svg" height="20px">
+                            </div>
+                            <div class="row detail">
+                                <span><b>$99.99</b></span>
+                            </div>
+                            <div class="row justify-content-center" style="height: 30px;">
+                                <button class="btn-out"><span><b>Out of stock</b></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>   
+                <div class="row ">
+                    <div class="col-sm-12 under_product">
+                        <span>&lt;<a href="" class="page">1</a><a href="" class="page">2</a>&gt;</span><br>
+                        <button class="show_all">Show All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid footer" style="background-color: rgba(32,29,72,255); color: white;" id="con">
+        <div class="container-fluid" style="padding-top: 27px; width: 1525px;"></div>
+        <div class="row" style="padding: 23px;">
+            <div class="col-sm-3" style="padding-left: 5.1%;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"
+                    width="97px" height="97px" alt="logo">
+                <br><br>
+                <button
+                    style="background-color: rgba(24,21,45,255); color: white; border: none; text-align: center; padding: 8px;">
+                    <img src="https://www.lego.com/_build/public/us-4ebaed6a76e4d7930e0b2c9e86a43389.png" width="18px"
+                        alt="usa flag">
+                    Change Region</button><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Gift Cards</h6>
+                <h6 class="hover_underline">LEGO Catalogue</h6>
+            </div>
+            <div class="col">
+                <h6 style="font-weight: bold; padding-top: 15px;">ABOUT US</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">About the LEGO Group</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® News</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Sustainability</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Supply Chain Transparency Statement</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Product Certification</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Jobs</h6>
+            </div>
+            <div class="col">
+                <h6 style="font-weight: bold; padding-top: 15px;">SUPPORT</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Contact Us</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Find Building Instructions</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Replacement Parts</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Shipping and Returns</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Payment Methods</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Terms & Conditions</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Product Recalls</h6>
+            </div>
+            <div class="col">
+                <h6 style="font-weight: bold; padding-top: 15px;">ATTRACTIONS</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® House</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGOLAND® Parks</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGOLAND Discovery Centers</h6>
+            </div>
+            <div class="col" style="padding-right: 5.1%;">
+                <h6 style="font-weight: bold; padding-top: 15px;">MORE FROM US</h6><br><br>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® LIFE</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Education</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Ideas</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO Foundation</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Affiliate Program</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">Student Offers</h6>
+                <h6 class="hover_underline" style="padding-bottom: 10px;">LEGO® Braille Bricks</h6>
+            </div>
+        </div>
+        <!-- search bar -->
+        <div class="row" style="padding: 23px;">
+            <div class="col-sm-3" style="padding-left: 5.1%;">
+                <h6 style="padding-bottom: 10px;">SUBSCRIBE TO LEGO® SHOP EMAILS</h6>
+                <div class="input-group">
+                    <label for="email" style="color: black;">
+                        <input type="email" id="email" placeholder="Your email address">
+                        <span class="span">Your email address</span>
+                    </label>
+                    <div class="input-group-append">
+                        <button class="btn btn_footer" type="button"><i class="arrow right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- social logo -->
+            <div class="col">
+                <div class="container" style="padding-left: 40%; width: 50%;">
+                    <h6 style="font-weight: bold;">FOLLOW US</h6><br>
+                    <span class="span" style="padding-left: 63%;">
+                        <img src="https://www.lego.com/_build/public/facebook-192779851a255b67f3e4d3939aded408.svg"
+                            width="45px" alt="facebook">
+                    </span>
+                    <span class="span" style="padding-left: 68%;">
+                        <img src="https://www.lego.com/_build/public/twitter-6485f3053f010c1cda02f99c13f388d9.svg"
+                            width="45px" alt="twitter">
+                    </span>
+                    <span class="span" style="padding-left: 73%;">
+                        <img src="https://www.lego.com/_build/public/instagram-407d05b50418038badb371abae1de072.svg"
+                            width="45px" alt="instagram">
+                    </span>
+                    <span class="span" style="padding-left: 78%;">
+                        <img src="https://www.lego.com/_build/public/youtube-20aca7fd76d3bb595be0036d19fc9160.svg"
+                            width="45px" alt="youtube">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- bottom -->
+        <div class="row" style="padding: 23px 23 0 23;">
+            <div class="con" style="padding-left: 5.1%; font-size: 12px; position: relative;">
+                <p class="hover_underline">Privacy Policy</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Cookies</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Legal Notice</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Terms of Use</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Digital Wellbeing</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Accessibility</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Cookie Settings</p>
+            </div>
+            <div class="con" style="font-size: 12px; position: relative; padding-left: 1%;">
+                <p class="hover_underline">Do Not Sell My Personal Information</p>
+            </div>
+        </div>
+        <div class="row" style="padding:12 23px 23 23;">
+            <div class="col" style="padding-left: 5.1%; padding-right: 5.1%;">
+                <p style="padding-bottom: 40px; font-size: 12px;">LEGO System A/S, DK-7190 Billund, Denmark. Must be 18
+                    years or older to
+                    purchase online. LEGO, the
+                    LEGO
+                    logo, the Minifigure, DUPLO, LEGENDS OF CHIMA, NINJAGO, BIONICLE, MINDSTORMS and MIXELS are
+                    trademarks
+                    and copyrights of the LEGO Group. ©2021 The LEGO Group. All rights reserved. Use of this site
+                    signifies
+                    your agreement to the terms of use.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("card-header");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+        
+    </script>
+    <script>
+        function openshop() {
+            document.getElementById("shopnav").style.width = "750px";
+        }
+        function closeshop() {
+            document.getElementById("shopnav").style.width = "0";
+        }
+        function opendiscover() {
+            document.getElementById("discovernav").style.width = "750px";
+        }
+
+        function closediscover() {
+            document.getElementById("discovernav").style.width = "0";
+        }
+        function openhelp() {
+            document.getElementById("helpnav").style.width = "750px";
+        }
+
+        function closehelp() {
+            document.getElementById("helpnav").style.width = "0";
+        }
+    </script>
+   
+</body>
+
+</html>
